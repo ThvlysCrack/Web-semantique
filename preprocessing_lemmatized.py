@@ -31,7 +31,7 @@ def preprocess_question(question):
     }
 
 # Exemple d'utilisation
-question = "Who is the daughter of Robert Kennedy married to?"
+question = "Who is the author of the book written by J.K. Rowling?"
 preprocessed_output = preprocess_question(question)
 
 # Afficher les résultats
