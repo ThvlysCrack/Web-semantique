@@ -1,408 +1,368 @@
-Are AUX O
-there PRON O
-any DET O
-castles NOUN O
-in ADP O
-the United States PROPN O
-? PUNCT O
-
-
-Can AUX O
-you PRON O
-find VERB O
-frescoes NOUN O
-in ADP O
-Crete PROPN B-E
-? PUNCT O
-
-
-Do AUX O
-Urdu PROPN B-E
-and CCONJ O
-Persian PROPN B-E
-have VERB O
-a DET O
-common ADJ O
-root NOUN O
-? PUNCT O
-
-
-Does AUX O
-the Ford Motor Company PROPN O
-have VERB O
-a DET O
-manufacturing NOUN O
-plant NOUN O
-in ADP O
-Malaysia PROPN B-E
-? PUNCT O
-
-
-How SCONJ O
-many ADJ O
-years NOUN O
-was AUX O
-the Ford Model T PROPN O
-manufactured VERB O
-? PUNCT O
-
-
-Give VERB O
-me PRON O
-all DET O
-American PROPN B-E
-presidents NOUN O
-in ADP O
-the last 20 years PROPN O
-. PUNCT O
-
-
-Give VERB O
-me PRON O
-all DET O
-gangsters NOUN O
-from ADP O
-the DET O
-prohibition NOUN O
-era NOUN O
-. PUNCT O
-
-
-Give VERB O
-me PRON O
-all DET O
-Seven PROPN B-E
-Wonders PROPN O
-of ADP O
-the DET O
-Ancient World PROPN O
-. PUNCT O
-
-
-Give VERB O
-me PRON O
-all DET O
-chemical ADJ O
-elements NOUN O
-. PUNCT O
-
-
-How SCONJ O
-many ADJ O
-rivers NOUN O
-and CCONJ O
-lakes NOUN O
-are AUX O
-in ADP O
-South Carolina PROPN O
-? PUNCT O
-
-
-How SCONJ O
-many ADJ O
-states NOUN O
-are AUX O
-in ADP O
-Mexico PROPN B-E
-? PUNCT O
-
-
-How SCONJ O
-many ADJ O
-theories NOUN O
-did AUX O
-Albert Einstein PROPN O
-come VERB O
-up ADP O
-with ADP O
-? PUNCT O
-
-
-Is AUX O
-horse NOUN O
-racing NOUN O
-a DET O
-sport NOUN O
-? PUNCT O
-
-
-Is AUX O
-Pluto PROPN B-E
-really ADV O
-a DET O
-planet NOUN O
-? PUNCT O
-
-
-Was AUX O
-Sigmund Freud PROPN O
-married ADJ O
-? PUNCT O
-
-
-What PRON O
-form NOUN O
-of ADP O
-government NOUN O
-is AUX O
-found VERB O
-in ADP O
-South Africa PROPN O
-? PUNCT O
-
-
-What PRON O
-is AUX O
-the DET B-E
-largest ADJ O
-state NOUN O
-in ADP O
-the United States PROPN O
-? PUNCT O
-
-
-What PRON O
-is AUX O
-the DET O
-longest ADJ O
-river NOUN O
-in ADP O
-the DET O
-world NOUN O
-? PUNCT O
-
-
-Which DET O
-building NOUN O
-after ADP O
-the Burj Khalifa PROPN O
-has VERB O
-the DET B-E
-most ADJ O
-floors NOUN O
-? PUNCT O
-
-
-What PRON O
-is AUX O
-the DET O
-wavelength NOUN O
-of ADP O
-indigo NOUN O
-? PUNCT O
-
-
-What PRON O
-was AUX O
-the DET O
-name NOUN O
-of ADP O
-the DET O
-famous ADJ O
-battle NOUN O
-in ADP O
-1836 PROPN B-E
-in ADP O
-San Antonio PROPN O
-? PUNCT O
-
-
-What PRON O
-were AUX O
-the DET O
-names NOUN O
-of ADP O
-the DET O
-three PROPN B-E
-ships NOUN O
-used VERB O
-by ADP O
-Columbus PROPN B-E
-? PUNCT O
-
-
-What PRON O
-were AUX O
-the DET O
-original ADJ O
-13 PROPN B-E
-British PROPN B-E
-colonies NOUN O
-? PUNCT O
-
-
-When ADV O
-did AUX O
-Muhammad PROPN B-E
-die VERB O
-? PUNCT O
-
-
-When ADV O
-was AUX O
-the DET O
-De Beers PROPN O
-company NOUN O
-founded VERB O
-? PUNCT O
-
-
-When ADV O
-was AUX O
-John Adams PROPN O
-born VERB O
-? PUNCT O
-
-
-Which DET O
-American PROPN B-E
-presidents NOUN O
-were AUX O
-in ADP O
-office NOUN O
-during ADP O
-the Vietnam War PROPN O
-? PUNCT O
-
-
-Which DET O
-city NOUN O
-has VERB O
-the DET O
-oldest ADJ O
-running VERB O
-metro NOUN O
-? PUNCT O
-
-
-Which DET O
-holidays NOUN O
-are AUX O
-celebrated VERB O
-around ADP O
-the DET O
-world NOUN O
-? PUNCT O
-
-
-Who PRON O
-assassinated VERB O
-President McKinley PROPN O
-? PUNCT O
-
-
-Who PRON O
-discovered VERB O
-Pluto PROPN B-E
-? PUNCT O
-
-
-Who PRON O
-killed VERB O
-Caesar PROPN B-E
-? PUNCT O
-
-
-Who PRON O
-was AUX O
-buried VERB O
-in ADP O
-the Great Pyramid of Giza PROPN O
-? PUNCT O
-
-
-Who PRON O
-was AUX O
-the DET O
-first PROPN B-E
-King NOUN O
-of ADP O
-England PROPN B-E
-? PUNCT O
-
-
-What PRON O
-was AUX O
-the DET B-E
-final ADJ O
-result NOUN O
-of ADP O
-the War of the Roses PROPN O
-? PUNCT O
-
-
-Who PRON O
-writes VERB O
-the DET O
-Farmers PROPN O
-' PART O
-Almanac PROPN O
-? PUNCT O
-
-
-How SCONJ O
-big ADJ O
-is AUX O
-the DET O
-earth NOUN O
-'s PART O
-diameter NOUN O
-? PUNCT O
-
-
-When ADV O
-did AUX O
-Paraguay PROPN B-E
-proclaim VERB O
-its PRON O
-independence NOUN O
-? PUNCT O
-
-
-How SCONJ O
-many ADJ O
-people NOUN O
-live VERB O
-in ADP O
-Eurasia PROPN B-E
-? PUNCT O
-
-
-Give VERB O
-me PRON O
-the DET O
-runtime NOUN O
-of ADP O
-Toy Story PROPN O
-. PUNCT O
-
-
-What PRON O
-was AUX O
-the DET O
-first PROPN B-E
-name NOUN O
-of ADP O
-the DET O
-band NOUN O
-Queens of the Stone Age PROPN O
-? PUNCT O
-
-
-Give VERB O
-me PRON O
-the DET O
-birth NOUN O
-place NOUN O
-of ADP O
-Frank Sinatra PROPN O
-. PUNCT O
-
-
-Which DET O
-university NOUN O
-did AUX O
-Angela Merkel PROPN O
-attend VERB O
-? PUNCT O
-
+Are O
+there O
+any O
+castles C
+in O
+the United States E
+? O
+
+Can O
+you O
+find R
+frescoes C
+in O
+Crete E
+? O
+
+Do O
+Urdu E
+and O
+Persian E
+have O
+a O
+common O
+root C
+? O
+
+Does O
+the Ford Motor Company E
+have O
+a O
+manufacturing C
+plant C
+in O
+Malaysia E
+? O
+
+How O
+many O
+years C
+was O
+the Ford Model T E
+manufactured R
+? O
+
+Give O
+me O
+all O
+American E
+presidents C
+in O
+the last 20 years O
+. O
+
+Give O
+me O
+all O
+gangsters C
+from O
+the O
+prohibition C
+era C
+. O
+
+Give O
+me O
+all O
+Seven C
+Wonders C
+of O
+the O
+Ancient World E
+. O
+
+Give O
+me O
+all O
+chemical C
+elements C
+. O
+
+How O
+many O
+rivers C
+and O
+lakes C
+are O
+in O
+South Carolina E
+? O
+
+
+How O
+many O
+states C
+are O
+in O
+Mexico E
+? O
+
+How O
+many O
+theories C
+did O
+Albert Einstein E
+come R
+up O
+with O
+? O
+
+Is O
+horse C
+racing C
+a O
+sport C
+? O
+
+Is O
+Pluto E
+really O
+a O
+planet C
+? O
+
+Was O
+Sigmund Freud E
+married R
+? O
+
+What O
+form C
+of O
+government C
+is O
+found R
+in O
+South Africa E
+? O
+
+What O
+is O
+the O
+largest O
+state C
+in O
+the United States E
+? O
+
+What O
+is O
+the O
+longest O
+river C
+in O
+the O
+world C
+? O
+
+Which O
+building C
+after O
+the Burj Khalifa E
+has O
+the O
+most O
+floors C
+? O
+
+What O
+is O
+the O
+wavelength C
+of O
+indigo E
+? O
+
+What O
+was O
+the O
+name C
+of O
+the O
+famous O
+battle C
+in O
+1836 O
+in O
+San Antonio E
+? O
+
+
+What O
+were O
+the O
+names C
+of O
+the O
+three O
+ships C
+used R
+by O
+Columbus E
+? O
+
+What O
+were O
+the O
+original O
+13 O
+British C
+colonies C
+? O
+
+When O
+did O
+Muhammad E
+die R
+? O
+
+When O
+was O
+the O
+De Beers E
+company C
+founded R
+? O
+
+When O
+was O
+John Adams E
+born R
+? O
+
+Which O
+American C
+presidents C
+were O
+in O
+office C
+during O
+the Vietnam War E
+? O
+
+Which O
+city C
+has O
+the O
+oldest O
+running O
+metro C
+? O
+
+Which O
+holidays C
+are O
+celebrated R
+around O
+the O
+world C
+? O
+
+Who O
+assassinated R
+President McKinley E
+? O
+
+Who O
+discovered R
+Pluto E
+? O
+
+Who O
+killed R
+Caesar E
+? O
+
+Who O
+was O
+buried R
+in O
+the Great Pyramid of Giza E
+? O
+
+Who O
+was O
+the O
+first O
+King C
+of O
+England E
+? O
+
+
+What O
+was O
+the O
+final O
+result C
+of O
+the War of the Roses E
+? O
+
+Who O
+writes R
+the O
+Farmers E
+' O
+Almanac E
+? O
+
+How O
+big O
+is O
+the O
+earth E
+'s O
+diameter C
+? O
+
+When O
+did O
+Paraguay E
+proclaim R
+its O
+independence C
+? O
+
+How O
+many O
+people C
+live R
+in O
+Eurasia E
+? O
+
+Give O
+me O
+the O
+runtime C
+of O
+Toy Story E
+. O
+
+What O
+was O
+the O
+first O
+name C
+of O
+the O
+band C
+Queens of the Stone Age E
+? O
+
+Give O
+me O
+the O
+birth C
+place C
+of O
+Frank Sinatra E
+. O
+
+Which O
+university C
+did O
+Angela Merkel E
+attend R
+? O
