@@ -1,0 +1,425 @@
+Is AUX O
+Christian Bale PROPN O
+starring VERB O
+in ADP O
+Velvet Goldmine PROPN O
+? PUNCT O
+
+
+Which DET O
+museum NOUN O
+in ADP O
+New York PROPN O
+has VERB O
+the DET O
+most ADJ O
+visitors NOUN O
+? PUNCT O
+
+
+In ADP O
+which DET O
+city NOUN O
+was AUX O
+the DET O
+president NOUN O
+of ADP O
+Montenegro PROPN B-E
+born VERB O
+? PUNCT O
+
+
+Where ADV O
+was AUX O
+Bach PROPN B-E
+born VERB O
+? PUNCT O
+
+
+What PRON O
+form NOUN O
+of ADP O
+government NOUN O
+does AUX O
+Russia PROPN B-E
+have VERB O
+? PUNCT O
+
+
+Do AUX O
+Prince Harry PROPN O
+and CCONJ O
+Prince William PROPN O
+have VERB O
+the DET O
+same ADJ O
+parents NOUN O
+? PUNCT O
+
+
+Give VERB O
+me PRON O
+all DET O
+cities NOUN O
+in ADP O
+New Jersey PROPN O
+with ADP O
+more than 100000 PROPN O
+inhabitants NOUN O
+. PUNCT O
+
+
+Who PRON O
+are AUX O
+the DET O
+parents NOUN O
+of ADP O
+the DET O
+wife NOUN O
+of ADP O
+Juan Carlos I PROPN O
+? PUNCT O
+
+
+Who PRON O
+were AUX O
+the DET O
+parents NOUN O
+of ADP O
+Queen Victoria PROPN O
+? PUNCT O
+
+
+Which PRON O
+of ADP O
+Tim Burton PROPN O
+'s PART O
+films NOUN O
+had VERB O
+the DET O
+highest ADJ O
+budget NOUN O
+? PUNCT O
+
+
+Is AUX O
+proinsulin NOUN O
+a DET O
+protein NOUN O
+? PUNCT O
+
+
+In ADP O
+which DET O
+city NOUN O
+did AUX O
+John F. Kennedy PROPN O
+die VERB O
+? PUNCT O
+
+
+How SCONJ O
+many ADJ O
+pages NOUN O
+does AUX O
+War and Peace PROPN O
+have VERB O
+? PUNCT O
+
+
+Who PRON O
+is AUX O
+the DET O
+son NOUN O
+of ADP O
+Sonny PROPN B-E
+and CCONJ O
+Cher PROPN B-E
+? PUNCT O
+
+
+When ADV O
+did AUX O
+princess NOUN O
+Diana PROPN B-E
+die VERB O
+? PUNCT O
+
+
+What PRON O
+is AUX O
+the DET O
+time NOUN O
+zone NOUN O
+of ADP O
+Salt Lake City PROPN O
+? PUNCT O
+
+
+To PART O
+which DET O
+artistic ADJ O
+movement NOUN O
+did AUX O
+the DET O
+painter NOUN O
+of ADP O
+The Three Dancers PROPN O
+belong VERB O
+? PUNCT O
+
+
+Did AUX O
+Arnold Schwarzenegger PROPN O
+attend VERB O
+a DET O
+university NOUN O
+? PUNCT O
+
+
+Which DET O
+professional ADJ O
+surfers NOUN O
+were AUX O
+born VERB O
+on ADP O
+the DET O
+Philippines PROPN B-E
+? PUNCT O
+
+
+What PRON O
+is AUX O
+the DET O
+biggest ADJ O
+stadium NOUN O
+in ADP O
+Spain PROPN B-E
+? PUNCT O
+
+
+Was AUX O
+U.S. PROPN B-E
+president NOUN O
+Jackson PROPN B-E
+involved VERB O
+in ADP O
+a DET O
+war NOUN O
+? PUNCT O
+
+
+Who PRON O
+composed VERB O
+the DET O
+music NOUN O
+for ADP O
+Harold PROPN B-E
+and CCONJ O
+Maude PROPN B-E
+? PUNCT O
+
+
+How SCONJ O
+often ADV O
+did AUX O
+Jane Fonda PROPN O
+marry VERB O
+? PUNCT O
+
+
+When ADV O
+did AUX O
+Dracula PROPN B-E
+'s PART O
+creator NOUN O
+die VERB O
+? PUNCT O
+
+
+Give VERB O
+me PRON O
+all DET O
+members NOUN O
+of ADP O
+Prodigy PROPN B-E
+. PUNCT O
+
+
+Which DET O
+companies NOUN O
+produce VERB O
+hovercrafts NOUN O
+? PUNCT O
+
+
+Who PRON O
+is AUX O
+the DET B-E
+youngest ADJ O
+player NOUN O
+in ADP O
+the Premier League PROPN O
+? PUNCT O
+
+
+Who PRON O
+wrote VERB O
+the DET O
+book NOUN O
+Les Piliers de la terre PROPN O
+? PUNCT O
+
+
+In ADP O
+which DET O
+year NOUN O
+was AUX O
+Rachel Stevens PROPN O
+born VERB O
+? PUNCT O
+
+
+How SCONJ O
+many ADJ O
+Aldi PROPN B-E
+stores NOUN O
+are AUX O
+there PRON O
+? PUNCT O
+
+
+Who PRON O
+composed VERB O
+the DET O
+soundtrack NOUN O
+for ADP O
+Cameron PROPN B-E
+'s PART O
+Titanic PROPN B-E
+? PUNCT O
+
+
+Who PRON O
+was AUX O
+the DET B-E
+pope NOUN O
+that PRON O
+founded VERB O
+the Vatican Television PROPN O
+? PUNCT O
+
+
+Are AUX O
+tree NOUN O
+frogs NOUN O
+a DET O
+type NOUN O
+of ADP O
+amphibian NOUN O
+? PUNCT O
+
+
+Who PRON O
+wrote VERB O
+the DET O
+song NOUN O
+Hotel California PROPN O
+? PUNCT O
+
+
+In ADP O
+which DET O
+ancient ADJ O
+empire NOUN O
+could AUX O
+you PRON O
+pay VERB O
+with ADP O
+cocoa NOUN O
+beans NOUN O
+? PUNCT O
+
+
+In ADP O
+which DET O
+countries NOUN O
+do AUX O
+people NOUN O
+speak VERB O
+Japanese PROPN B-E
+? PUNCT O
+
+
+Does AUX O
+Breaking Bad PROPN O
+have VERB O
+more ADJ O
+episodes NOUN O
+than ADP O
+Game of Thrones PROPN O
+? PUNCT O
+
+
+What PRON O
+is AUX O
+the DET O
+capital NOUN O
+of ADP O
+Cameroon PROPN B-E
+? PUNCT O
+
+
+Which DET O
+subsidiary NOUN O
+of ADP O
+TUI Travel PROPN O
+serves VERB O
+both CCONJ O
+Glasgow PROPN B-E
+and CCONJ O
+Dublin PROPN B-E
+? PUNCT O
+
+
+Does AUX O
+the DET O
+new ADJ O
+Battlestar Galactica PROPN O
+series NOUN O
+have VERB O
+more ADJ O
+episodes NOUN O
+than ADP O
+the DET O
+old ADJ O
+one NOUN O
+? PUNCT O
+
+
+Which DET O
+types NOUN O
+of ADP O
+grapes NOUN O
+grow VERB O
+in ADP O
+Oregon PROPN B-E
+? PUNCT O
+
+
+How SCONJ O
+tall ADJ O
+is AUX O
+Amazon Eve PROPN O
+? PUNCT O
+
+
+Give VERB O
+me PRON O
+all DET O
+Canadian PROPN B-E
+Grunge PROPN B-E
+record NOUN O
+labels NOUN O
+. PUNCT O
+
