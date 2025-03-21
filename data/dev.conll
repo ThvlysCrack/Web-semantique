@@ -1,0 +1,1011 @@
+who	V
+was	N
+called	R
+Rodzilla	E
+?	N
+
+show	V
+me	N
+all	N
+books	C
+in	N
+asimov's	E
+Foundation series	E
+.	N
+
+how	V
+often	N
+did	N
+Jane Fonda	E
+marry	R
+?	N
+
+did	N
+Tesla	E
+win	R
+a	N
+nobel prize	C
+in	N
+physics	C
+?	N
+
+was	N
+Natalie Portman	E
+born	R
+in	N
+the	N
+United States	E
+?	N
+
+does	N
+the	N
+new BattleStar Galactica series	E
+have	R
+more	N
+episodes	C
+than	N
+the	N
+old	N
+one	N
+?	N
+
+who	V
+was	N
+the	N
+first	N
+to	N
+climb	R
+mount Everest	E
+?	N
+
+list	V
+all	N
+the	N
+musicals	C
+with	N
+music by	R
+Elton John	E
+.	N
+
+who	V
+played	R
+Gus Fring	E
+in	N
+Breaking Bad	E
+?	N
+
+which	V
+television_shows	C
+were	N
+created	R
+by	N
+Walt Disney	E
+?	N
+
+when	V
+was	N
+the	N
+Titanic	E
+completed	R
+?	N
+
+which	V
+computer scientist	C
+won	R
+an	N
+oscar	C
+?	N
+
+which	V
+city	C
+has	R
+the most inhabitants	R
+?	N
+
+who	V
+was	N
+the	N
+pope	C
+that	N
+founded	R
+the	N
+Vatican Television	E
+?	N
+
+who	V
+are	R
+the	N
+parents	C
+of	N
+the	N
+wife	C
+of	N
+Juan Carlos I	E
+?	N
+
+how	V
+high	R
+is	N
+the	N
+Mount Everest	E
+?	N
+
+is	N
+proinsulin	E
+a	N
+protein	C
+?	N
+
+who	V
+wrote	R
+the	N
+song	C
+Hotel California	E
+?	N
+
+show	V
+me	N
+the	N
+book	C
+that	N
+Muhammad Ali	E
+wrote	R
+.	N
+
+is	N
+Cola	E
+a	N
+beverage	C
+?	N
+
+what	V
+is	N
+the	N
+capital	C
+of	N
+Canada	E
+?	N
+
+who	V
+is	N
+the	N
+king	C
+of	N
+the Netherlands	E
+?	N
+
+was	N
+the	N
+Cuban Missile Crisis	E
+earlier	N
+than	N
+the	N
+Bay of Pigs Invasion	E
+?	N
+
+does	N
+Neymar	E
+play	R
+for	N
+Real Madrid	E
+?	N
+
+who	V
+was	N
+called	R
+Frank The Tank	E
+?	N
+
+when	V
+did	N
+Operation Overlord	E
+commence	R
+?	N
+
+in	N
+which	V
+city	C
+does	N
+the	N
+Chile Route 68	E
+end	R
+?	N
+
+who	V
+created	R
+Wikipedia	E
+?	N
+
+what	V
+is	N
+the	N
+bridge	C
+with	N
+the	N
+longest span	R
+?	N
+
+which	V
+river	C
+does	N
+the	N
+Brooklyn Bridge	E
+cross	R
+?	N
+
+did	N
+Elvis Presley	E
+have	R
+children	C
+?	N
+
+what	V
+are	N
+the	N
+five boroughs	C
+of	N
+New York	E
+?	N
+
+in	N
+which	V
+city	C
+are	R
+the	N
+headquarters of the United Nations	E
+?	N
+
+who	V
+is	N
+the	N
+coach	C
+of	N
+ankara's	E
+ice hockey team	C
+?	N
+
+give	V
+me	N
+all	N
+books	C
+by	N
+William Goldman	E
+with	N
+more than 300	N
+pages	C
+.	N
+
+in	N
+which	V
+country	C
+does	N
+the	N
+Ganges	E
+start	R
+?	N
+
+how	V
+many	N
+companies	C
+were	R
+founded	R
+in	N
+the	N
+same year	N
+as	N
+Google	E
+?	N
+
+list	V
+all	N
+episodes	C
+of	N
+the	N
+first season	N
+of	N
+the	N
+HBO	E
+television series	C
+the	N
+sopranos	E
+!	N
+
+who	V
+created	R
+Batman	E
+?	N
+
+where	V
+is	R
+Fort Knox	E
+located	R
+?	N
+
+in	N
+what	V
+city	C
+is	R
+the	N
+Heineken brewery	E
+?	N
+
+which	V
+awards	C
+did	N
+Douglas Hofstadter	E
+win	R
+?	N
+
+to	N
+which	V
+party	C
+does	R
+the	N
+mayor	C
+of	N
+Paris	E
+belong	R
+?	N
+
+who	V
+developed	R
+Skype	E
+?	N
+
+who	V
+wrote	R
+the	N
+book	C
+les piliers de la terre	E
+?	N
+
+how	V
+many	N
+employees	C
+does	R
+Google	E
+have	R
+?	N
+
+who	V
+writes	R
+the	N
+Farmers' Almanac	E
+?	N
+
+in	N
+which	V
+state	C
+Penn State University	E
+is	R
+located	R
+?	N
+
+in	N
+which	V
+films	C
+did	N
+Julia Roberts	E
+as	N
+well	N
+as	N
+Richard Gere	E
+play	R
+?	N
+
+list	V
+all	N
+the	N
+musicals	C
+with	N
+music by	R
+Elton John	E
+.	N
+
+show	V
+me	N
+hemingway's	E
+autobiography	C
+.	N
+
+who	V
+is	R
+the	N
+mayor	C
+of	N
+Tel Aviv	E
+?	N
+
+give	V
+me	N
+all	N
+actors	C
+who	V
+were	N
+born	R
+in	N
+Berlin	E
+.	N
+
+give	V
+me	N
+all	N
+Canadian	C
+Grunge	C
+record_labels	C
+.	N
+
+which	V
+bridges	C
+cross	R
+the	N
+Seine	E
+?	N
+
+which	V
+airports	C
+does	R
+Air China	E
+serve	R
+?	N
+
+which	V
+movies	C
+starring	R
+Mickey Rourke	E
+were	N
+directed	R
+by	N
+Guy Ritchie	E
+?	N
+
+who	V
+was	N
+Vincent van Gogh	E
+inspired	R
+by	N
+?	N
+
+which	V
+u.s._states	C
+possess	R
+gold	C
+minerals	C
+?	N
+
+give	V
+me	N
+the	N
+grandchildren	C
+of	N
+Elvis Presley	E
+.	N
+
+how	V
+tall	R
+is	R
+Claudia Schiffer	E
+?	N
+
+is	R
+the	N
+wife	C
+of	N
+president	C
+Obama	E
+called	R
+Michelle	E
+?	N
+
+what	V
+movies	C
+does	R
+Jesse Eisenberg	E
+play	R
+in	N
+?	N
+
+how	V
+many	N
+children	C
+did	R
+Benjamin Franklin	E
+have	R
+?	N
+
+who	V
+is	R
+the	N
+Author	C
+of	N
+the	N
+Interpretation of Dreams	E
+?	N
+
+what	V
+are	R
+the	N
+five boroughs	C
+of	N
+New York	E
+?	N
+
+give	V
+me	N
+all	N
+Swedish holidays	C
+.	N
+
+does	R
+abraham_lincoln's	E
+death place	C
+have	R
+a	N
+website	C
+?	N
+
+which	V
+pope	C
+succeeded	R
+John Paul II	E
+?	N
+
+give	V
+me	N
+all	N
+launch_pads	C
+operated	R
+by	N
+NASA	E
+.	N
+
+what	V
+is	R
+Donald Trump's	E
+main	N
+business	C
+?	N
+
+what	V
+is	R
+the	N
+capital	C
+of	N
+Canada	E
+?	N
+
+who	V
+killed	R
+John Lennon	E
+?	N
+
+give	V
+me	N
+all	N
+actors	C
+called	R
+Baldwin	E
+.	N
+
+how many movies	V
+did	R
+Park Chan-wook	E
+direct	R
+?	N
+
+give	V
+me	N
+all	N
+actors	C
+starring	R
+in	N
+Last Action Hero	E
+.	N
+
+what	V
+is	R
+the	N
+biggest stadium	C
+in	N
+Spain	E
+?	N
+
+what	V
+are	R
+the	N
+top-10	N
+action	C
+role-playing	C
+video	C
+games	C
+according	N
+to	N
+IGN	E
+?	N
+
+give	V
+me	N
+all	N
+danish	C
+movies	C
+.	N
+
+do	R
+Prince Harry	E
+and	N
+Prince William	E
+have	R
+the	N
+same	N
+parents	C
+?	N
+
+which	V
+building	C
+after	N
+the	N
+Burj Khalifa	E
+has	R
+the	N
+most floors	C
+?	N
+
+who	V
+designed	R
+the	N
+Brooklyn Bridge	E
+?	N
+
+how	V
+deep	R
+is	R
+Lake Placid	E
+?	N
+
+where	V
+is	R
+the	N
+origin	C
+of	N
+Carolina reaper	E
+?	N
+
+was	R
+Sigmund Freud	E
+married	R
+?	N
+
+how	V
+much	R
+is	R
+the	N
+population	C
+of	N
+mexico city	E
+?	N
+
+give	V
+me	N
+all	N
+films	C
+produced	R
+by	N
+Steven Spielberg	E
+with	N
+a	N
+budget	C
+of	N
+at	N
+least	N
+$80 million	N
+.	N
+
+which	V
+awards	C
+did	R
+Douglas Hofstadter	E
+win	R
+?	N
+
+is	R
+proinsulin	E
+a	N
+protein	C
+?	N
+
+how	V
+many	N
+films	C
+did	R
+Hal Roach	E
+produce	R
+?	N
+
+what	V
+is	R
+the	N
+official color	C
+of	N
+the	N
+University of Oxford	E
+?	N
+
+what	V
+is	R
+the	N
+largest metropolitan area	C
+in	N
+Washington state	E
+?	N
+
+how	V
+large	R
+is	R
+the	N
+area	C
+of	N
+UK	E
+?	N
+
+who	V
+was	R
+the	N
+first	N
+to	N
+climb	R
+mount Everest	E
+?	N
+
+which	V
+software	C
+has	R
+been	R
+developed	R
+by	N
+organizations	C
+founded	R
+in	N
+California	E
+?	N
+
+was	R
+the	N
+wife	C
+of	N
+president	C
+Lincoln	E
+called	R
+Mary	E
+?	N
+
+what	V
+is	R
+the	N
+largest city	C
+in	N
+Australia	E
+?	N
+
+how	V
+high	R
+is	R
+the	N
+lighthouse in Colombo	E
+?	N
+
+is	R
+Michelle Obama	E
+the	N
+wife	C
+of	N
+Barack Obama	E
+?	N
+
+give	V
+me	N
+all	N
+world_heritage_sites	C
+designated	R
+within	N
+the	N
+past two years	N
+.	N
+
+which	V
+films	C
+did	R
+Stanley Kubrick	E
+direct	R
+?	N
+
+which	V
+country	C
+has	R
+the	N
+most	N
+official_languages	C
+?	N
+
+what	V
+is	R
+the	N
+longest river	C
+in	N
+the	N
+world	N
+?	N
+
+where	V
+was	R
+Bach	E
+born	R
+?	N
+
+give	V
+me	N
+a	N
+list	C
+of	N
+all	N
+lakes	C
+in	N
+Denmark	E
+.	N
+
+which	V
+programming languages	C
+influenced	R
+Javascript	E
+?	N
+
+is	R
+James Bond	E
+married	R
+?	N
+
+in	N
+which	V
+city	C
+are	R
+the	N
+headquarters of the United Nations	E
+?	N
+
+who	V
+is	R
+the	N
+owner	C
+of	N
+Facebook	E
+?	N
+
+which	V
+monarchs	C
+were	R
+married	R
+to	N
+a	N
+German	C
+?	N
+
+when	V
+was	R
+the	N
+Statue of Liberty	E
+built	R
+?	N
+
+which	V
+museum	C
+in	N
+New York	E
+has	R
+the most visitors	N
+?	N
+
+who	V
+is	R
+the	N
+tallest	N
+player	C
+of	N
+the	N
+Atlanta Falcons	E
+?	N
+
+how	V
+much	R
+did	R
+the	N
+Lego Movie	E
+cost	R
+?	N
+
+when	V
+did	R
+the	N
+Ming dynasty	E
+dissolve	R
+?	N
+
+who	V
+developed	R
+Minecraft	E
+?	N
+
+in	N
+which	V
+U.S. state	C
+is	R
+Area 51	E
+located	R
+?	N
+
+give	V
+me	N
+all	N
+libraries	C
+established	R
+earlier than 1400	N
+.	N
+
+what	V
+was	R
+the	N
+first name	C
+of	N
+the	N
+band	C
+Queens of the Stone Age	E
+?	N
+
+give	V
+me	N
+all	N
+Methodist	C
+politicians	C
+.	N
+
+what	V
+is	R
+the	N
+highest	N
+mountain	C
+in	N
+Italy	E
+?	N
+
+how	V
+many	N
+languages	C
+are	R
+spoken	R
+in	N
+Turkmenistan	E
+?	N
+
+give	V
+me	N
+all	N
+danish	C
+films	C
+.	N
+
+which	V
+mountains	C
+are	R
+higher	R
+than	N
+the	N
+Nanga Parbat	E
+?	N
+
+give	V
+me	N
+all	N
+writers	C
+that	N
+won	R
+the	N
+Nobel Prize in literature	C
+.	N

@@ -1,0 +1,1606 @@
+are	N
+there	N
+any	N
+castles	C
+in	N
+the	N
+United States	E
+?	N
+
+can	N
+you	N
+find	R
+frescoes	C
+in	N
+Crete	E
+?	N
+
+do	N
+Urdu	E
+and	N
+Persian	E
+have	R
+a	N
+common root	C
+?	N
+
+does	N
+the	N
+Ford Motor Company	E
+have	R
+a	N
+manufacturing plant	C
+in	N
+Malaysia	E
+?	N
+
+how	V
+many	N
+years	N
+was	R
+the	N
+Ford Model T	E
+manufactured	R
+?	N
+
+give	V
+me	N
+all	N
+American presidents	C
+in	N
+the	N
+last 20 years	N
+.	N
+
+give	V
+me	N
+all	N
+gangsters	C
+from	N
+the	N
+prohibition era	C
+.	N
+
+give	V
+me	N
+all	N
+Seven Wonders of the Ancient World	C
+.	N
+
+give	V
+me	N
+all	N
+chemical elements	C
+.	N
+
+how	V
+many	N
+rivers	C
+and	N
+lakes	C
+are	R
+in	N
+South Carolina	E
+?	N
+
+how	V
+many	N
+states	C
+are	R
+in	N
+Mexico	E
+?	N
+
+how	V
+many	N
+theories	C
+did	R
+Albert Einstein	E
+come up	R
+with	N
+?	N
+
+is	R
+horse racing	C
+a	N
+sport	C
+?	N
+
+is	R
+Pluto	E
+really	N
+a	N
+planet	C
+?	N
+
+was	R
+Sigmund Freud	E
+married	R
+?	N
+
+what	V
+form	C
+of	N
+government	C
+is	R
+found	R
+in	N
+South Africa	E
+?	N
+
+what	V
+is	R
+the	N
+largest state	C
+in	N
+the	N
+United States	E
+?	N
+
+what	V
+is	R
+the	N
+longest river	C
+in	N
+the	N
+world	N
+?	N
+
+which	V
+building	C
+after	N
+the	N
+Burj Khalifa	E
+has	R
+the	N
+most floors	N
+?	N
+
+what	V
+is	R
+the	N
+wavelength	C
+of	N
+indigo	E
+?	N
+
+what	V
+was	R
+the	N
+name	C
+of	N
+the	N
+famous battle	C
+in	N
+1836	N
+in	N
+San Antonio	E
+?	N
+
+what	V
+were	R
+the	N
+names	C
+of	N
+the	N
+three ships	C
+used	R
+by	N
+Columbus	E
+?	N
+
+what	V
+were	R
+the	N
+original 13 British colonies	C
+?	N
+
+when	V
+did	R
+Muhammad	E
+die	R
+?	N
+
+when	V
+was	R
+the	N
+De Beers company	E
+founded	R
+?	N
+
+when	V
+was	R
+John Adams	E
+born	R
+?	N
+
+which	V
+American presidents	C
+were	R
+in	N
+office	C
+during	R
+the	N
+Vietnam War	E
+?	N
+
+which	V
+city	C
+has	R
+the	N
+oldest running metro	C
+?	N
+
+which	V
+holidays	C
+are	R
+celebrated	R
+around	R
+the	N
+world	N
+?	N
+
+who	V
+assassinated	R
+President McKinley	E
+?	N
+
+who	V
+discovered	R
+Pluto	E
+?	N
+
+who	V
+killed	R
+Caesar	E
+?	N
+
+who	V
+was	R
+buried	R
+in	N
+the	N
+Great Pyramid of Giza	E
+?	N
+
+who	V
+was	R
+the	N
+first	N
+King of England	C
+?	N
+
+what	V
+was	R
+the	N
+final	N
+result	C
+of	N
+the	N
+war	C
+of	N
+the	N
+roses	E
+?	N
+
+who	V
+writes	R
+the	N
+Farmers' Almanac	E
+?	N
+
+how	V
+big	N
+is	R
+the	N
+earth's	N
+diameter	C
+?	N
+
+when	V
+did	R
+Paraguay	E
+proclaim	R
+its	N
+independence	C
+?	N
+
+how	V
+many	N
+people	C
+live	R
+in	N
+Eurasia	E
+?	N
+
+give	V
+me	N
+the	N
+runtime	C
+of	N
+Toy Story	E
+.	N
+
+what	V
+was	R
+the	N
+first name	C
+of	N
+the	N
+band	C
+Queens of the Stone Age	E
+?	N
+
+give	V
+me	N
+the	N
+birth place	C
+of	N
+Frank Sinatra	E
+.	N
+
+which	V
+university	C
+did	R
+Angela Merkel	E
+attend	R
+?	N
+
+what	V
+is	R
+the	N
+time zone	C
+of	N
+Salt Lake City	E
+?	N
+
+who	V
+killed	R
+Caesar	E
+?	N
+
+what	V
+is	R
+the	N
+highest	N
+mountain	C
+in	N
+germany	E
+?	N
+
+which	V
+American presidents	C
+were	R
+in	N
+office	C
+during	R
+the	N
+Vietnam War	E
+?	N
+
+Butch Otter	E
+is	R
+the	N
+governor	C
+of	N
+which	V
+U.S. state	C
+?	N
+
+how	V
+many	N
+gold medals	C
+did	R
+Michael Phelps	E
+win	R
+at	N
+the	N
+2008	N
+olympics	E
+?	N
+
+which	V
+artists	C
+were	N
+born	R
+on	N
+the	N
+same	N
+date	C
+as	N
+Rachel Stevens	E
+?	N
+
+what	V
+is	N
+the	N
+profession	C
+of	N
+frank herbert	E
+?	N
+
+are	N
+Taiko	C
+some kind of	N
+Japanese musical instrument	C
+?	N
+
+How	V
+many	N
+seats	C
+does	N
+the	N
+home stadium of FC Porto	C
+have	R
+?	N
+
+which	V
+frequent flyer program	C
+has	R
+the	N
+most	N
+airlines	C
+?	N
+
+which	V
+european	N
+countries	C
+have	R
+a	N
+constitutional monarchy	C
+?	N
+
+which	V
+countries	C
+have	R
+places	C
+with	N
+more than two	N
+caves	C
+?	N
+
+which	V
+airports	C
+are	R
+located	R
+in	N
+california,	E
+USA	E
+?	N
+
+what	V
+are	R
+the	N
+nicknames	C
+of	N
+San Francisco	E
+?	N
+
+what	V
+is	N
+angela_merkel’s	E
+birth name	C
+?	N
+
+who	V
+is	R
+the	N
+mayor	C
+of	N
+Berlin	E
+?	N
+
+which	V
+countries	C
+in	N
+the	N
+European Union	E
+adopted	R
+the	N
+Euro	E
+?	N
+
+which	V
+software	C
+has	R
+been	R
+published	R
+by	N
+mean hamster software	E
+?	N
+
+which	V
+country	C
+was	R
+Bill Gates	E
+born	R
+in	N
+?	N
+
+how	V
+many	N
+grand-children	C
+did	R
+Jacques Cousteau	E
+have	R
+?	N
+
+give	V
+me	N
+all	N
+professional skateboarders	C
+from	R
+Sweden	E
+.	N
+
+which	V
+monarchs	C
+of	R
+the	N
+United Kingdom	E
+were	R
+married	R
+to	R
+a	N
+German	E
+?	N
+
+give	V
+me	N
+all	N
+argentine	N
+films	C
+.	N
+
+how	V
+did	R
+Michael Jackson	E
+die	R
+?	N
+
+which	V
+U.S. state	C
+has	R
+been	R
+admitted	R
+latest	N
+?	N
+
+which	V
+classes	C
+does	R
+the	N
+millepede	E
+belong	R
+to	R
+?	N
+
+give	V
+me	N
+the	N
+homepage	C
+of	R
+Forbes	E
+.	N
+
+who	V
+is	R
+the	N
+husband	C
+of	R
+Amanda Palmer	E
+?	N
+
+who	V
+painted	R
+The Storm on the Sea of Galilee	E
+?	N
+
+what	V
+is	N
+the	N
+highest place	C
+of	R
+Karakoram	E
+?	N
+
+when	V
+did	R
+Finland	E
+join	R
+the	N
+eu	E
+?	N
+
+which	V
+actors	C
+play	R
+in	R
+Big Bang Theory	E
+?	N
+
+which	V
+computer scientist	C
+won	R
+an	N
+oscar	C
+?	N
+
+who	V
+wrote	R
+Harry Potter	E
+?	N
+
+give	V
+me	N
+all	N
+writers	C
+that	R
+won	R
+the	N
+Nobel Prize in literature	C
+.	N
+
+give	V
+me	N
+English actors	C
+starring	R
+in	R
+Lovesick	E
+.	N
+
+what	V
+is	R
+the	N
+nick	N
+name	N
+of	R
+Baghdad	E
+?	N
+
+in	N
+which	V
+city	C
+was	R
+the	N
+president of Montenegro	E
+born	R
+?	N
+
+which	V
+u.s.	N
+state	C
+has	R
+the	N
+highest	N
+population density	C
+?	N
+
+what	V
+is	R
+the	N
+longest river	C
+in	R
+China	E
+?	N
+
+what	V
+is	R
+the	N
+area code	C
+of	R
+Berlin	E
+?	N
+
+how	V
+many	N
+scientists	C
+graduated	R
+from	R
+an	N
+Ivy League university	C
+?	N
+
+which	V
+professional_surfers	C
+were	R
+born	R
+in	R
+Australia	E
+?	N
+
+give	V
+me	N
+all	N
+Dutch	E
+parties	C
+.	N
+
+how	V
+many	N
+moons	C
+does	R
+Mars	E
+have	R
+?	N
+
+what	V
+is	R
+batman's	E
+real name	C
+?	N
+
+what	V
+is	R
+Elon Musk	E
+famous for	R
+?	N
+
+who	V
+is	R
+the	N
+author	C
+of	R
+wikileaks	E
+?	N
+
+Sean Parnell	E
+was	R
+the	N
+governor	C
+of	R
+which	V
+U.S. state	C
+?	N
+
+how	V
+many	N
+years	C
+was	R
+the	N
+Ford Model T	E
+manufactured	R
+?	N
+
+when	V
+was	R
+Carlo Giuliani	E
+shot	R
+?	N
+
+give	V
+me	N
+all	N
+animals	C
+that	R
+are	R
+extinct	C
+.	N
+
+who	V
+was	R
+the	N
+wife	C
+of	R
+president	C
+lincoln	E
+?	N
+
+how	V
+many	N
+awards	C
+has	R
+Bertrand Russell	E
+?	N
+
+is	R
+Pamela Anderson	E
+a	N
+vegan	C
+?	N
+
+which	V
+space probes	C
+were	R
+sent	R
+into	R
+orbit around the sun	C
+?	N
+
+which	V
+german	N
+cities	C
+have	R
+more than 250000	N
+inhabitants	C
+?	N
+
+who	V
+is	R
+the	N
+daughter	C
+of	R
+Robert Kennedy	E
+married	R
+to	R
+?	N
+
+how	V
+many	N
+students	C
+does	R
+the	N
+Free University	E
+of	R
+Amsterdam	E
+have	R
+?	N
+
+what	V
+is	R
+the	N
+revenue	C
+of	R
+ibm	E
+?	N
+
+how many	V
+James Bond movies	E
+do	R
+exist	R
+?	N
+
+who	V
+does	R
+the	N
+voice	C
+of	R
+Bart Simpson	E
+?	N
+
+who	V
+was	R
+tom hanks	E
+married	R
+to	R
+?	N
+
+through	R
+which	V
+countries	C
+does	R
+the	N
+Yenisei river	E
+flow	R
+?	N
+
+give	V
+me	N
+all	N
+cars	C
+that	R
+are	R
+produced	R
+in	R
+Germany	E
+.	N
+
+when	V
+did	R
+Michael Jackson	E
+die	R
+?	N
+
+what	V
+is	R
+the	N
+highest	N
+volcano	C
+in	R
+Africa	E
+?	N
+
+which	V
+poet	C
+wrote	R
+the	N
+most	N
+books	C
+?	N
+
+give	V
+me	N
+all	N
+gangsters	C
+from	R
+the	N
+prohibition era	C
+.	N
+
+give	V
+me	N
+all	N
+spacecrafts	C
+that	R
+flew to	R
+Mars	E
+.	N
+
+show	V
+me	N
+all	N
+Czech movies	C
+.	N
+
+give	V
+me	N
+all	N
+taikonauts	C
+.	N
+
+which	V
+countries	C
+have	R
+more than ten volcanoes	C
+?	N
+
+give	V
+me	N
+all	N
+movies	C
+with	R
+tom cruise	E
+.	N
+
+when	V
+did	R
+dracula's	E
+creator	C
+die	R
+?	N
+
+who	V
+created	R
+english wikipedia	E
+?	N
+
+give	V
+me	N
+all	N
+female	N
+german_chancellors	C
+.	N
+
+who	V
+owns	R
+Aldi	E
+?	N
+
+which	V
+books	C
+were	R
+written	R
+by	R
+danielle steel	E
+?	N
+
+who	V
+was	R
+influenced	R
+by	R
+socrates	E
+?	N
+
+how	V
+deep	R
+is	R
+Lake Chiemsee	E
+?	N
+
+which	V
+companies	C
+work	R
+in	R
+the	N
+aerospace industry	C
+as	R
+well	N
+as	R
+in	R
+medicine	C
+?	N
+
+which	V
+professional_surfers	C
+were	R
+born	R
+on	R
+the	N
+Philippines	E
+?	N
+
+who	V
+were	R
+the	N
+parents	C
+of	R
+Queen Victoria	E
+?	N
+
+are	R
+there	N
+any	N
+castles	C
+in	R
+the	N
+United States	E
+?	N
+
+which	V
+languages	C
+are	R
+spoken	R
+in	R
+Estonia	E
+?	N
+
+give	V
+me	N
+a	N
+list	C
+of	R
+all	N
+critically endangered birds	C
+.	N
+
+which	V
+countries	C
+are	R
+connected	R
+by	R
+the	N
+Rhine	E
+?	N
+
+who	V
+was	R
+the	N
+father	C
+of	R
+Queen Elizabeth II	E
+?	N
+
+give	V
+me	N
+all	N
+chemical elements	C
+.	N
+
+give	V
+me	N
+all	N
+American presidents	C
+of	R
+the	N
+last 20 years	N
+.	N
+
+when	V
+is	R
+the	N
+movie	C
+Worst Case Scenario	E
+going	R
+to	R
+be	R
+in	R
+cinemas	C
+in	R
+the	N
+Netherlands	E
+?	N
+
+whom	V
+did	R
+Lance Bass	E
+marry	R
+?	N
+
+which	V
+subsidiary	C
+of	R
+TUI Travel	E
+serves	R
+both	R
+Glasgow	E
+and	R
+Dublin	E
+?	N
+
+what	V
+languages	C
+are	R
+spoken	R
+in	R
+Pakistan	E
+?	N
+
+who	V
+is	R
+the	N
+daughter	C
+of	R
+Bill Clinton	E
+married	R
+to	R
+?	N
+
+who	V
+was	R
+on	R
+the	N
+Apollo 11 mission	E
+?	N
+
+what	V
+is	R
+the	N
+wavelength	C
+of	R
+indigo	C
+?	N
+
+give	V
+me	N
+all	N
+B-sides	C
+of	R
+the	N
+Ramones	E
+.	N
+
+who	V
+was	R
+called	R
+Scarface	E
+?	N
+
+which	V
+rivers	C
+flow	R
+into	R
+the	N
+North Sea	E
+?	N
+
+where	V
+is	R
+Fort Knox	E
+located	R
+?	N
+
+which	V
+daughters	C
+of	R
+british_earls	C
+died	R
+at	R
+the	N
+same	N
+place	C
+they	N
+were	R
+born	R
+at	R
+?	N
+
+How	V
+many	N
+emperors	C
+did	R
+China	E
+have	R
+?	N
+
+what	V
+are	R
+the	N
+names	C
+of	R
+the	N
+Teenage Mutant Ninja Turtles	E
+?	N
+
+where	V
+does	R
+Piccadilly	E
+start	R
+?	N
+
+what	V
+is	R
+the	N
+name	C
+of	R
+the	N
+university	C
+where	R
+Obama's wife	E
+studied	R
+?	N
+
+when	V
+did	R
+Paraguay	E
+proclaim	R
+its	N
+independence	C
+?	N
+
+How	V
+short	N
+is	R
+the	N
+shortest	N
+active	N
+NBA	E
+player	C
+?	N
+
+where	V
+did	R
+Abraham Lincoln	E
+die	R
+?	N
+
+when	V
+was	R
+Jack Wolfskin	E
+founded	R
+?	N
+
+in	R
+which	V
+city	C
+is	R
+the	N
+headquarter	C
+of	R
+Air China	E
+?	N
+
+what	V
+is	R
+the	N
+founding year	C
+of	R
+the	N
+brewery	C
+that	R
+produces	R
+Pilsner Urquell	E
+?	N
+
+when	V
+did	R
+the	N
+Boston Tea Party	E
+take place	R
+?	N
+
+which	V
+animals	C
+are	R
+critically endangered	C
+?	N
+
+which	V
+politicians	C
+were	R
+married	R
+to	R
+a	N
+German	E
+?	N
+
+how	V
+big	R
+is	R
+the	N
+earth's	C
+diameter	C
+?	N
+
+is	R
+the	N
+wife	C
+of	R
+president	C
+obama	E
+called	R
+michelle	E
+?	N
+
+which	V
+U.S. state	C
+has	R
+the	N
+abbreviation	C
+MN	E
+?	N
+
+when	V
+did	R
+Muhammad	E
+die	R
+?	N
+
+what	V
+is	R
+the	N
+atmosphere	C
+of	R
+the	N
+Moon	E
+composed of	R
+?	N
+
+who	V
+is	R
+the	N
+governor	C
+of	R
+Texas	E
+?	N
+
+which	V
+movies	C
+did	R
+Kurosawa	E
+direct	R
+?	N
+
+what	V
+was	R
+the	N
+name	C
+of	R
+the	N
+famous battle	C
+in	R
+1836	N
+in	R
+San Antonio	E
+?	N
+
+give	V
+me	N
+the	N
+official	C
+websites	C
+of	R
+actors	C
+of	R
+the	N
+television	C
+show	C
+charmed	E
+.	N
+
+how	V
+many	N
+calories	C
+does	R
+a	N
+baguette	C
+have	R
+?	N
+
+give	V
+me	N
+all	N
+libraries	C
+established	R
+before 1400	N
+.	N
+
+give	V
+me	N
+all	N
+frisian_islands	E
+that	R
+belong	R
+to	R
+the	N
+Netherlands	E
+.	N
+
+which	V
+museum	C
+exhibits	R
+the	N
+Scream	E
+by	R
+Munch	E
+?	N
+
+when	V
+was	R
+the	N
+De Beers company	E
+founded	R
+?	N
+
+who	V
+became	R
+president	C
+after	R
+jfk	E
+died	R
+?	N
+
+who	V
+are	R
+the	N
+parents	C
+of	R
+the	N
+wife	C
+of	R
+Juan Carlos I	E
+?	N
+
+who	V
+is	R
+the	N
+novelist	C
+of	R
+the	N
+work	C
+a song of ice and fire	E
+?	N
+
+in	R
+which	V
+studio	C
+did	R
+the	N
+Beatles	E
+record	R
+their	N
+first album	C
+?	N
+
+which	V
+beer	C
+brewing companies	C
+are	R
+located	R
+in	R
+north-rhine westphalia	E
+?	N
+
+when	V
+did	R
+princess Diana	E
+die	R
+?	N
+
+who	V
+founded	R
+Intel	E
+?	N
+
+who	V
+is	R
+the	N
+youngest	N
+player	C
+in	R
+the	N
+Premier League	E
+?	N
+
+which	V
+instruments	C
+does	R
+Cat Stevens	E
+play	R
+?	N
+
+how	V
+many	N
+rivers	C
+and	R
+lakes	C
+are	R
+in	R
+South Carolina	E
+?	N
+
+who	V
+was	R
+called	R
+Rodzilla	E
+?	N
+
+give	V
+me	N
+the	N
+capitals	C
+of	R
+all	N
+countries	C
+in	R
+Africa	E
+.	N
+
+which	V
+bridges	C
+are	R
+of	R
+the	N
+same type	C
+as	R
+the	N
+Manhattan Bridge	E
+?	N
+
+how	V
+many	N
+companies	C
+were	R
+founded by	R
+the	N
+founder	C
+of	R
+Facebook	E
+?	N
+
+show	V
+me	N
+hiking trails	C
+in	R
+the	N
+Grand Canyon	E
+where	R
+there's	N
+no danger of flash floods	C
+.	N
+
+which	V
+book	C
+has	R
+the most pages	C
+?	N
+
+what	V
+is	R
+the	N
+largest state	C
+in	R
+the	N
+United States	E
+?	N
+
+give	V
+me	N
+the	N
+websites	C
+of	R
+companies	C
+with	R
+more than 500000	N
+employees	C
+.	N
+
+what	V
+were	R
+the	N
+names	C
+of	R
+the	N
+three ships	C
+by	R
+Columbus	E
+?	N
