@@ -1,0 +1,78 @@
+{
+    "A": {
+      "rdf_triple": ["(S, P, ?ans)"],
+      "sparql_template": "SELECT ?ans WHERE { dbr:<S> dbo:<P> ?ans . }",
+      "example": "How many pages does War and Peace have?"
+    },
+    "B": {
+      "rdf_triple": ["(?ans, P, O)"],
+      "sparql_template": "SELECT ?ans WHERE { ?ans dbo:<P> dbr:<O> . }",
+      "example": "Whom did Lance Bass marry?"
+    },
+    "D": {
+      "rdf_triple": ["(S, P, O)"],
+      "sparql_template": "ASK WHERE { dbr:<S> dbo:<P> dbr:<O> . }",
+      "example": "Is Michelle Obama the wife of Barack Obama?"
+    },
+    "AA": {
+      "rdf_triple": ["(S, P, ?ans)", "(S, P, ?ans)"],
+      "sparql_template": "SELECT ?ans WHERE { dbr:<S> dbo:<P> ?ans . dbr:<S> dbo:<P> ?ans . }",
+      "example": "Which awards has Leonardo DiCaprio won?"
+    },
+    "AB": {
+      "rdf_triple": ["(S, P, ?ans)", "(?ans, P, O)"],
+      "sparql_template": "SELECT ?ans WHERE { dbr:<S> dbo:<P> ?ans . ?ans dbo:<P> dbr:<O> . }",
+      "example": "What are the books written by the author of Harry Potter?"
+    },
+    "BB": {
+      "rdf_triple": ["(?ans, P, O)", "(?ans, P, O)"],
+      "sparql_template": "SELECT ?ans WHERE { ?ans dbo:<P> dbr:<O> . ?ans dbo:<P> dbr:<O> . }",
+      "example": "Which directors have won an Oscar and directed a movie starring Tom Hanks?"
+    },
+    "aC": {
+      "rdf_triple": ["(S, P, ?x)", "(?ans, P, ?x)"],
+      "sparql_template": "SELECT ?ans WHERE { dbr:<S> dbo:<P> ?x . ?ans dbo:<P> ?x . }",
+      "example": "Which movies were directed by someone who won an Oscar?"
+    },
+    "ac": {
+      "rdf_triple": ["(S, P, ?x)", "(?x, P, ?ans)"],
+      "sparql_template": "SELECT ?ans WHERE { dbr:<S> dbo:<P> ?x . ?x dbo:<P> ?ans . }",
+      "example": "Which movies were directed by someone who won an Oscar?"
+    },
+    "bc": {
+      "rdf_triple": ["(?x, P, O)", "(?x, P, ?ans)"],
+      "sparql_template": "SELECT ?ans WHERE { ?x dbo:<P> dbr:<O> . ?x dbo:<P> ?ans . }",
+      "example": "Who won an Oscar and starred in a movie?"
+    },
+    "aBC": {
+      "rdf_triple": ["(S, P, ?x)", "(?ans, P, O)", "(?ans, P, ?x)"],
+      "sparql_template": "SELECT ?ans WHERE { dbr:<S> dbo:<P> ?x . ?ans dbo:<P> dbr:<O> . ?ans dbo:<P> ?x . }",
+      "example": "Which directors who have directed a famous movie also won an Oscar?"
+    },
+    "aBc": {
+      "rdf_triple": ["(S, P, ?x)", "(?ans, P, O)", "(?x, P, ?ans)"],
+      "sparql_template": "SELECT ?ans WHERE { dbr:<S> dbo:<P> ?x . ?ans dbo:<P> dbr:<O> . ?x dbo:<P> ?ans . }",
+      "example": "Which actors starred in a movie directed by someone who won an Oscar?"
+    },
+    "ABB": {
+      "rdf_triple": ["(S, P, ?ans)", "(?ans, P, O)", "(?ans, P, O)"],
+      "sparql_template": "SELECT ?ans WHERE { dbr:<S> dbo:<P> ?ans . ?ans dbo:<P> dbr:<O> . ?ans dbo:<P> dbr:<O> . }",
+      "example": "Which movies directed by Spielberg won an Oscar and starred Tom Hanks?"
+    },
+    "BBB": {
+      "rdf_triple": ["(?ans, P, O)", "(?ans, P, O)", "(?ans, P, O)"],
+      "sparql_template": "SELECT ?ans WHERE { ?ans dbo:<P> dbr:<O> . ?ans dbo:<P> dbr:<O> . ?ans dbo:<P> dbr:<O> . }",
+      "example": "Which scientists have won a Nobel Prize, invented something, and discovered a chemical element?"
+    },
+    "Bbc": {
+      "rdf_triple": ["(?ans, P, O)", "(?x, P, O)", "(?x, P, ?ans)"],
+      "sparql_template": "SELECT ?ans WHERE { ?ans dbo:<P> dbr:<O> . ?x dbo:<P> dbr:<O> . ?x dbo:<P> ?ans . }",
+      "example": "Which books were written by an author who won a literary prize?"
+    },
+    "bbc": {
+      "rdf_triple": ["(?x, P, O)", "(?x, P, O)", "(?x, P, ?ans)"],
+      "sparql_template": "SELECT ?ans WHERE { ?x dbo:<P> dbr:<O> . ?x dbo:<P> dbr:<O> . ?x dbo:<P> ?ans . }",
+      "example": "Which directors directed two different movies and won an award?"
+    }
+  }
+  

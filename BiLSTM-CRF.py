@@ -6,13 +6,14 @@ from flair.models import SequenceTagger
 from flair.trainers import ModelTrainer
 
 # 📌 1️⃣ Définition des colonnes pour le fichier CoNLL
-columns = {0: "text", 1: "ner"}
+columns = {0: "text", -1: "ner"}  # La dernière colonne est toujours la bonne étiquette
 
+data_folder = "data"
 # 📌 2️⃣ Chargement des fichiers d'entraînement
-data_folder = "data"  # 📌 Dossier où se trouvent `train.conll`, `dev.conll`, `test.conll`
-corpus: Corpus = ColumnCorpus(data_folder, columns, 
-                              train_file="train.conll", 
-                              dev_file="dev.conll", 
+# 📌 Dossier où se trouvent `train.conll`, `dev.conll`, `test.conll`
+corpus: Corpus = ColumnCorpus(data_folder, columns,
+                              train_file="train.conll",
+                              dev_file="dev.conll",
                               test_file="test.conll")
 
 # 📌 3️⃣ Définition des étiquettes (O, R-B, R-I, C-B, C-I, V-B, etc.)
