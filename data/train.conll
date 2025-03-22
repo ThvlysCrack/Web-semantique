@@ -150,7 +150,8 @@ through	R-I
 
 which	V-B
 of	R-B
-tim_burton's	E-B
+tim	E-B
+burton's	E-I
 films	C-B
 had	R-B
 the	N
@@ -362,7 +363,8 @@ alive	R-B
 
 in	R-B
 which	V-B
-military_conflicts	C-B
+military	C-B
+conflicts	C-I
 did	R-B
 Lawrence	E-B
 of	E-I
@@ -493,7 +495,8 @@ Cannes	E-E
 give	V-B
 me	N
 all	N
-video_games	C-B
+video	C-B
+games	C-I
 published	R-B
 by	R-B
 Mean	E-B
@@ -631,7 +634,8 @@ Tegel	E-I
 ?	N
 
 are	R-B
-tree_frogs	C-B
+tree	C-B
+frogs	C-I
 a	N
 type	C-B
 of	R-B
@@ -660,7 +664,8 @@ Lake	E-E
 ?	N
 
 which	V-B
-professional_surfers	C-B
+professional	C-B
+surfers	C-I
 were	R-B
 born	R-B
 on	R-B
@@ -723,13 +728,16 @@ marry	R-B
 
 who	V-B
 was	R-B
-john_f._kennedy's	E-B
+john	E-B
+f.	E-I
+kennedy's	E-E
 vice	C-B
 president	C-I
 ?	N
 
 which	V-B
-professional_surfers	C-B
+professional	C-B
+surfers	C-I
 were	R-B
 born	R-B
 in	R-B
@@ -914,7 +922,8 @@ me	N
 all	N
 Canadian	N
 Grunge	C-B
-record_labels	C-B
+record	C-I
+labels	C-E
 .	N
 
 when	V-B
@@ -992,7 +1001,8 @@ florida	E-B
 ?	N
 
 does	R-B
-abraham_lincoln's	E-B
+abraham	E-B
+lincoln's	E-I
 death	C-B
 place	C-I
 have	R-B
@@ -1135,7 +1145,9 @@ which	V-B
 Indian	C-B
 company	C-I
 has	R-B
-the most employees	N
+the	N
+most	N
+employees	N
 ?	N
 
 how	V-B
@@ -1147,7 +1159,9 @@ Movie	E-I
 cost	R-B
 ?	N
 
-How many seats	N
+How 	N
+many	N
+seats	N
 does	R-B
 the	N
 home	N
@@ -1287,7 +1301,9 @@ of	R-B
 Facebook	E-B
 ?	N
 
-How many people	N
+How	N
+many	N
+people	N
 live	R-B
 in	R-B
 Poland	E-B
@@ -1503,7 +1519,8 @@ from	R-B
 give	V-B
 me	N
 all	N
-launch_pads	C-B
+launch	C-B
+pads	C-B
 operated	R-B
 by	R-B
 NASA	E-B
@@ -1566,7 +1583,9 @@ in	R-B
 New	E-B
 Jersey	E-I
 with	R-B
-more than 100000	N
+more	N
+than	N
+100000	N
 inhabitants	C-B
 .	N
 
@@ -1904,7 +1923,9 @@ since 2000	N
 
 who	V-B
 was	R-B
-john_f._kennedy's	E-B
+john	E-B
+f.	E-I
+kennedy's	E-E
 vice	C-B
 president	C-I
 ?	N
@@ -2096,7 +2117,8 @@ Charmed	E-B
 .	N
 
 which	V-B
-television_shows	C-B
+television	C-B
+shows	C-I
 were	R-B
 created	R-B
 by	R-B
@@ -2279,7 +2301,8 @@ industry	C-I
 .	N
 
 which	V-B
-u.s._states	C-B
+u.s.	C-B
+states	C-I
 are	R-B
 in	R-B
 the	N
@@ -2361,7 +2384,8 @@ have	R-B
 ?	N
 
 are	R-B
-tree_frogs	E-B
+tree	E-B
+frogs	E-I
 a	R-B
 type	C-B
 of	R-B
@@ -2440,7 +2464,8 @@ Merkel	E-I
 
 in	R-B
 which	V-B
-military_conflicts	C-B
+military	C-B
+conflicts	C-I
 did	R-B
 Lawrence	E-B
 of	E-I
@@ -2518,7 +2543,9 @@ Goofy	E-B
 which	V-B
 countries	C-B
 have	R-B
-more than ten	N
+more	N
+than	N
+ten	N
 caves	C-B
 ?	N
 
@@ -2549,7 +2576,8 @@ Merkel	E-I
 ?	N
 
 which	V-B
-u.s._states	C-B
+u.s.	C-B
+states	C-I
 are	R-B
 in	R-B
 the	N
@@ -2610,7 +2638,8 @@ Baikonur	E-B
 give	V-B
 me	N
 all	N
-soccer_clubs	C-B
+soccer	C-B
+clubs	C-I
 in	R-B
 Spain	E-B
 .	N
@@ -2721,7 +2750,9 @@ in	R-B
 New	E-B
 Jersey	E-I
 with	R-B
-more than 100000	N
+more	N
+than	N
+100000	N
 inhabitants	C-B
 .	N
 
@@ -2817,7 +2848,8 @@ Paris	C-E
 ?	N
 
 which	V-B
-soccer_players	C-B
+soccer	C-B
+players	C-I
 were	R-B
 born	R-B
 on	R-I
@@ -2903,7 +2935,8 @@ province	C-B
 ?	N
 
 which	V-B
-television_shows	C-B
+television	C-B
+shows	C-I
 were	R-B
 created	R-B
 by	R-B
@@ -3025,7 +3058,8 @@ Begins	E-I
 what	V-B
 is	R-B
 the	N
-second highest	N
+second	N
+highest	N
 mountain	C-B
 on	R-B
 earth	C-B
@@ -3223,7 +3257,8 @@ located	R-B
 give	V-B
 me	N
 all	N
-video_games	C-B
+video	C-B
+games	C-I
 published	R-B
 by	R-B
 Mean	E-B
@@ -3362,7 +3397,8 @@ Cruise	E-I
 give	V-B
 me	N
 all	N
-soccer_clubs	C-B
+soccer	C-B
+clubs	C-I
 in	R-B
 the	N
 Premier	E-B
@@ -3502,7 +3538,8 @@ buried	R-B
 what	V-B
 are	R-B
 the	N
-official_languages	C-B
+official	C-B
+languages	C-I
 of	R-B
 the	N
 Philippines	E-B
@@ -3641,7 +3678,10 @@ basketball	C-B
 players	C-I
 that	R-B
 are	R-B
-higher than 2 meters	N
+higher	N
+than	N
+2	N
+meters	N
 .	N
 
 was	R-B
@@ -3694,7 +3734,8 @@ give	V-B
 me	N
 all	N
 australian	N
-nonprofit_organizations	C-B
+nonprofit	C-B
+organizations	C-I
 .	N
 
 give	V-B
@@ -3733,7 +3774,8 @@ a	N
 list	C-B
 of	R-B
 all	N
-trumpet_players	C-B
+trumpet	C-B
+players	C-I
 that	R-B
 were	R-B
 bandleaders	C-B
@@ -3779,7 +3821,8 @@ Adele	E-B
 what	V-B
 is	R-B
 the	N
-highest place	N
+highest	N
+place	N
 of	R-B
 the	N
 Urals	E-B
@@ -3789,7 +3832,9 @@ which	V-B
 Indian	C-B
 company	C-I
 has	R-B
-the most employees	N
+the	N
+most	N
+employees	N
 ?	N
 
 for	R-B
@@ -3845,11 +3890,13 @@ the	N
 four	N
 youngest	N
 MVP	C-B
-basketball_players	C-B
+basketball	C-B
+players	C-I
 ?	N
 
 which	V-B
-music_albums	C-B
+music	C-B
+albums	C-I
 contain	R-B
 the	N
 song	C-B
@@ -3880,7 +3927,8 @@ races	C-B
 
 which	V-B
 of	R-B
-tim_burton's	E-B
+tim	E-B
+burton's	E-I
 films	C-B
 had	R-B
 the	N
@@ -3901,7 +3949,8 @@ both	R-B
 Liz	E-B
 Taylor	E-I
 and	R-B
-richard_burton	E-B
+richard	E-B
+burton	E-I
 ?	N
 
 give	V-B
@@ -3915,7 +3964,8 @@ Moscow	E-B
 .	N
 
 which	V-B
-telecommunications_organizations	C-B
+telecommunications C-B
+organizations	C-I
 are	R-B
 located	R-B
 in	R-B
@@ -3935,7 +3985,9 @@ by	R-B
 William	E-B
 Goldman	E-I
 with	R-B
-more than 300	N
+more	N
+than	N
+300	N
 pages	C-B
 .	N
 
@@ -3970,7 +4022,8 @@ were	R-B
 born	R-B
 in	R-B
 Paris	E-B
-after 1950	N
+after	N
+1950	N
 .	N
 
 give	V-B
@@ -4242,7 +4295,9 @@ Maude	E-E
 which	V-B
 musician	C-B
 wrote	R-B
-the most books	N
+the	N
+most	N
+books	N
 ?	N
 
 how	V-B
@@ -4269,8 +4324,11 @@ Ranking	E-E
 which	V-B
 countries	C-B
 have	R-B
-more than two	N
-official_languages	C-B
+more	N
+than	N
+two	N
+official	C-B
+languages	C-I
 ?	N
 
 who	V-B
@@ -4344,7 +4402,10 @@ Rome	E-B
 which	V-B
 companies	C-B
 have	R-B
-more than 1 million	N
+more	N
+than	N
+1	N
+million	N
 employees	C-B
 ?	N
 
@@ -4393,7 +4454,8 @@ give	V-B
 me	N
 all	N
 Swiss	N
-non-profit_organizations	C-B
+non-profit	C-B
+organizations	C-I
 .	N
 
 who	V-B
@@ -4526,7 +4588,9 @@ Chirac	E-I
 which	V-B
 caves	C-B
 have	R-B
-more than 3	N
+more	N
+than	N
+3	N
 entrances	C-B
 ?	N
 
@@ -4616,7 +4680,10 @@ from	R-B
 Bruce	E-B
 Springsteen	E-I
 released	R-B
-between 1980 and 1990	N
+between	N
+1980	N
+and	N
+1990	N
 .	N
 
 who	V-B

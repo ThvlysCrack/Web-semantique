@@ -553,7 +553,8 @@ Francisco	E-I
 
 what	V-B
 is	N
-angela_merkel’s	E-B
+angela	E-B
+merkel’s	E-I
 birth	C-B
 name	C-I
 ?	N
@@ -810,7 +811,8 @@ university	C-E
 ?	N
 
 which	V-B
-professional_surfers	C-B
+professional	C-B
+surfers	C-I
 were	R-B
 born	R-B
 in	R-B
@@ -933,7 +935,9 @@ which	V-B
 german	N
 cities	C-B
 have	R-B
-more than 250000	N
+more	N
+than	N
+250000	N
 inhabitants	C-B
 ?	N
 
@@ -1107,7 +1111,8 @@ give	V-B
 me	N
 all	N
 female	N
-german_chancellors	C-B
+german	C-B
+chancellors	C-I
 .	N
 
 who	V-B
@@ -1153,7 +1158,8 @@ medicine	C-B
 ?	N
 
 which	V-B
-professional_surfers	C-B
+professional	C-B
+surfers	C-I
 were	R-B
 born	R-B
 on	R-B
@@ -1243,9 +1249,9 @@ Worst	E-B
 Case	E-I
 Scenario	E-E
 going	R-B
-to	R-B
-be	R-B
-in	R-B
+to	R-I
+be	R-I
+in	R-E
 cinemas	C-B
 in	R-B
 the	N
@@ -1341,7 +1347,8 @@ located	R-B
 which	V-B
 daughters	C-B
 of	R-B
-british_earls	C-B
+british	C-B
+earls	C-I
 died	R-B
 at	R-B
 the	N
@@ -1583,7 +1590,8 @@ before 1400	N
 give	V-B
 me	N
 all	N
-frisian_islands	E-B
+frisian E-B
+islands	E-I
 that	R-B
 belong	R-B
 to	R-B
@@ -1795,7 +1803,9 @@ websites	C-B
 of	R-B
 companies	C-B
 with	R-B
-more than 500000	N
+more 	N
+than 	N
+500000	N
 employees	C-B
 .	N
 
