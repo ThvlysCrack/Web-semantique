@@ -10,8 +10,8 @@ all	N
 books	C-B
 in	N
 asimov's	E-B
-Foundation	E-B
-series	E-I
+Foundation	E-I
+series	E-E
 .	N
 
 how	V-B
@@ -88,7 +88,8 @@ Bad	E-I
 ?	N
 
 which	V-B
-television_shows	C-B
+television C-B
+shows	C-I
 were	N
 created	R-B
 by	N
@@ -114,7 +115,7 @@ oscar	C-B
 which	V-B
 city	C-B
 has	R-B
-the	R-B
+the	R-I
 most	R-I
 inhabitants	R-E
 ?	N
@@ -292,11 +293,11 @@ which	V-B
 city	C-B
 are	R-B
 the	N
-headquarters	E-B
-of	E-I
-the	E-I
-United	E-I
-Nations	E-E
+headquarters	R-B
+of	R-I
+the	N
+United	E-B
+Nations	E-I
 ?	N
 
 who	V-B
@@ -318,7 +319,9 @@ by	N
 William	E-B
 Goldman	E-I
 with	N
-more than 300	N
+more N
+than N 
+300	N
 pages	C-B
 .	N
 
@@ -338,7 +341,8 @@ were	R-B
 founded	R-B
 in	N
 the	N
-same year	N
+same N
+year	N
 as	N
 Google	E-B
 ?	N
@@ -348,7 +352,8 @@ all	N
 episodes	C-B
 of	N
 the	N
-first season	N
+first N
+season	N
 of	N
 the	N
 HBO	E-B
@@ -364,7 +369,7 @@ Batman	E-B
 ?	N
 
 where	V-B
-is	R-B
+is	N
 Fort	E-B
 Knox	E-I
 located	R-B
@@ -495,7 +500,8 @@ me	N
 all	N
 Canadian	C-B
 Grunge	C-B
-record_labels	C-B
+record  C-I
+labels	C-E
 .	N
 
 which	V-B
@@ -535,7 +541,8 @@ by	N
 ?	N
 
 which	V-B
-u.s._states	C-B
+u.s. C-B
+states	C-I
 possess	R-B
 gold	C-B
 minerals	C-B
@@ -614,7 +621,8 @@ holidays	C-I
 .	N
 
 does	R-B
-abraham_lincoln's	E-B
+abraham E-B
+lincoln's	E-I
 death	C-B
 place	C-I
 have	R-B
@@ -633,7 +641,8 @@ II	E-E
 give	V-B
 me	N
 all	N
-launch_pads	C-B
+launch C-B
+pads	C-I
 operated	R-B
 by	N
 NASA	E-B
@@ -703,9 +712,10 @@ are	R-B
 the	N
 top-10	N
 action	C-B
-role-playing	C-B
+role C-I
+playing	C-E
 video	C-B
-games	C-B
+games	C-I
 according	N
 to	N
 IGN	E-B
@@ -715,7 +725,7 @@ give	V-B
 me	N
 all	N
 danish	C-B
-movies	C-B
+movies	C-I
 .	N
 
 do	R-B
@@ -795,7 +805,8 @@ budget	C-B
 of	N
 at	N
 least	N
-$80 million	N
+$80 N
+million	N
 .	N
 
 which	V-B
@@ -916,7 +927,9 @@ Obama	E-I
 give	V-B
 me	N
 all	N
-world_heritage_sites	C-B
+world C-B
+heritage C-I
+sites	C-E
 designated	R-B
 within	N
 the	N
@@ -936,7 +949,8 @@ country	C-B
 has	R-B
 the	N
 most	N
-official_languages	C-B
+official C-B
+languages	C-I
 ?	N
 
 what	V-B
@@ -1023,7 +1037,9 @@ in	N
 New	E-B
 York	E-I
 has	R-B
-the most visitors	N
+the N
+most N 
+visitors	N
 ?	N
 
 who	V-B
@@ -1074,7 +1090,9 @@ me	N
 all	N
 libraries	C-B
 established	R-B
-earlier than 1400	N
+earlier N
+than N
+1400	N
 .	N
 
 what	V-B
@@ -1096,7 +1114,7 @@ give	V-B
 me	N
 all	N
 Methodist	C-B
-politicians	C-B
+politicians	C-I
 .	N
 
 what	V-B
@@ -1111,7 +1129,7 @@ Italy	E-B
 how	V-B
 many	N
 languages	C-B
-are	R-B
+are	N
 spoken	R-B
 in	N
 Turkmenistan	E-B
