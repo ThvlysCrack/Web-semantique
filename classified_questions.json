@@ -9296,7 +9296,7 @@
         "template_id": ""
     },
     {
-        "question": "which countries have places with more caves ?",
+        "question": "which countries have places with more than two caves ?",
         "entity_tagging": [
             {
                 "token": "which",
@@ -9320,6 +9320,14 @@
             },
             {
                 "token": "more",
+                "tag": "N"
+            },
+            {
+                "token": "than",
+                "tag": "N"
+            },
+            {
+                "token": "two",
                 "tag": "N"
             },
             {
@@ -26826,7 +26834,7 @@
         "template_id": ""
     },
     {
-        "question": "which countries have places with more caves ?",
+        "question": "which countries have places with more than two caves ?",
         "entity_tagging": [
             {
                 "token": "which",
@@ -26850,6 +26858,14 @@
             },
             {
                 "token": "more",
+                "tag": "N"
+            },
+            {
+                "token": "than",
+                "tag": "N"
+            },
+            {
+                "token": "two",
                 "tag": "N"
             },
             {
