@@ -1,4088 +1,4625 @@
-in	R
-which	V
-year	C
-was	R
-Rachel Stevens	E
-born	R
+in	R-B
+which	V-B
+year	C-B
+was	R-B
+Rachel	E-B
+Stevens	E-I
+born	R-B
 ?	N
 
-give	V
+give	V-B
 me	N
 all	N
-actors	C
-starring	R
-in	R
-Last Action Hero	E
+actors	C-B
+starring	R-B
+in	R-B
+Last	E-B
+Action	E-I
+Hero	E-E
 .	N
 
-where	V
-does	R
-Piccadilly	E
-start	R
+where	V-B
+does	R-B
+Piccadilly	E-B
+start	R-B
 ?	N
 
-how	V
+how	V-B
 many	N
-Aldi	E
-stores	C
-are	R
-there	R
+Aldi	E-B
+stores	C-B
+are	R-B
+there	R-B
 ?	N
 
-how	V
+how	V-B
 many	N
-inhabitants	C
-does	R
+inhabitants	C-B
+does	R-B
 the	N
-largest city	C
-in	R
-Canada	E
-have	R
+largest	C-B
+city	C-I
+in	R-B
+Canada	E-B
+have	R-B
 ?	N
 
-what	V
-was	R
+what	V-B
+was	R-B
 the	N
 last	N
-movie	C
-with	R
-Alec Guinness	E
+movie	C-B
+with	R-B
+Alec	E-B
+Guinness	E-I
 ?	N
 
-in	R
-which	V
-ancient empire	C
-could	R
+in	R-B
+which	V-B
+ancient	C-B
+empire	C-I
+could	R-B
 you	N
-pay	R
-with	R
-cocoa beans	C
+pay	R-B
+with	R-B
+cocoa	C-B
+beans	C-I
 ?	N
 
-give	V
+give	V-B
 me	N
 the	N
-currency	C
-of	R
-China	E
+currency	C-B
+of	R-B
+China	E-B
 .	N
 
-what	V
-is	R
-in	R
+what	V-B
+is	R-B
+in	R-B
 a	N
-chocolate chip cookie	C
+chocolate	C-B
+chip	C-I
+cookie	C-E
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-founder	C
-of	R
-Penguin Books	E
+founder	C-B
+of	R-B
+Penguin	E-B
+Books	E-I
 ?	N
 
-in	R
-which	V
-city	C
-did	R
-John F. Kennedy	E
-die	R
+in	R-B
+which	V-B
+city	C-B
+did	R-B
+John	E-B
+F.	E-I
+Kennedy	E-E
+die	R-B
 ?	N
 
-give	V
+give	V-B
 me	N
 all	N
 Swedish	N
-oceanographers	C
+oceanographers	C-B
 .	N
 
-which	V
-movies	C
-starring	R
-Mickey Rourke	E
-were	R
-directed	R
-by	R
-Guy Ritchie	E
+which	V-B
+movies	C-B
+starring	R-B
+Mickey	E-B
+Rourke	E-I
+were	R-B
+directed	R-B
+by	R-B
+Guy	E-B
+Ritchie	E-I
 ?	N
 
-how	V
+how	V-B
 many	N
-languages	C
-are	R
-spoken	R
-in	R
-Colombia	E
+languages	C-B
+are	R-B
+spoken	R-B
+in	R-B
+Colombia	E-B
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
-largest city	C
-in	R
-Australia	E
+largest	C-B
+city	C-I
+in	R-B
+Australia	E-B
 ?	N
 
-which	V
-cities	C
-does	R
+which	V-B
+cities	C-B
+does	R-B
 the	N
-Weser	E
-flow through	R
+Weser	E-B
+flow	R-B
+through	R-I
 ?	N
 
-which	V
-of	R
-tim_burton's	E
-films	C
-had	R
+which	V-B
+of	R-B
+tim_burton's	E-B
+films	C-B
+had	R-B
 the	N
-highest budget	C
+highest	C-B
+budget	C-I
 ?	N
 
-how	V
-much	R
-did	R
-Pulp Fiction	E
-cost	R
+how	V-B
+much	R-B
+did	R-B
+Pulp	E-B
+Fiction	E-I
+cost	R-B
 ?	N
 
-who	V
-developed	R
+who	V-B
+developed	R-B
 the	N
-video game	C
-World of Warcraft	E
+video	C-B
+game	C-I
+World	E-B
+of	E-I
+Warcraft	E-E
 ?	N
 
-in	R
-which	V
-city	C
-does	R
-Sylvester Stallone	E
-live	R
+in	R-B
+which	V-B
+city	C-B
+does	R-B
+Sylvester	E-B
+Stallone	E-I
+live	R-B
 ?	N
 
-who	V
-discovered	R
-Ceres	E
+who	V-B
+discovered	R-B
+Ceres	E-B
 ?	N
 
-for	R
-which	V
-label	C
-did	R
-Elvis	E
-record	R
+for	R-B
+which	V-B
+label	C-B
+did	R-B
+Elvis	E-B
+record	R-B
 his	N
 first	N
-album	C
+album	C-B
 ?	N
 
-which	V
-city	C
-has	R
-the least inhabitants	C
+which	V-B
+city	C-B
+has	R-B
+the	C-B
+least	C-I
+inhabitants	C-E
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
-time zone	C
-of	R
-Salt Lake City	E
+time	C-B
+zone	C-I
+of	R-B
+Salt	E-B
+Lake	E-I
+City	E-E
 ?	N
 
-did	R
-Che Guevara	E
-have	R
-children	C
+did	R-B
+Che	E-B
+Guevara	E-I
+have	R-B
+children	C-B
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
-location	C
-of	R
+location	C-B
+of	R-B
 the	N
-Houses of Parliament	E
+Houses	E-B
+of	E-I
+Parliament	E-E
 ?	N
 
-how many	V
-pages	C
-does	R
-War and Peace	E
-have	R
+how	V-B
+many	V-I
+pages	C-B
+does	R-B
+War	E-B
+and	E-I
+Peace	E-E
+have	R-B
 ?	N
 
-how	V
-high	R
-is	R
+how	V-B
+high	R-B
+is	R-B
 the	N
-lighthouse in Colombo	E
+lighthouse	E-B
+in	E-I
+Colombo	E-E
 ?	N
 
-what	V
-color	C
-expresses	R
-loyalty	C
+what	V-B
+color	C-B
+expresses	R-B
+loyalty	C-B
 ?	N
 
-who	V
-was	R
-Vincent van Gogh	E
-inspired	R
-by	R
+who	V-B
+was	R-B
+Vincent	E-B
+van	E-I
+Gogh	E-E
+inspired	R-B
+by	R-B
 ?	N
 
-in	R
-which	V
-country	C
-is	R
-Mecca	E
-located	R
+in	R-B
+which	V-B
+country	C-B
+is	R-B
+Mecca	E-B
+located	R-B
 ?	N
 
-who	V
-was	R
+who	V-B
+was	R-B
 the	N
-wife	C
-of	R
-U.S. president	C
-Lincoln	E
+wife	C-B
+of	R-B
+U.S.	C-B
+president	C-I
+Lincoln	E-B
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-daughter	C
-of	R
-Robert Kennedy	E
-married	R
-to	R
+daughter	C-B
+of	R-B
+Robert	E-B
+Kennedy	E-I
+married	R-B
+to	R-B
 ?	N
 
-is	R
-Rita Wilson	E
+is	R-B
+Rita	E-B
+Wilson	E-I
 the	N
-wife	C
-of	R
-Tom Hanks	E
+wife	C-B
+of	R-B
+Tom	E-B
+Hanks	E-I
 ?	N
 
-in	R
-which	V
-country	C
-is	R
+in	R-B
+which	V-B
+country	C-B
+is	R-B
 the	N
-Limerick Lake	E
+Limerick	E-B
+Lake	E-I
 ?	N
 
-which	V
-museum	C
-in	R
-New York	E
-has	R
-the most visitors	C
+which	V-B
+museum	C-B
+in	R-B
+New	E-B
+York	E-I
+has	R-B
+the	C-B
+most	C-I
+visitors	C-E
 ?	N
 
-how	V
-tall	R
-is	R
-Michael Jordan	E
+how	V-B
+tall	R-B
+is	R-B
+Michael	E-B
+Jordan	E-I
 ?	N
 
-which	V
-movies	C
-did	R
-Kurosawa	E
-direct	R
+which	V-B
+movies	C-B
+did	R-B
+Kurosawa	E-B
+direct	R-B
 ?	N
 
-did	R
-Arnold Schwarzenegger	E
-attend	R
+did	R-B
+Arnold	E-B
+Schwarzenegger	E-I
+attend	R-B
 a	N
-university	C
+university	C-B
 ?	N
 
-is	R
-Frank Herbert	E
-still	R
-alive	R
+is	R-B
+Frank	E-B
+Herbert	E-I
+still	R-B
+alive	R-B
 ?	N
 
-in	R
-which	V
-military_conflicts	C
-did	R
-Lawrence of Arabia	E
-participate	R
+in	R-B
+which	V-B
+military_conflicts	C-B
+did	R-B
+Lawrence	E-B
+of	E-I
+Arabia	E-E
+participate	R-B
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-oldest child	C
-of	R
-Meryl Streep	E
+oldest	C-B
+child	C-I
+of	R-B
+Meryl	E-B
+Streep	E-I
 ?	N
 
-in	R
-which	V
-city	C
-did	R
-Nikos Kazantzakis	E
-die	R
+in	R-B
+which	V-B
+city	C-B
+did	R-B
+Nikos	E-B
+Kazantzakis	E-I
+die	R-B
 ?	N
 
-who	V
-was	R
-married to	R
-president Chirac	E
+who	V-B
+was	R-B
+married	R-B
+to	R-I
+president	E-B
+Chirac	E-I
 ?	N
 
-did	R
-Socrates	E
-influence	R
-Aristotle	E
+did	R-B
+Socrates	E-B
+influence	R-B
+Aristotle	E-B
 ?	N
 
-who	V
-developed	R
-Slack	E
+who	V-B
+developed	R-B
+Slack	E-B
 ?	N
 
-who	V
-painted	R
-The Storm on the Sea of Galilee	E
+who	V-B
+painted	R-B
+The	E-B
+Storm	E-I
+on	E-I
+the	E-I
+Sea	E-I
+of	E-I
+Galilee	E-E
 ?	N
 
-where	V
-was	R
-Bach	E
-born	R
+where	V-B
+was	R-B
+Bach	E-B
+born	R-B
 ?	N
 
-which	V
-companies	C
-produce	R
-hovercrafts	C
+which	V-B
+companies	C-B
+produce	R-B
+hovercrafts	C-B
 ?	N
 
-in	R
-which	V
-city	C
-was	R
+in	R-B
+which	V-B
+city	C-B
+was	R-B
 the	N
-president of Montenegro	E
-born	R
+president	E-B
+of	E-I
+Montenegro	E-E
+born	R-B
 ?	N
 
-does	R
-Breaking Bad	E
-have	R
+does	R-B
+Breaking	E-B
+Bad	E-I
+have	R-B
 more	N
-episodes	C
-than	R
-Game of Thrones	E
+episodes	C-B
+than	R-B
+Game	E-B
+of	E-I
+Thrones	E-E
 ?	N
 
-which	V
-films	C
-did	R
-Stanley Kubrick	E
-direct	R
+which	V-B
+films	C-B
+did	R-B
+Stanley	E-B
+Kubrick	E-I
+direct	R-B
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-mayor	C
-of	R
-Rotterdam	E
+mayor	C-B
+of	R-B
+Rotterdam	E-B
 ?	N
 
-which	V
-electronics companies	C
-were	R
-founded	R
-in	R
-Beijing	E
+which	V-B
+electronics	C-B
+companies	C-I
+were	R-B
+founded	R-B
+in	R-B
+Beijing	E-B
 ?	N
 
-did	R
-Kaurismäki	E
+did	R-B
+Kaurismäki	E-B
 ever	N
-win	R
+win	R-B
 the	N
-Grand Prix at Cannes	E
+Grand	E-B
+Prix	E-I
+at	E-I
+Cannes	E-E
 ?	N
 
-give	V
+give	V-B
 me	N
 all	N
-video_games	C
-published	R
-by	R
-Mean Hamster Software	E
+video_games	C-B
+published	R-B
+by	R-B
+Mean	E-B
+Hamster	E-I
+Software	E-E
 .	N
 
-from	R
-which	V
-region	C
-is	R
+from	R-B
+which	V-B
+region	C-B
+is	R-B
 the	N
-Melon de Bourgogne	E
+Melon	E-B
+de	E-I
+Bourgogne	E-E
 ?	N
 
-which	V
-books	C
-by	R
-Kerouac	E
-were	R
-published	R
-by	R
-Viking Press	E
+which	V-B
+books	C-B
+by	R-B
+Kerouac	E-B
+were	R-B
+published	R-B
+by	R-B
+Viking	E-B
+Press	E-I
 ?	N
 
-what	V
-does	R
-IYCM	E
-stand for	R
+what	V-B
+does	R-B
+IYCM	E-B
+stand	R-B
+for	R-I
 ?	N
 
-to	R
-which	V
-artistic movement	C
-did	R
+to	R-B
+which	V-B
+artistic	C-B
+movement	C-I
+did	R-B
 the	N
-painter	C
-of	R
-The Three Dancers	E
-belong	R
+painter	C-B
+of	R-B
+The	E-B
+Three	E-I
+Dancers	E-E
+belong	R-B
 ?	N
 
-in	R
-which countries	C
-do	R
-people	C
-speak	R
-Japanese	C
+in	R-B
+which	C-B
+countries	C-I
+do	R-B
+people	C-B
+speak	R-B
+Japanese	C-B
 ?	N
 
-when	V
-did	R
+when	V-B
+did	R-B
 the	N
-Ming dynasty	E
-dissolve	R
+Ming	E-B
+dynasty	E-I
+dissolve	R-B
 ?	N
 
-when	V
-was	R
+when	V-B
+was	R-B
 the	N
-Battle of Gettysburg	E
+Battle	E-B
+of	E-I
+Gettysburg	E-E
 ?	N
 
-who	V
-were	R
+who	V-B
+were	R-B
 the	N
-parents	C
-of	R
-Queen Victoria	E
+parents	C-B
+of	R-B
+Queen	E-B
+Victoria	E-I
 ?	N
 
-how many	V
-ethnic groups	C
-live	R
-in	R
-Slovenia	E
+how	V-B
+many	V-I
+ethnic	C-B
+groups	C-I
+live	R-B
+in	R-B
+Slovenia	E-B
 ?	N
 
-give	V
+give	V-B
 me	N
 all	N
-members	C
-of	R
-Prodigy	E
+members	C-B
+of	R-B
+Prodigy	E-B
 .	N
 
-is	R
-Barack Obama	E
+is	R-B
+Barack	E-B
+Obama	E-I
 a	N
-democrat	C
+democrat	C-B
 ?	N
 
-is	R
-Christian Bale	E
-starring	R
-in	R
-Velvet Goldmine	E
+is	R-B
+Christian	E-B
+Bale	E-I
+starring	R-B
+in	R-B
+Velvet	E-B
+Goldmine	E-I
 ?	N
 
-which	V
-book	C
-has	R
-the most pages	C
+which	V-B
+book	C-B
+has	R-B
+the	C-B
+most	C-I
+pages	C-E
 ?	N
 
-which	V
-subsidiary	C
-of	R
-Lufthansa	E
-serves	R
+which	V-B
+subsidiary	C-B
+of	R-B
+Lufthansa	E-B
+serves	R-B
 both	N
-Dortmund	E
-and	R
-Berlin Tegel	E
+Dortmund	E-B
+and	R-B
+Berlin	E-B
+Tegel	E-I
 ?	N
 
-are	R
-tree_frogs	C
+are	R-B
+tree_frogs	C-B
 a	N
-type	C
-of	R
-amphibian	C
+type	C-B
+of	R-B
+amphibian	C-B
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-son	C
-of	R
-Sonny and Cher	E
+son	C-B
+of	R-B
+Sonny	E-B
+and	E-I
+Cher	E-E
 ?	N
 
-is	R
-Lake Baikal	E
-bigger than	R
+is	R-B
+Lake	E-B
+Baikal	E-I
+bigger	R-B
+than	R-I
 the	N
-Great Bear Lake	E
+Great	E-B
+Bear	E-I
+Lake	E-E
 ?	N
 
-which	V
-professional_surfers	C
-were	R
-born	R
-on	R
+which	V-B
+professional_surfers	C-B
+were	R-B
+born	R-B
+on	R-B
 the	N
-Philippines	E
+Philippines	E-B
 ?	N
 
-who	V
-played	R
-Agent Smith	E
-in	R
-Matrix	E
+who	V-B
+played	R-B
+Agent	E-B
+Smith	E-I
+in	R-B
+Matrix	E-B
 ?	N
 
-who	V
-wrote	R
+who	V-B
+wrote	R-B
 the	N
-book	C
-The pillars of the Earth	E
+book	C-B
+The	E-B
+pillars	E-I
+of	E-I
+the	E-I
+Earth	E-E
 ?	N
 
-who	V
-was	R
+who	V-B
+was	R-B
 the	N
-16th president	C
-of	R
+16th	C-B
+president	C-I
+of	R-B
 the	N
-United States	E
+United	E-B
+States	E-I
 ?	N
 
-is	R
-there	R
+is	R-B
+there	R-B
 a	N
-video game	C
-called	R
-Battle Chess	E
+video	C-B
+game	C-I
+called	R-B
+Battle	E-B
+Chess	E-I
 ?	N
 
-who	V
-created	R
-Family Guy	E
+who	V-B
+created	R-B
+Family	E-B
+Guy	E-I
 ?	N
 
-whom	V
-did	R
-Lance Bass	E
-marry	R
+whom	V-B
+did	R-B
+Lance	E-B
+Bass	E-I
+marry	R-B
 ?	N
 
-who	V
-was	R
-john_f._kennedy's	E
-vice president	C
+who	V-B
+was	R-B
+john_f._kennedy's	E-B
+vice	C-B
+president	C-I
 ?	N
 
-which	V
-professional_surfers	C
-were	R
-born	R
-in	R
-Australia	E
+which	V-B
+professional_surfers	C-B
+were	R-B
+born	R-B
+in	R-B
+Australia	E-B
 ?	N
 
-who	V
-designed	R
+who	V-B
+designed	R-B
 the	N
-Brooklyn Bridge	E
+Brooklyn	E-B
+Bridge	E-I
 ?	N
 
-what	V
-was	R
+what	V-B
+was	R-B
 the	N
-first	O
-Queen	E
-album	C
+first	O-B
+Queen	E-B
+album	C-B
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
-capital	C
-of	R
-Cameroon	E
+capital	C-B
+of	R-B
+Cameroon	E-B
 ?	N
 
-who	V
-wrote	R
+who	V-B
+wrote	R-B
 the	N
-book	C
-les piliers de la terre	E
+book	C-B
+les	E-B
+piliers	E-I
+de	E-I
+la	E-I
+terre	E-E
 ?	N
 
-who	V
-are	R
+who	V-B
+are	R-B
 the	N
-developers	C
-of	R
-DBpedia	E
+developers	C-B
+of	R-B
+DBpedia	E-B
 ?	N
 
-where	V
-is	R
-Syngman Rhee	E
-buried	R
+where	V-B
+is	R-B
+Syngman	E-B
+Rhee	E-I
+buried	R-B
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
 youngest	N
-Darts player	C
+Darts	C-B
+player	C-I
 ?	N
 
-is	R
+is	R-B
 the	N
-wife	C
-of	R
-president	C
-Obama	E
-called	R
-Michelle	E
+wife	C-B
+of	R-B
+president	C-B
+Obama	E-B
+called	R-B
+Michelle	E-B
 ?	N
 
-what	V
-country	C
-is	R
-Mount Everest	E
-in	R
+what	V-B
+country	C-B
+is	R-B
+Mount	E-B
+Everest	E-I
+in	R-B
 ?	N
 
-which	V
-airports	C
-does	R
-Yeti Airlines	E
-serve	R
+which	V-B
+airports	C-B
+does	R-B
+Yeti	E-B
+Airlines	E-I
+serve	R-B
 ?	N
 
-when	V
-did	R
-princess Diana	E
-die	R
+when	V-B
+did	R-B
+princess	E-B
+Diana	E-I
+die	R-B
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
-highest mountain	C
-in	R
-Australia	E
+highest	C-B
+mountain	C-I
+in	R-B
+Australia	E-B
 ?	N
 
-who	V
-was	R
+who	V-B
+was	R-B
 the	N
-successor	C
-of	R
-John F. Kennedy	E
+successor	C-B
+of	R-B
+John	E-B
+F.	E-I
+Kennedy	E-E
 ?	N
 
-who	V
-was	R
+who	V-B
+was	R-B
 the	N
-father	C
-of	R
-Queen Elizabeth II	E
+father	C-B
+of	R-B
+Queen	E-B
+Elizabeth	E-I
+II	E-E
 ?	N
 
-which	V
-ingredients	C
-do	R
+which	V-B
+ingredients	C-B
+do	R-B
 i	N
-need	R
-for	R
-carrot cake	C
+need	R-B
+for	R-B
+carrot	C-B
+cake	C-I
 ?	N
 
-through	R
-which	V
-countries	C
-does	R
+through	R-B
+which	V-B
+countries	C-B
+does	R-B
 the	N
-Yenisei river	E
-flow	R
+Yenisei	E-B
+river	E-I
+flow	R-B
 ?	N
 
-list	V
+list	V-B
 all	N
-games	C
-by	R
-GMT	E
+games	C-B
+by	R-B
+GMT	E-B
 .	N
 
-in	R
-which	V
-time zone	C
-is	R
-Rome	E
+in	R-B
+which	V-B
+time	C-B
+zone	C-I
+is	R-B
+Rome	E-B
 ?	N
 
-which	V
-types	C
-of	R
-grapes	C
-grow	R
-in	R
-Oregon	E
+which	V-B
+types	C-B
+of	R-B
+grapes	C-B
+grow	R-B
+in	R-B
+Oregon	E-B
 ?	N
 
-is	R
-Michelle Obama	E
+is	R-B
+Michelle	E-B
+Obama	E-I
 the	N
-wife	C
-of	R
-Barack Obama	E
+wife	C-B
+of	R-B
+Barack	E-B
+Obama	E-I
 ?	N
 
-give	V
+give	V-B
 me	N
 all	N
 Canadian	N
-Grunge	C
-record_labels	C
+Grunge	C-B
+record_labels	C-B
 .	N
 
-when	V
-did	R
-Boris Becker	E
-end	R
+when	V-B
+did	R-B
+Boris	E-B
+Becker	E-I
+end	R-B
 his	N
 active	N
-career	C
+career	C-B
 ?	N
 
-what	V
-country	C
-is	R
-Sitecore	E
-from	R
+what	V-B
+country	C-B
+is	R-B
+Sitecore	E-B
+from	R-B
 ?	N
 
-how	V
+how	V-B
 many	N
-languages	C
-are	R
-spoken	R
-in	R
-Turkmenistan	E
+languages	C-B
+are	R-B
+spoken	R-B
+in	R-B
+Turkmenistan	E-B
 ?	N
 
-in	R
-which	V
-country	C
-does	R
+in	R-B
+which	V-B
+country	C-B
+does	R-B
 the	N
-Nile	E
-start	R
+Nile	E-B
+start	R-B
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-tallest	C
-basketball player	C
+tallest	C-B
+basketball	C-B
+player	C-I
 ?	N
 
-was	R
+was	R-B
 the	N
-wife	C
-of	R
-president	C
-Lincoln	E
-called	R
-Mary	E
+wife	C-B
+of	R-B
+president	C-B
+Lincoln	E-B
+called	R-B
+Mary	E-B
 ?	N
 
-who	V
-composed	R
+who	V-B
+composed	R-B
 the	N
-music	C
-for	R
-Harold and Maude	E
+music	C-B
+for	R-B
+Harold	E-B
+and	E-I
+Maude	E-E
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
-total population	C
-of	R
-melbourne	E
+total	C-B
+population	C-I
+of	R-B
+melbourne	E-B
 ,	N
-florida	E
+florida	E-B
 ?	N
 
-does	R
-abraham_lincoln's	E
-death place	C
-have	R
+does	R-B
+abraham_lincoln's	E-B
+death	C-B
+place	C-I
+have	R-B
 a	N
-website	C
+website	C-B
 ?	N
 
-give	V
+give	V-B
 me	N
 a	N
-list	C
-of	R
+list	C-B
+of	R-B
 all	N
-critically endangered birds	C
+critically	C-B
+endangered	C-I
+birds	C-E
 .	N
 
-who	V
-composed	R
+who	V-B
+composed	R-B
 the	N
-soundtrack	C
-for	R
-Cameron's Titanic	E
+soundtrack	C-B
+for	R-B
+Cameron's	E-B
+Titanic	E-I
 ?	N
 
-who	V
-was	R
+who	V-B
+was	R-B
 the	N
-doctoral supervisor	C
-of	R
-Albert Einstein	E
+doctoral	C-B
+supervisor	C-I
+of	R-B
+Albert	E-B
+Einstein	E-I
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-president	C
-of	R
-Eritrea	E
+president	C-B
+of	R-B
+Eritrea	E-B
 ?	N
 
-in	R
-which	V
-programming language	C
-is	R
-GIMP	E
-written	R
+in	R-B
+which	V-B
+programming	C-B
+language	C-I
+is	R-B
+GIMP	E-B
+written	R-B
 ?	N
 
-in	R
-which	V
-U.S. state	C
-is	R
-Fort Knox	E
-located	R
+in	R-B
+which	V-B
+U.S.	C-B
+state	C-I
+is	R-B
+Fort	E-B
+Knox	E-I
+located	R-B
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-mayor	C
-of	R
+mayor	C-B
+of	R-B
 the	N
-capital	C
-of	R
-French Polynesia	E
+capital	C-B
+of	R-B
+French	E-B
+Polynesia	E-I
 ?	N
 
-how	V
-high	C
-is	R
+how	V-B
+high	C-B
+is	R-B
 the	N
-Yokohama Marine Tower	E
+Yokohama	E-B
+Marine	E-I
+Tower	E-E
 ?	N
 
-in	R
-which	V
-films	C
-did	R
-Julia Roberts	E
+in	R-B
+which	V-B
+films	C-B
+did	R-B
+Julia	E-B
+Roberts	E-I
 as	N
 well	N
 as	N
-Richard Gere	E
-play	R
+Richard	E-B
+Gere	E-I
+play	R-B
 ?	N
 
-give	V
+give	V-B
 me	N
 all	N
-actors	C
-starring	R
-in	R
-movies	C
-directed	R
-by	R
-William Shatner	E
+actors	C-B
+starring	R-B
+in	R-B
+movies	C-B
+directed	R-B
+by	R-B
+William	E-B
+Shatner	E-I
 .	N
 
-show	V
+show	V-B
 me	N
-hemingway's	E
-autobiography	C
+hemingway's	E-B
+autobiography	C-B
 .	N
 
-does	R
+does	R-B
 the	N
-Isar	E
-flow	R
-into	R
+Isar	E-B
+flow	R-B
+into	R-B
 a	N
-lake	C
+lake	C-B
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-host	C
-of	R
+host	C-B
+of	R-B
 the	N
-BBC Wildlife Specials	E
+BBC	E-B
+Wildlife	E-I
+Specials	E-E
 ?	N
 
-which	V
-Indian company	C
-has	R
+which	V-B
+Indian	C-B
+company	C-I
+has	R-B
 the most employees	N
 ?	N
 
-how	V
+how	V-B
 much	N
-did	R
+did	R-B
 the	N
-Lego Movie	E
-cost	R
+Lego	E-B
+Movie	E-I
+cost	R-B
 ?	N
 
 How many seats	N
-does	R
+does	R-B
 the	N
 home	N
-stadium of FC Porto	E
-have	R
+stadium	E-B
+of	E-I
+FC	E-I
+Porto	E-E
+have	R-B
 ?	N
 
-give	V
+give	V-B
 me	N
 all	N
-movies	C
-directed	R
-by	R
-Francis Ford Coppola	E
+movies	C-B
+directed	R-B
+by	R-B
+Francis	E-B
+Ford	E-I
+Coppola	E-E
 .	N
 
-which	V
-subsidiary	C
-of	R
-TUI Travel	E
-serves	R
+which	V-B
+subsidiary	C-B
+of	R-B
+TUI	E-B
+Travel	E-I
+serves	R-B
 both	N
-Glasgow	E
-and	R
-Dublin	E
+Glasgow	E-B
+and	R-B
+Dublin	E-B
 ?	N
 
-list	V
+list	V-B
 all	N
-episodes	C
-of	R
+episodes	C-B
+of	R-B
 the	N
-first season	C
-of	R
+first	C-B
+season	C-I
+of	R-B
 the	N
-HBO	E
-television series	C
+HBO	E-B
+television	C-B
+series	C-I
 the	N
-Sopranos	E
+Sopranos	E-B
 .	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
-area code	C
-of	R
-Berlin	E
+area	C-B
+code	C-I
+of	R-B
+Berlin	E-B
 ?	N
 
-how	V
-tall	C
-is	R
-Claudia Schiffer	E
+how	V-B
+tall	C-B
+is	R-B
+Claudia	E-B
+Schiffer	E-I
 ?	N
 
-was	R
-U.S. president	C
-Jackson	E
-involved	R
-in	R
+was	R-B
+U.S.	C-B
+president	C-I
+Jackson	E-B
+involved	R-B
+in	R-B
 a	N
-war	C
+war	C-B
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
-biggest stadium	C
-in	R
-Spain	E
+biggest	C-B
+stadium	C-I
+in	R-B
+Spain	E-B
 ?	N
 
-is	R
-Christian Bale	E
-starring	R
-in	R
-Batman Begins	E
+is	R-B
+Christian	E-B
+Bale	E-I
+starring	R-B
+in	R-B
+Batman	E-B
+Begins	E-I
 ?	N
 
-which	V
-museum	C
-exhibits	R
+which	V-B
+museum	C-B
+exhibits	R-B
 the	N
-Scream	E
-by	R
-Munch	E
+Scream	E-B
+by	R-B
+Munch	E-B
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-mayor	C
-of	R
-Tel Aviv	E
+mayor	C-B
+of	R-B
+Tel	E-B
+Aviv	E-I
 ?	N
 
-give	V
+give	V-B
 me	N
 all	N
-professional	C
-skateboarders	C
-from	R
-Sweden	E
+professional	C-B
+skateboarders	C-B
+from	R-B
+Sweden	E-B
 .	N
 
-when	V
-did	R
-dracula's	E
-creator	C
-die	R
+when	V-B
+did	R-B
+dracula's	E-B
+creator	C-B
+die	R-B
 ?	N
 
-how	V
+how	V-B
 many	N
-companies	C
-were	R
-founded by	R
+companies	C-B
+were	R-B
+founded	R-B
+by	R-I
 the	N
-founder	C
-of	R
-Facebook	E
+founder	C-B
+of	R-B
+Facebook	E-B
 ?	N
 
 How many people	N
-live	R
-in	R
-Poland	E
+live	R-B
+in	R-B
+Poland	E-B
 ?	N
 
-what	V
-form of government	C
-does	R
-Russia	E
-have	R
+what	V-B
+form	C-B
+of	C-I
+government	C-E
+does	R-B
+Russia	E-B
+have	R-B
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-youngest	C
-player	C
-in	R
+youngest	C-B
+player	C-B
+in	R-B
 the	N
-Premier League	E
+Premier	E-B
+League	E-I
 ?	N
 
-when	V
-was	R
-Jack Wolfskin	E
-founded	R
+when	V-B
+was	R-B
+Jack	E-B
+Wolfskin	E-I
+founded	R-B
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
-currency	C
-of	R
+currency	C-B
+of	R-B
 the	N
-Czech republic	E
+Czech	E-B
+republic	E-I
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-mayor	C
-of	R
-Paris	E
+mayor	C-B
+of	R-B
+Paris	E-B
 ?	N
 
-which	V
-scientist	C
-is	R
-known for	R
+which	V-B
+scientist	C-B
+is	R-B
+known	R-B
+for	R-I
 the	N
-Manhattan Project	E
-and	R
+Manhattan	E-B
+Project	E-I
+and	R-B
 the	N
-Nobel Peace Prize	E
+Nobel	E-B
+Peace	E-I
+Prize	E-E
 ?	N
 
-who	V
-wrote	R
+who	V-B
+wrote	R-B
 the	N
-Game of Thrones	E
-theme	C
+Game	E-B
+of	E-I
+Thrones	E-E
+theme	C-B
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-editor	C
-of	R
-Forbes	E
+editor	C-B
+of	R-B
+Forbes	E-B
 ?	N
 
-in	R
-which	V
-UK	E
-city	C
-are	R
+in	R-B
+which	V-B
+UK	E-B
+city	C-B
+are	R-B
 the	N
-headquarters	C
-of	R
+headquarters	C-B
+of	R-B
 the	N
-MI6	E
+MI6	E-B
 ?	N
 
-where	V
-in	R
-France	E
-is	R
-sparkling wine	C
-produced	R
+where	V-B
+in	R-B
+France	E-B
+is	R-B
+sparkling	C-B
+wine	C-I
+produced	R-B
 ?	N
 
-how	V
-tall	C
-is	R
-Amazon Eve	E
+how	V-B
+tall	C-B
+is	R-B
+Amazon	E-B
+Eve	E-I
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
-official language	C
-of	R
-Suriname	E
+official	C-B
+language	C-I
+of	R-B
+Suriname	E-B
 ?	N
 
-what	V
-are	R
+what	V-B
+are	R-B
 the	N
-nicknames	C
-of	R
-San Francisco	E
+nicknames	C-B
+of	R-B
+San	E-B
+Francisco	E-I
 ?	N
 
-what	V
-is	R
-batman's	E
-real name	C
+what	V-B
+is	R-B
+batman's	E-B
+real	C-B
+name	C-I
 ?	N
 
-how	V
+how	V-B
 many	N
-people	C
-live	R
-in	R
+people	C-B
+live	R-B
+in	R-B
 the	N
-capital	C
-of	R
-Australia	E
+capital	C-B
+of	R-B
+Australia	E-B
 ?	N
 
-which	V
-country	C
-was	R
-Bill Gates	E
-born	R
-in	R
+which	V-B
+country	C-B
+was	R-B
+Bill	E-B
+Gates	E-I
+born	R-B
+in	R-B
 ?	N
 
-is	R
-James Bond	E
-married	R
+is	R-B
+James	E-B
+Bond	E-I
+married	R-B
 ?	N
 
-how	V
+how	V-B
 many	N
-children	C
-did	R
-Benjamin Franklin	E
-have	R
+children	C-B
+did	R-B
+Benjamin	E-B
+Franklin	E-I
+have	R-B
 ?	N
 
-do	R
-Prince Harry	E
+do	R-B
+Prince	E-B
+Harry	E-I
 and	N
-Prince William	E
-have	R
+Prince	E-B
+William	E-I
+have	R-B
 the	N
 same	N
-parents	C
+parents	C-B
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-Formula 1	C
-race driver	C
-with	R
+Formula	C-B
+1	C-I
+race	C-B
+driver	C-I
+with	R-B
 the	N
 most	N
-races	C
+races	C-B
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
-highest	C
-mountain	C
-in	R
-Italy	E
+highest	C-B
+mountain	C-B
+in	R-B
+Italy	E-B
 ?	N
 
-what	V
-did	R
-Bruce Carver	E
-die	R
-from	R
+what	V-B
+did	R-B
+Bruce	E-B
+Carver	E-I
+die	R-B
+from	R-B
 ?	N
 
-give	V
+give	V-B
 me	N
 all	N
-launch_pads	C
-operated	R
-by	R
-NASA	E
+launch_pads	C-B
+operated	R-B
+by	R-B
+NASA	E-B
 .	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
-timezone	C
-in	R
-San Pedro de Atacama	E
+timezone	C-B
+in	R-B
+San	E-B
+Pedro	E-I
+de	E-I
+Atacama	E-E
 ?	N
 
-give	V
+give	V-B
 me	N
 the	N
-grandchildren	C
-of	R
-Elvis Presley	E
+grandchildren	C-B
+of	R-B
+Elvis	E-B
+Presley	E-I
 .	N
 
-which	V
-country	C
-does	R
+which	V-B
+country	C-B
+does	R-B
 the	N
-creator	C
-of	R
-Miffy	E
-come	R
-from	R
+creator	C-B
+of	R-B
+Miffy	E-B
+come	R-B
+from	R-B
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
-largest country	C
-in	R
+largest	C-B
+country	C-I
+in	R-B
 the	N
-world	C
+world	C-B
 ?	N
 
-list	V
+list	V-B
 the	N
-children	C
-of	R
-Margaret Thatcher	E
+children	C-B
+of	R-B
+Margaret	E-B
+Thatcher	E-I
 .	N
 
-give	V
+give	V-B
 me	N
 all	N
-cities	C
-in	R
-New Jersey	E
-with	R
+cities	C-B
+in	R-B
+New	E-B
+Jersey	E-I
+with	R-B
 more than 100000	N
-inhabitants	C
+inhabitants	C-B
 .	N
 
-who	V
-is	R
-starring	R
-in	R
-Spanish movies	C
-produced	R
-by	R
-Benicio del Toro	E
+who	V-B
+is	R-B
+starring	R-B
+in	R-B
+Spanish	C-B
+movies	C-I
+produced	R-B
+by	R-B
+Benicio	E-B
+del	E-I
+Toro	E-E
 ?	N
 
-who	V
-was	R
+who	V-B
+was	R-B
 the	N
-wife	C
-of	R
-U.S. president	C
-Lincoln	E
+wife	C-B
+of	R-B
+U.S.	C-B
+president	C-I
+Lincoln	E-B
 ?	N
 
-which	V
-city	C
-has	R
+which	V-B
+city	C-B
+has	R-B
 the	N
 least	N
-inhabitants	C
+inhabitants	C-B
 ?	N
 
-which	V
-countries	C
-adopted	R
+which	V-B
+countries	C-B
+adopted	R-B
 the	N
-Euro	E
+Euro	E-B
 ?	N
 
-how	V
+how	V-B
 many	N
-theories	C
-did	R
-Albert Einstein	E
-come up	R
-with	R
+theories	C-B
+did	R-B
+Albert	E-B
+Einstein	E-I
+come	R-B
+up	R-I
+with	R-B
 ?	N
 
-what	V
-kind of music	C
-did	R
-Lou Reed	E
-play	R
+what	V-B
+kind	C-B
+of	C-I
+music	C-E
+did	R-B
+Lou	E-B
+Reed	E-I
+play	R-B
 ?	N
 
-who	V
-wrote	R
+who	V-B
+wrote	R-B
 the	N
-Hunger Games	E
+Hunger	E-B
+Games	E-I
 ?	N
 
-who	V
-are	R
+who	V-B
+are	R-B
 the	N
-developers	C
-of	R
-DBpedia	E
+developers	C-B
+of	R-B
+DBpedia	E-B
 ?	N
 
-who	V
-are	R
+who	V-B
+are	R-B
 the	N
-writers	C
-of	R
-the wall	C
-album	C
-of	R
-pink floyd	E
+writers	C-B
+of	R-B
+the	C-B
+wall	C-I
+album	C-B
+of	R-B
+pink	E-B
+floyd	E-I
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
-largest	C
-city	C
-in	R
-america	E
+largest	C-B
+city	C-B
+in	R-B
+america	E-B
 ?	N
 
-give	V
+give	V-B
 me	N
 all	N
-Australian	E
-metalcore bands	C
+Australian	E-B
+metalcore	C-B
+bands	C-I
 .	N
 
-in	R
-which	V
-UK	E
-city	C
-are	R
+in	R-B
+which	V-B
+UK	E-B
+city	C-B
+are	R-B
 the	N
-headquarters	C
-of	R
+headquarters	C-B
+of	R-B
 the	N
-MI6	E
+MI6	E-B
 ?	N
 
-is	R
+is	R-B
 there	N
 a	N
-video game	C
-called	R
-Battle Chess	E
+video	C-B
+game	C-I
+called	R-B
+Battle	E-B
+Chess	E-I
 ?	N
 
-what	V
-does	R
-IYCM	E
-stand for	R
+what	V-B
+does	R-B
+IYCM	E-B
+stand	R-B
+for	R-I
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-host	C
-of	R
+host	C-B
+of	R-B
 the	N
-BBC Wildlife Specials	E
+BBC	E-B
+Wildlife	E-I
+Specials	E-E
 ?	N
 
-was	R
-Natalie Portman	E
-born	R
-in	R
+was	R-B
+Natalie	E-B
+Portman	E-I
+born	R-B
+in	R-B
 the	N
-United States	E
+United	E-B
+States	E-I
 ?	N
 
-which	V
-scientist	C
-is	R
-known for	R
+which	V-B
+scientist	C-B
+is	R-B
+known	R-B
+for	R-I
 the	N
-Manhattan Project	E
-and	R
+Manhattan	E-B
+Project	E-I
+and	R-B
 the	N
-Nobel Peace Prize	E
+Nobel	E-B
+Peace	E-I
+Prize	E-E
 ?	N
 
-what	V
-form	C
-of	R
-government	C
-is	R
-found	R
-in	R
-South Africa	E
+what	V-B
+form	C-B
+of	R-B
+government	C-B
+is	R-B
+found	R-B
+in	R-B
+South	E-B
+Africa	E-I
 ?	N
 
-is	R
-Frank Herbert	E
+is	R-B
+Frank	E-B
+Herbert	E-I
 still	N
-alive	R
+alive	R-B
 ?	N
 
-who	V
-developed	R
+who	V-B
+developed	R-B
 the	N
-video game	C
-World of Warcraft	E
+video	C-B
+game	C-I
+World	E-B
+of	E-I
+Warcraft	E-E
 ?	N
 
-which	V
-cities	C
-does	R
+which	V-B
+cities	C-B
+does	R-B
 the	N
-Weser	E
-flow through	R
+Weser	E-B
+flow	R-B
+through	R-I
 ?	N
 
-who	V
-was	R
-buried	R
-in	R
+who	V-B
+was	R-B
+buried	R-B
+in	R-B
 the	N
-Great Pyramid of Giza	E
+Great	E-B
+Pyramid	E-I
+of	E-I
+Giza	E-E
 ?	N
 
-when	V
-was	R
+when	V-B
+was	R-B
 the	N
-death	C
-of	R
-Shakespeare	E
+death	C-B
+of	R-B
+Shakespeare	E-B
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-mayor	C
-of	R
-Rotterdam	E
+mayor	C-B
+of	R-B
+Rotterdam	E-B
 ?	N
 
-list	V
+list	V-B
 all	N
-episodes	C
-of	R
+episodes	C-B
+of	R-B
 the	N
-first season	C
-of	R
+first	C-B
+season	C-I
+of	R-B
 the	N
-HBO	E
-television series	C
+HBO	E-B
+television	C-B
+series	C-I
 the	N
-Sopranos	E
+Sopranos	E-B
 .	N
 
 how many	N
-museums	C
-does	R
-Paris	E
-have	R
+museums	C-B
+does	R-B
+Paris	E-B
+have	R-B
 ?	N
 
-who	V
-created	R
-Batman	E
+who	V-B
+created	R-B
+Batman	E-B
 ?	N
 
 how heavy	N
-is	R
-jupiter's	E
-lightest	C
-moon	C
+is	R-B
+jupiter's	E-B
+lightest	C-B
+moon	C-B
 ?	N
 
-which	V
-languages	C
-are	R
-spoken	R
-in	R
-Estonia	E
+which	V-B
+languages	C-B
+are	R-B
+spoken	R-B
+in	R-B
+Estonia	E-B
 ?	N
 
-where	V
-was	R
-JFK	E
-assassinated	R
+where	V-B
+was	R-B
+JFK	E-B
+assassinated	R-B
 ?	N
 
-how	V
+how	V-B
 much	N
-carbs	C
-does	R
-peanut butter	E
-have	R
+carbs	C-B
+does	R-B
+peanut	E-B
+butter	E-I
+have	R-B
 ?	N
 
-in	R
-which	V
-city	C
-does	R
-Sylvester Stallone	E
-live	R
+in	R-B
+which	V-B
+city	C-B
+does	R-B
+Sylvester	E-B
+Stallone	E-I
+live	R-B
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
-currency	C
-of	R
+currency	C-B
+of	R-B
 the	N
-Czech republic	E
+Czech	E-B
+republic	E-I
 ?	N
 
-was	R
-Margaret Thatcher	E
-a	R
-chemist	C
+was	R-B
+Margaret	E-B
+Thatcher	E-I
+a	R-B
+chemist	C-B
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
-longest	C
-river	C
+longest	C-B
+river	C-B
 ?	N
 
-which	V
-volcanos	C
-in	R
-Japan	E
-erupted	R
+which	V-B
+volcanos	C-B
+in	R-B
+Japan	E-B
+erupted	R-B
 since 2000	N
 ?	N
 
-who	V
-was	R
-john_f._kennedy's	E
-vice president	C
+who	V-B
+was	R-B
+john_f._kennedy's	E-B
+vice	C-B
+president	C-I
 ?	N
 
-who	V
-was	R
-president	C
-of	R
-Pakistan	E
-in	R
+who	V-B
+was	R-B
+president	C-B
+of	R-B
+Pakistan	E-B
+in	R-B
 1978	N
 ?	N
 
-how	V
+how	V-B
 many	N
-languages	C
-are	R
-spoken	R
-in	R
-Colombia	E
+languages	C-B
+are	R-B
+spoken	R-B
+in	R-B
+Colombia	E-B
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
 youngest	N
-Darts player	C
+Darts	C-B
+player	C-I
 ?	N
 
-does	R
-Breaking Bad	E
-have	R
+does	R-B
+Breaking	E-B
+Bad	E-I
+have	R-B
 more	N
-episodes	C
-than	R
-Game of Thrones	E
+episodes	C-B
+than	R-B
+Game	E-B
+of	E-I
+Thrones	E-E
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-owner	C
-of	R
-Universal Studios	E
+owner	C-B
+of	R-B
+Universal	E-B
+Studios	E-I
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
-total population	C
-of	R
-melbourne, florida	E
+total	C-B
+population	C-I
+of	R-B
+melbourne,	E-B
+florida	E-I
 ?	N
 
-did	R
-Tesla	E
-win	R
+did	R-B
+Tesla	E-B
+win	R-B
 a	N
-nobel prize	C
-in	R
-physics	C
+nobel	C-B
+prize	C-I
+in	R-B
+physics	C-B
 ?	N
 
-where	V
-is	R
-Syngman Rhee	E
-buried	R
+where	V-B
+is	R-B
+Syngman	E-B
+Rhee	E-I
+buried	R-B
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
-highest	C
-mountain	C
+highest	C-B
+mountain	C-B
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
-largest country	C
-in	R
+largest	C-B
+country	C-I
+in	R-B
 the	N
-world	C
+world	C-B
 ?	N
 
-which	V
-films	C
-starring	R
-Clint Eastwood	E
-did	R
+which	V-B
+films	C-B
+starring	R-B
+Clint	E-B
+Eastwood	E-I
+did	R-B
 he	N
-direct	R
+direct	R-B
 himself	N
 ?	N
 
-show	V
+show	V-B
 me	N
 all	N
-English Gothic buildings	C
-in	R
-Kent	E
+English	C-B
+Gothic	C-I
+buildings	C-E
+in	R-B
+Kent	E-B
 .	N
 
-is	R
-Cola	E
-a	R
-beverage	C
+is	R-B
+Cola	E-B
+a	R-B
+beverage	C-B
 ?	N
 
-was	R
-Marc Chagall	E
-a	R
-jew	C
+was	R-B
+Marc	E-B
+Chagall	E-I
+a	R-B
+jew	C-B
 ?	N
 
-where	V
-do	R
+where	V-B
+do	R-B
 the	N
-Red Sox	E
-play	R
+Red	E-B
+Sox	E-I
+play	R-B
 ?	N
 
-in	R
-which	V
-country	C
-does	R
+in	R-B
+which	V-B
+country	C-B
+does	R-B
 the	N
-Ganges	E
-start	R
+Ganges	E-B
+start	R-B
 ?	N
 
-give	V
+give	V-B
 me	N
 the	N
-grandchildren	C
-of	R
-Bruce Lee	E
+grandchildren	C-B
+of	R-B
+Bruce	E-B
+Lee	E-I
 .	N
 
-which	V
-writers	C
-studied	R
-in	R
-Istanbul	E
+which	V-B
+writers	C-B
+studied	R-B
+in	R-B
+Istanbul	E-B
 ?	N
 
-which	V
-chess players	C
-died	R
-in	R
+which	V-B
+chess	C-B
+players	C-I
+died	R-B
+in	R-B
 the	N
 same	N
-place	C
+place	C-B
 they	N
-were	R
-born	R
-in	R
+were	R-B
+born	R-B
+in	R-B
 ?	N
 
-give	V
+give	V-B
 me	N
 the	N
-birthdays	C
-of	R
+birthdays	C-B
+of	R-B
 all	N
-actors	C
-of	R
+actors	C-B
+of	R-B
 the	N
-television show	C
-Charmed	E
+television	C-B
+show	C-I
+Charmed	E-B
 .	N
 
-which	V
-television_shows	C
-were	R
-created	R
-by	R
-John Cleese	E
+which	V-B
+television_shows	C-B
+were	R-B
+created	R-B
+by	R-B
+John	E-B
+Cleese	E-I
 ?	N
 
-list	V
+list	V-B
 the	N
-children	C
-of	R
-Margaret Thatcher	E
+children	C-B
+of	R-B
+Margaret	E-B
+Thatcher	E-I
 .	N
 
-does	R
+does	R-B
 the	N
-new BattleStar Galactica series	E
-have	R
+new	E-B
+BattleStar	E-I
+Galactica	E-I
+series	E-E
+have	R-B
 more	N
-episodes	C
-than	R
+episodes	C-B
+than	R-B
 the	N
 old	N
 one	N
 ?	N
 
-give	V
+give	V-B
 me	N
 the	N
-capitals	C
-of	R
+capitals	C-B
+of	R-B
 all	N
-countries	C
-that	R
+countries	C-B
+that	R-B
 the	N
-himalayas	E
-run	R
-through	R
+himalayas	E-B
+run	R-B
+through	R-B
 .	N
 
-is	R
-Lake Baikal	E
-bigger than	R
+is	R-B
+Lake	E-B
+Baikal	E-I
+bigger	R-B
+than	R-I
 the	N
-Great Bear Lake	E
+Great	E-B
+Bear	E-I
+Lake	E-E
 ?	N
 
-which	V
-ships	C
-were	R
-called after	R
-Benjamin Franklin	E
+which	V-B
+ships	C-B
+were	R-B
+called	R-B
+after	R-I
+Benjamin	E-B
+Franklin	E-I
 ?	N
 
-in	R
-which	V
-films	C
-directed	R
-by	R
-Garry Marshall	E
-was	R
-Julia Roberts	E
-starring	R
+in	R-B
+which	V-B
+films	C-B
+directed	R-B
+by	R-B
+Garry	E-B
+Marshall	E-I
+was	R-B
+Julia	E-B
+Roberts	E-I
+starring	R-B
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
-capital	C
-of	R
-Cameroon	E
+capital	C-B
+of	R-B
+Cameroon	E-B
 ?	N
 
-which	V
-countries	C
-have	R
-places	C
-with	R
+which	V-B
+countries	C-B
+have	R-B
+places	C-B
+with	R-B
 more than two	N
-caves	C
+caves	C-B
 ?	N
 
-is	R
-Rita Wilson	E
+is	R-B
+Rita	E-B
+Wilson	E-I
 the	N
-wife	C
-of	R
-Tom Hanks	E
+wife	C-B
+of	R-B
+Tom	E-B
+Hanks	E-I
 ?	N
 
-who	V
-created	R
+who	V-B
+created	R-B
 the	N
-comic	C
-Captain America	E
+comic	C-B
+Captain	E-B
+America	E-I
 ?	N
 
-is	R
-Christian Bale	E
-starring	R
-in	R
-Velvet Goldmine	E
+is	R-B
+Christian	E-B
+Bale	E-I
+starring	R-B
+in	R-B
+Velvet	E-B
+Goldmine	E-I
 ?	N
 
-which	V
-subsidiary	C
-of	R
-Lufthansa	E
-serves	R
+which	V-B
+subsidiary	C-B
+of	R-B
+Lufthansa	E-B
+serves	R-B
 both	N
-Dortmund	E
-and	R
-Berlin Tegel	E
+Dortmund	E-B
+and	R-B
+Berlin	E-B
+Tegel	E-I
 ?	N
 
-in	R
-which countries	C
-do	R
-people	C
-speak	R
-Japanese	C
+in	R-B
+which	C-B
+countries	C-I
+do	R-B
+people	C-B
+speak	R-B
+Japanese	C-B
 ?	N
 
-who	V
-wrote	R
+who	V-B
+wrote	R-B
 the	N
-book	C
-The pillars of the Earth	E
+book	C-B
+The	E-B
+pillars	E-I
+of	E-I
+the	E-I
+Earth	E-E
 ?	N
 
-which	V
-actor	C
-was	R
-casted	R
-in	R
+which	V-B
+actor	C-B
+was	R-B
+casted	R-B
+in	R-B
 the	N
 most	N
-movies	C
+movies	C-B
 ?	N
 
-what	V
-was	R
+what	V-B
+was	R-B
 the	N
 first	N
-Queen	E
-album	C
+Queen	E-B
+album	C-B
 ?	N
 
-give	V
+give	V-B
 me	N
 all	N
-companies	C
-in	R
+companies	C-B
+in	R-B
 the	N
-advertising industry	C
+advertising	C-B
+industry	C-I
 .	N
 
-which	V
-u.s._states	C
-are	R
-in	R
+which	V-B
+u.s._states	C-B
+are	R-B
+in	R-B
 the	N
 same	N
-time zone	C
-as	R
-Utah	E
+time	C-B
+zone	C-I
+as	R-B
+Utah	E-B
 ?	N
 
-which	V
-airports	C
-does	R
-Yeti Airlines	E
-serve	R
+which	V-B
+airports	C-B
+does	R-B
+Yeti	E-B
+Airlines	E-I
+serve	R-B
 ?	N
 
-which	V
-state	C
-of	R
+which	V-B
+state	C-B
+of	R-B
 the	N
-united states of america	E
-has	R
+united	E-B
+states	E-I
+of	E-I
+america	E-E
+has	R-B
 the	N
 highest	N
-density	C
+density	C-B
 ?	N
 
-what	V
-country	C
-is	R
-Sitecore	E
-from	R
+what	V-B
+country	C-B
+is	R-B
+Sitecore	E-B
+from	R-B
 ?	N
 
-in	R
-which	V
-city	C
-did	R
-Nikos Kazantzakis	E
-die	R
+in	R-B
+which	V-B
+city	C-B
+did	R-B
+Nikos	E-B
+Kazantzakis	E-I
+die	R-B
 ?	N
 
-what	V
-country	C
-is	R
-Mount Everest	E
-in	R
+what	V-B
+country	C-B
+is	R-B
+Mount	E-B
+Everest	E-I
+in	R-B
 ?	N
 
-which	V
-actors	C
-were	R
-born	R
-in	R
-Germany	E
+which	V-B
+actors	C-B
+were	R-B
+born	R-B
+in	R-B
+Germany	E-B
 ?	N
 
-how	V
+how	V-B
 many	N
-programming languages	C
-are	R
+programming	C-B
+languages	C-I
+are	R-B
 there	N
 ?	N
 
-how	V
+how	V-B
 many	N
-inhabitants	C
-does	R
-Maribor	E
-have	R
+inhabitants	C-B
+does	R-B
+Maribor	E-B
+have	R-B
 ?	N
 
-are	R
-tree_frogs	E
-a	R
-type	C
-of	R
-amphibian	C
+are	R-B
+tree_frogs	E-B
+a	R-B
+type	C-B
+of	R-B
+amphibian	C-B
 ?	N
 
-who	V
-produced	R
+who	V-B
+produced	R-B
 the	N
 most	N
-films	C
+films	C-B
 ?	N
 
-give	V
+give	V-B
 me	N
 all	N
-federal chancellors	C
-of	R
-Germany	E
+federal	C-B
+chancellors	C-I
+of	R-B
+Germany	E-B
 .	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-owner	C
-of	R
-Rolls-Royce	E
+owner	C-B
+of	R-B
+Rolls-Royce	E-B
 ?	N
 
-how	V
-tall	C
-is	R
-Michael Jordan	E
+how	V-B
+tall	C-B
+is	R-B
+Michael	E-B
+Jordan	E-I
 ?	N
 
-when	V
-was	R
+when	V-B
+was	R-B
 the	N
-founding date	C
-of	R
-french fifth republic	E
+founding	C-B
+date	C-I
+of	R-B
+french	E-B
+fifth	E-I
+republic	E-E
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-founder	C
-of	R
-Penguin Books	E
+founder	C-B
+of	R-B
+Penguin	E-B
+Books	E-I
 ?	N
 
-in	R
-which	V
-country	C
-does	R
+in	R-B
+which	V-B
+country	C-B
+does	R-B
 the	N
-Nile	E
-start	R
+Nile	E-B
+start	R-B
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
-birth name	C
-of	R
-Angela Merkel	E
+birth	C-B
+name	C-I
+of	R-B
+Angela	E-B
+Merkel	E-I
 ?	N
 
-in	R
-which	V
-military_conflicts	C
-did	R
-Lawrence of Arabia	E
-participate	R
+in	R-B
+which	V-B
+military_conflicts	C-B
+did	R-B
+Lawrence	E-B
+of	E-I
+Arabia	E-E
+participate	R-B
 ?	N
 
-what	V
+what	V-B
 other	N
-books	C
-have	R
-been	R
-written	R
-by	R
+books	C-B
+have	R-B
+been	R-B
+written	R-B
+by	R-B
 the	N
-author	C
-of	R
-The Fault in Our Stars	E
+author	C-B
+of	R-B
+The	E-B
+Fault	E-I
+in	E-I
+Our	E-I
+Stars	E-E
 ?	N
 
-in	R
-which	V
-U.S. state	C
-is	R
-Mount McKinley	E
-located	R
+in	R-B
+which	V-B
+U.S.	C-B
+state	C-I
+is	R-B
+Mount	E-B
+McKinley	E-I
+located	R-B
 ?	N
 
-how	V
+how	V-B
 many	N
-Aldi stores	C
-are	R
-there	R
+Aldi	C-B
+stores	C-I
+are	R-B
+there	R-B
 ?	N
 
-where	V
-in	R
-France	E
-is	R
-sparkling wine	C
-produced	R
+where	V-B
+in	R-B
+France	E-B
+is	R-B
+sparkling	C-B
+wine	C-I
+produced	R-B
 ?	N
 
-which	V
-spaceflights	C
-were	R
-launched	R
-from	R
-Baikonur	E
+which	V-B
+spaceflights	C-B
+were	R-B
+launched	R-B
+from	R-B
+Baikonur	E-B
 ?	N
 
-give	V
+give	V-B
 me	N
 the	N
-birth place	C
-of	R
-Frank Sinatra	E
+birth	C-B
+place	C-I
+of	R-B
+Frank	E-B
+Sinatra	E-I
 .	N
 
-who	V
-created	R
-Goofy	E
+who	V-B
+created	R-B
+Goofy	E-B
 ?	N
 
-which	V
-countries	C
-have	R
+which	V-B
+countries	C-B
+have	R-B
 more than ten	N
-caves	C
+caves	C-B
 ?	N
 
-where	V
-is	R
+where	V-B
+is	R-B
 the	N
-residence	C
-of	R
+residence	C-B
+of	R-B
 the	N
-prime minister	C
-of	R
-Spain	E
+prime	C-B
+minister	C-I
+of	R-B
+Spain	E-B
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
-alma mater	C
-of	R
+alma	C-B
+mater	C-I
+of	R-B
 the	N
-chancellor	C
-of	R
-germany	E
-Angela Merkel	E
+chancellor	C-B
+of	R-B
+germany	E-B
+Angela	E-B
+Merkel	E-I
 ?	N
 
-which	V
-u.s._states	C
-are	R
-in	R
+which	V-B
+u.s._states	C-B
+are	R-B
+in	R-B
 the	N
 same	N
-timezone	C
-as	R
-Utah	E
+timezone	C-B
+as	R-B
+Utah	E-B
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-president	C
-of	R
-Eritrea	E
+president	C-B
+of	R-B
+Eritrea	E-B
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
-timezone	C
-in	R
-San Pedro de Atacama	E
+timezone	C-B
+in	R-B
+San	E-B
+Pedro	E-I
+de	E-I
+Atacama	E-E
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
 current	N
-federal minister of finance	C
-in	R
-germany	E
+federal	C-B
+minister	C-I
+of	C-I
+finance	C-E
+in	R-B
+germany	E-B
 ?	N
 
-with	R
-how	V
+with	R-B
+how	V-B
 many	N
-countries	C
-Iran	E
-has	R
-borders	C
+countries	C-B
+Iran	E-B
+has	R-B
+borders	C-B
 ?	N
 
-which	V
-rockets	C
-were	R
-launched	R
-from	R
-Baikonur	E
+which	V-B
+rockets	C-B
+were	R-B
+launched	R-B
+from	R-B
+Baikonur	E-B
 ?	N
 
-give	V
+give	V-B
 me	N
 all	N
-soccer_clubs	C
-in	R
-Spain	E
+soccer_clubs	C-B
+in	R-B
+Spain	E-B
 .	N
 
-what	V
-form of government	C
-does	R
-Russia	E
-have	R
+what	V-B
+form	C-B
+of	C-I
+government	C-E
+does	R-B
+Russia	E-B
+have	R-B
 ?	N
 
-show	V
+show	V-B
 me	N
 the	N
-book	C
-that	R
-Muhammad Ali	E
-wrote	R
+book	C-B
+that	R-B
+Muhammad	E-B
+Ali	E-I
+wrote	R-B
 .	N
 
-give	V
+give	V-B
 me	N
 all	N
-breeds	C
-of	R
+breeds	C-B
+of	R-B
 the	N
-German Shepherd dog	C
+German	C-B
+Shepherd	C-I
+dog	C-E
 .	N
 
-where	V
-is	R
-Sungkyunkwan University	E
+where	V-B
+is	R-B
+Sungkyunkwan	E-B
+University	E-I
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-coach	C
-of	R
-ankara's	E
-ice hockey team	C
+coach	C-B
+of	R-B
+ankara's	E-B
+ice	C-B
+hockey	C-I
+team	C-E
 ?	N
 
-what	V
-airlines	C
-are	R
-part of	R
+what	V-B
+airlines	C-B
+are	R-B
+part	R-B
+of	R-I
 the	N
-SkyTeam alliance	E
+SkyTeam	E-B
+alliance	E-I
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
-net income	C
-of	R
-Apple	E
+net	C-B
+income	C-I
+of	R-B
+Apple	E-B
 ?	N
 
-which	V
-state	C
-of	R
+which	V-B
+state	C-B
+of	R-B
 the	N
-USA	E
-has	R
+USA	E-B
+has	R-B
 the	N
 highest	N
-population density	C
+population	C-B
+density	C-I
 ?	N
 
-how	V
+how	V-B
 much	N
-is	R
+is	R-B
 the	N
-total population	C
-of	R
-european union	E
+total	C-B
+population	C-I
+of	R-B
+european	E-B
+union	E-I
 ?	N
 
-who	V
-played	R
-Gus Fring	E
-in	R
-Breaking Bad	E
+who	V-B
+played	R-B
+Gus	E-B
+Fring	E-I
+in	R-B
+Breaking	E-B
+Bad	E-I
 ?	N
 
-give	V
+give	V-B
 me	N
 all	N
-cities	C
-in	R
-New Jersey	E
-with	R
+cities	C-B
+in	R-B
+New	E-B
+Jersey	E-I
+with	R-B
 more than 100000	N
-inhabitants	C
+inhabitants	C-B
 .	N
 
-was	R
-U.S. president	C
-Jackson	E
-involved	R
-in	R
+was	R-B
+U.S.	C-B
+president	C-I
+Jackson	E-B
+involved	R-B
+in	R-B
 a	N
-war	C
+war	C-B
 ?	N
 
-which	V
-presidents	C
-were	R
-born	R
-in	R
+which	V-B
+presidents	C-B
+were	R-B
+born	R-B
+in	R-B
 1945	N
 ?	N
 
-is	R
-egypts	E
-largest city	C
-also	R
+is	R-B
+egypts	E-B
+largest	C-B
+city	C-I
+also	R-B
 its	N
-capital	C
+capital	C-B
 ?	N
 
-list	V
+list	V-B
 the	N
 seven	N
-kings	C
-of	R
-Rome	E
+kings	C-B
+of	R-B
+Rome	E-B
 .	N
 
-how	V
+how	V-B
 much	N
-did	R
-Pulp Fiction	E
-cost	R
+did	R-B
+Pulp	E-B
+Fiction	E-I
+cost	R-B
 ?	N
 
-give	V
+give	V-B
 me	N
 all	N
-actors	C
-starring	R
-in	R
-movies	C
-directed	R
-by	R
+actors	C-B
+starring	R-B
+in	R-B
+movies	C-B
+directed	R-B
+by	R-B
 and	N
-starring	R
-William Shatner	E
+starring	R-B
+William	E-B
+Shatner	E-I
 .	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
 highest	N
-mountain	C
-in	R
-Saxony	E
-Germany	E
+mountain	C-B
+in	R-B
+Saxony	E-B
+Germany	E-B
 ?	N
 
-where	V
-is	R
+where	V-B
+is	R-B
 the	N
-birthplace	C
-of	R
-Goethe	E
+birthplace	C-B
+of	R-B
+Goethe	E-B
 ?	N
 
-how	V
-tall	C
-is	R
-Amazon Eve	E
+how	V-B
+tall	C-B
+is	R-B
+Amazon	E-B
+Eve	E-I
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-mayor of Paris	C
+mayor	C-B
+of	C-I
+Paris	C-E
 ?	N
 
-which	V
-soccer_players	C
-were	R
-born on	R
-Malta	E
+which	V-B
+soccer_players	C-B
+were	R-B
+born	R-B
+on	R-I
+Malta	E-B
 ?	N
 
-when	V
-was	R
+when	V-B
+was	R-B
 the	N
-last episode	C
-of	R
+last	C-B
+episode	C-I
+of	R-B
 the	N
-tv	C
-series	C
-friends	E
-aired	R
+tv	C-B
+series	C-B
+friends	E-B
+aired	R-B
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-governor	C
-of	R
-Wyoming	E
+governor	C-B
+of	R-B
+Wyoming	E-B
 ?	N
 
-who	V
-wrote	R
+who	V-B
+wrote	R-B
 the	N
-song	C
-Hotel California	E
+song	C-B
+Hotel	E-B
+California	E-I
 ?	N
 
-did	R
-Socrates	E
-influence	R
-Aristotle	E
+did	R-B
+Socrates	E-B
+influence	R-B
+Aristotle	E-B
 ?	N
 
-which	V
-holidays	C
-are	R
-celebrated	R
-around	R
+which	V-B
+holidays	C-B
+are	R-B
+celebrated	R-B
+around	R-B
 the	N
-world	C
+world	C-B
 ?	N
 
-which	V
-weapons	C
-did	R
-Heckler & Koch	E
-develop	R
+which	V-B
+weapons	C-B
+did	R-B
+Heckler	E-B
+&	E-I
+Koch	E-E
+develop	R-B
 ?	N
 
-which	V
-city	C
-has	R
+which	V-B
+city	C-B
+has	R-B
 the	N
-oldest running metro	C
+oldest	C-B
+running	C-I
+metro	C-E
 ?	N
 
-did	R
-Arnold Schwarzenegger	E
-attend	R
+did	R-B
+Arnold	E-B
+Schwarzenegger	E-I
+attend	R-B
 a	N
-university	C
+university	C-B
 ?	N
 
-when	V
-was	R
-Alberta	E
-admitted	R
-as	R
-province	C
+when	V-B
+was	R-B
+Alberta	E-B
+admitted	R-B
+as	R-B
+province	C-B
 ?	N
 
-which	V
-television_shows	C
-were	R
-created	R
-by	R
-Walt Disney	E
+which	V-B
+television_shows	C-B
+were	R-B
+created	R-B
+by	R-B
+Walt	E-B
+Disney	E-I
 ?	N
 
-how often	V
-did	R
-Jane Fonda	E
-marry	R
+how	V-B
+often	V-I
+did	R-B
+Jane	E-B
+Fonda	E-I
+marry	R-B
 ?	N
 
-who	V
-wrote	R
+who	V-B
+wrote	R-B
 the	N
-Game of Thrones	E
-theme	C
+Game	E-B
+of	E-I
+Thrones	E-E
+theme	C-B
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-editor	C
-of	R
-Forbes	E
+editor	C-B
+of	R-B
+Forbes	E-B
 ?	N
 
-in	R
-which	V
-country	C
-is	R
+in	R-B
+which	V-B
+country	C-B
+is	R-B
 the	N
-Limerick Lake	E
+Limerick	E-B
+Lake	E-I
 ?	N
 
-where	V
-did	R
+where	V-B
+did	R-B
 the	N
-architect	C
-of	R
+architect	C-B
+of	R-B
 the	N
-Eiffel Tower	E
-study	R
+Eiffel	E-B
+Tower	E-I
+study	R-B
 ?	N
 
-in	R
-which	V
-ancient empire	C
-could	R
+in	R-B
+which	V-B
+ancient	C-B
+empire	C-I
+could	R-B
 you	N
-pay	R
-with	R
-cocoa beans	C
+pay	R-B
+with	R-B
+cocoa	C-B
+beans	C-I
 ?	N
 
-do	R
-Urdu	E
-and	R
-Persian	E
-have	R
+do	R-B
+Urdu	E-B
+and	R-B
+Persian	E-B
+have	R-B
 a	N
-common root	C
+common	C-B
+root	C-I
 ?	N
 
-list	V
+list	V-B
 all	N
-episodes	C
-of	R
+episodes	C-B
+of	R-B
 the	N
-first season	C
-of	R
+first	C-B
+season	C-I
+of	R-B
 the	N
-HBO	E
-television series	C
+HBO	E-B
+television	C-B
+series	C-I
 the	N
-sopranos	E
+sopranos	E-B
 !	N
 
-when	V
-did	R
-Latvia	E
-join	R
+when	V-B
+did	R-B
+Latvia	E-B
+join	R-B
 the	N
-EU	E
+EU	E-B
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-heaviest player	C
-of	R
+heaviest	C-B
+player	C-I
+of	R-B
 the	N
-Chicago Bulls	E
+Chicago	E-B
+Bulls	E-I
 ?	N
 
-is	R
-Christian Bale	E
-starring	R
-in	R
-Batman Begins	E
+is	R-B
+Christian	E-B
+Bale	E-I
+starring	R-B
+in	R-B
+Batman	E-B
+Begins	E-I
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
 second highest	N
-mountain	C
-on	R
-earth	C
+mountain	C-B
+on	R-B
+earth	C-B
 ?	N
 
-how	V
+how	V-B
 many	N
-employees	C
-does	R
-IBM	E
-have	R
+employees	C-B
+does	R-B
+IBM	E-B
+have	R-B
 ?	N
 
-which	V
-organizations	C
-were	R
-founded	R
-in	R
+which	V-B
+organizations	C-B
+were	R-B
+founded	R-B
+in	R-B
 1950	N
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
-bridge	C
-with	R
+bridge	C-B
+with	R-B
 the	N
-longest span	C
+longest	C-B
+span	C-I
 ?	N
 
-does	R
-Neymar	E
-play	R
-for	R
-Real Madrid	E
+does	R-B
+Neymar	E-B
+play	R-B
+for	R-B
+Real	E-B
+Madrid	E-I
 ?	N
 
-give	V
+give	V-B
 me	N
 all	N
-types	C
-of	R
-eating disorders	C
+types	C-B
+of	R-B
+eating	C-B
+disorders	C-I
 .	N
 
-which	V
-books	C
-by	R
-Kerouac	E
-were	R
-published	R
-by	R
-Viking Press	E
+which	V-B
+books	C-B
+by	R-B
+Kerouac	E-B
+were	R-B
+published	R-B
+by	R-B
+Viking	E-B
+Press	E-I
 ?	N
 
-is	R
-Darth Vader	E
-luke’s	E
-father	C
+is	R-B
+Darth	E-B
+Vader	E-I
+luke’s	E-B
+father	C-B
 ?	N
 
-how many	V
-airlines	C
-are	R
+how	V-B
+many	V-I
+airlines	C-B
+are	R-B
 there	N
 ?	N
 
-give	V
+give	V-B
 me	N
 all	N
-islands	C
-that	R
-belong	R
-to	R
-Japan	E
+islands	C-B
+that	R-B
+belong	R-B
+to	R-B
+Japan	E-B
 .	N
 
-is	R
-horse racing	C
-a	R
-sport	C
+is	R-B
+horse	C-B
+racing	C-I
+a	R-B
+sport	C-B
 ?	N
 
-how many	V
-missions	C
-does	R
+how	V-B
+many	V-I
+missions	C-B
+does	R-B
 the	N
-Soyuz programme	E
-have	R
+Soyuz	E-B
+programme	E-I
+have	R-B
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
-highest mountain	C
-in	R
-Australia	E
+highest	C-B
+mountain	C-I
+in	R-B
+Australia	E-B
 ?	N
 
-which	V
-city	C
-has	R
-the most inhabitants	C
+which	V-B
+city	C-B
+has	R-B
+the	C-B
+most	C-I
+inhabitants	C-E
 ?	N
 
-which	V
-rivers	C
-flow	R
-into	R
+which	V-B
+rivers	C-B
+flow	R-B
+into	R-B
 a	N
-German lake	C
+German	C-B
+lake	C-I
 ?	N
 
-how	V
+how	V-B
 many	N
-pages	C
-does	R
-War and Peace	E
-have	R
+pages	C-B
+does	R-B
+War	E-B
+and	E-I
+Peace	E-E
+have	R-B
 ?	N
 
-give	V
+give	V-B
 me	N
 all	N
 Swedish	N
-oceanographers	C
+oceanographers	C-B
 .	N
 
-which	V
-types	C
-of	R
-grapes	C
-grow	R
-in	R
-Oregon	E
+which	V-B
+types	C-B
+of	R-B
+grapes	C-B
+grow	R-B
+in	R-B
+Oregon	E-B
 ?	N
 
-which	V
-species	C
-does	R
+which	V-B
+species	C-B
+does	R-B
 an	N
-elephant	C
-belong	R
+elephant	C-B
+belong	R-B
 ?	N
 
-give	V
+give	V-B
 me	N
 all	N
-cosmonauts	C
+cosmonauts	C-B
 .	N
 
-who	V
-composed	R
+who	V-B
+composed	R-B
 the	N
-soundtrack	C
-for	R
-Cameron's Titanic	E
+soundtrack	C-B
+for	R-B
+Cameron's	E-B
+Titanic	E-I
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-king	C
-of	R
-the Netherlands	E
+king	C-B
+of	R-B
+the	E-B
+Netherlands	E-I
 ?	N
 
-in	R
-which	V
-U.S. state	C
-is	R
-Fort Knox	E
-located	R
+in	R-B
+which	V-B
+U.S.	C-B
+state	C-I
+is	R-B
+Fort	E-B
+Knox	E-I
+located	R-B
 ?	N
 
-give	V
+give	V-B
 me	N
 all	N
-video_games	C
-published	R
-by	R
-Mean Hamster Software	E
+video_games	C-B
+published	R-B
+by	R-B
+Mean	E-B
+Hamster	E-I
+Software	E-E
 .	N
 
-which	V
-river	C
-does	R
+which	V-B
+river	C-B
+does	R-B
 the	N
-Brooklyn Bridge	E
-cross	R
+Brooklyn	E-B
+Bridge	E-I
+cross	R-B
 ?	N
 
-did	R
-Elvis Presley	E
-have	R
-children	C
+did	R-B
+Elvis	E-B
+Presley	E-I
+have	R-B
+children	C-B
 ?	N
 
-where	V
-did	R
-Abraham Lincoln	E
-die	R
+where	V-B
+did	R-B
+Abraham	E-B
+Lincoln	E-I
+die	R-B
 ?	N
 
-how	V
+how	V-B
 many	N
-films	C
-did	R
-Leonardo DiCaprio	E
-star	R
-in	R
+films	C-B
+did	R-B
+Leonardo	E-B
+DiCaprio	E-I
+star	R-B
+in	R-B
 ?	N
 
-show	V
+show	V-B
 a	N
-list	C
-of	R
-soccer clubs	C
-that	R
-play	R
-in	R
+list	C-B
+of	R-B
+soccer	C-B
+clubs	C-I
+that	R-B
+play	R-B
+in	R-B
 the	N
-Bundesliga	E
+Bundesliga	E-B
 .	N
 
-what	V
-did	R
-Bruce Carver	E
-die	R
-from	R
+what	V-B
+did	R-B
+Bruce	E-B
+Carver	E-I
+die	R-B
+from	R-B
 ?	N
 
-give	V
+give	V-B
 me	N
 all	N
-Apollo 14	E
-astronauts	C
+Apollo	E-B
+14	E-I
+astronauts	C-B
 .	N
 
-when	V
-was	R
+when	V-B
+was	R-B
 the	N
-Titanic	E
-completed	R
+Titanic	E-B
+completed	R-B
 ?	N
 
-what	V
-does	R
-ICRO	E
-stand for	R
+what	V-B
+does	R-B
+ICRO	E-B
+stand	R-B
+for	R-I
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
-official language	C
-of	R
-Suriname	E
+official	C-B
+language	C-I
+of	R-B
+Suriname	E-B
 ?	N
 
-how	V
+how	V-B
 many	N
 people	N
-live	R
-in	R
+live	R-B
+in	R-B
 the	N
-capital	C
-of	R
-Australia	E
+capital	C-B
+of	R-B
+Australia	E-B
 ?	N
 
-give	V
+give	V-B
 me	N
 all	N
 the	N
-TV shows	C
-with	R
-Neil Patrick Harris	E
+TV	C-B
+shows	C-I
+with	R-B
+Neil	E-B
+Patrick	E-I
+Harris	E-E
 .	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-daughter	C
-of	R
-Ingrid Bergman	E
-married	R
-to	R
+daughter	C-B
+of	R-B
+Ingrid	E-B
+Bergman	E-I
+married	R-B
+to	R-B
 ?	N
 
-give	V
+give	V-B
 me	N
 all	N
-movies	C
-with	R
-Tom Cruise	E
+movies	C-B
+with	R-B
+Tom	E-B
+Cruise	E-I
 .	N
 
-give	V
+give	V-B
 me	N
 all	N
-soccer_clubs	C
-in	R
+soccer_clubs	C-B
+in	R-B
 the	N
-Premier League	E
+Premier	E-B
+League	E-I
 .	N
 
-give	V
+give	V-B
 me	N
 all	N
-B-sides	C
-of	R
+B-sides	C-B
+of	R-B
 the	N
-Ramones	E
+Ramones	E-B
 .	N
 
-which	V
-university	C
-did	R
-Angela Merkel	E
-attend	R
+which	V-B
+university	C-B
+did	R-B
+Angela	E-B
+Merkel	E-I
+attend	R-B
 ?	N
 
-when	V
-were	R
+when	V-B
+were	R-B
 the	N
-Hells Angels	E
-founded	R
+Hells	E-B
+Angels	E-I
+founded	R-B
 ?	N
 
-which	V
-ingredients	C
-do	R
+which	V-B
+ingredients	C-B
+do	R-B
 i	N
-need	R
-for	R
-carrot cake	C
+need	R-B
+for	R-B
+carrot	C-B
+cake	C-I
 ?	N
 
-to	R
-which	V
-artistic movement	C
-did	R
+to	R-B
+which	V-B
+artistic	C-B
+movement	C-I
+did	R-B
 the	N
-painter	C
-of	R
-The Three Dancers	E
-belong	R
+painter	C-B
+of	R-B
+The	E-B
+Three	E-I
+Dancers	E-E
+belong	R-B
 ?	N
 
-show	V
+show	V-B
 me	N
 everyone	N
-who	V
-was	R
-born on	R
-Halloween	C
+who	V-B
+was	R-B
+born	R-B
+on	R-I
+Halloween	C-B
 .	N
 
-what	V
-was	R
+what	V-B
+was	R-B
 the	N
 last	N
-movie	C
-with	R
-Alec Guinness	E
+movie	C-B
+with	R-B
+Alec	E-B
+Guinness	E-I
 ?	N
 
-who	V
-discovered	R
-Pluto	E
+who	V-B
+discovered	R-B
+Pluto	E-B
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
 total amount	N
-of	R
-men	C
-and	R
-women	C
-serving	R
-in	R
+of	R-B
+men	C-B
+and	R-B
+women	C-B
+serving	R-B
+in	R-B
 the	N
-FDNY	E
+FDNY	E-B
 ?	N
 
-how	V
+how	V-B
 big	N
-is	R
+is	R-B
 the	N
 total	N
-area	C
-of	R
+area	C-B
+of	R-B
 north	N
 rhine-	N
-westphalia	E
+westphalia	E-B
 ?	N
 
-how	V
+how	V-B
 much	N
-is	R
+is	R-B
 the	N
-elevation	C
-of	R
-Düsseldorf Airport	E
+elevation	C-B
+of	R-B
+Düsseldorf	E-B
+Airport	E-I
 ?	N
 
-which	V
-organizations	C
-were	R
-founded	R
-in	R
+which	V-B
+organizations	C-B
+were	R-B
+founded	R-B
+in	R-B
 1930	N
 ?	N
 
-in	R
-which	V
-city	C
-was	R
+in	R-B
+which	V-B
+city	C-B
+was	R-B
 the	N
 former	N
-Dutch queen Juliana	E
-buried	R
+Dutch	E-B
+queen	E-I
+Juliana	E-E
+buried	R-B
 ?	N
 
-what	V
-are	R
+what	V-B
+are	R-B
 the	N
-official_languages	C
-of	R
+official_languages	C-B
+of	R-B
 the	N
-Philippines	E
+Philippines	E-B
 ?	N
 
-how many	V
-politicians	C
-graduated	R
-from	R
-Columbia University	E
+how	V-B
+many	V-I
+politicians	C-B
+graduated	R-B
+from	R-B
+Columbia	E-B
+University	E-I
 ?	N
 
-how	V
+how	V-B
 many	N
-people	C
-live	R
-in	R
-Eurasia	C
+people	C-B
+live	R-B
+in	R-B
+Eurasia	C-B
 ?	N
 
-when	V
-was	R
-Olof Palme	E
-shot	R
+when	V-B
+was	R-B
+Olof	E-B
+Palme	E-I
+shot	R-B
 ?	N
 
-give	V
+give	V-B
 me	N
 the	N
-Apollo 14	E
-astronauts	C
+Apollo	E-B
+14	E-I
+astronauts	C-B
 .	N
 
-show	V
+show	V-B
 me	N
 all	N
-museums	C
-in	R
-London	E
+museums	C-B
+in	R-B
+London	E-B
 .	N
 
-which	V
+which	V-B
 people	N
-were	R
-born	R
-in	R
-heraklion	E
+were	R-B
+born	R-B
+in	R-B
+heraklion	E-B
 ?	N
 
-how	V
+how	V-B
 many	N
-children	C
-does	R
-Eddie Murphy	E
-have	R
+children	C-B
+does	R-B
+Eddie	E-B
+Murphy	E-I
+have	R-B
 ?	N
 
-to	R
-which	V
-party	C
-does	R
+to	R-B
+which	V-B
+party	C-B
+does	R-B
 the	N
-mayor of Paris	C
-belong	R
+mayor	C-B
+of	C-I
+Paris	C-E
+belong	R-B
 ?	N
 
-show	V
+show	V-B
 me	N
 all	N
 the	N
-breweries	C
-in	R
-Australia	E
+breweries	C-B
+in	R-B
+Australia	E-B
 .	N
 
-which	V
-companies	C
-produce	R
-hovercrafts	C
+which	V-B
+companies	C-B
+produce	R-B
+hovercrafts	C-B
 ?	N
 
-which	V
-programming languages	C
-were	R
-influenced by	R
-Perl	E
+which	V-B
+programming	C-B
+languages	C-I
+were	R-B
+influenced	R-B
+by	R-I
+Perl	E-B
 ?	N
 
-does	R
+does	R-B
 the	N
-Isar	E
-flow	R
-into	R
+Isar	E-B
+flow	R-B
+into	R-B
 a	N
-lake	C
+lake	C-B
 ?	N
 
-give	V
+give	V-B
 me	N
 all	N
-members	C
-of	R
-Prodigy	E
+members	C-B
+of	R-B
+Prodigy	E-B
 .	N
 
-who	V
-developed	R
-Slack	E
+who	V-B
+developed	R-B
+Slack	E-B
 ?	N
 
-give	V
+give	V-B
 me	N
 a	N
-list	C
-of	R
+list	C-B
+of	R-B
 all	N
-bandleaders	C
-that	R
-play	R
-trumpet	C
+bandleaders	C-B
+that	R-B
+play	R-B
+trumpet	C-B
 .	N
 
-show	V
+show	V-B
 me	N
 all	N
-basketball players	C
-that	R
-are	R
+basketball	C-B
+players	C-I
+that	R-B
+are	R-B
 higher than 2 meters	N
 .	N
 
-was	R
+was	R-B
 the	N
-Cuban Missile Crisis	E
+Cuban	E-B
+Missile	E-I
+Crisis	E-E
 earlier	N
-than	R
+than	R-B
 the	N
-Bay of Pigs Invasion	E
+Bay	E-B
+of	E-I
+Pigs	E-I
+Invasion	E-E
 ?	N
 
-what	V
-was	R
+what	V-B
+was	R-B
 the	N
 final	N
 result	N
-of	R
+of	R-B
 the	N
-war	C
-of	R
+war	C-B
+of	R-B
 the	N
-roses	C
+roses	C-B
 ?	N
 
-list	V
+list	V-B
 all	N
-boardgames	C
-by	R
-GMT	E
+boardgames	C-B
+by	R-B
+GMT	E-B
 .	N
 
-which	V
-movies	C
-starring	R
-Brad Pitt	E
-were	R
-directed	R
-by	R
-Guy Ritchie	E
+which	V-B
+movies	C-B
+starring	R-B
+Brad	E-B
+Pitt	E-I
+were	R-B
+directed	R-B
+by	R-B
+Guy	E-B
+Ritchie	E-I
 ?	N
 
-give	V
+give	V-B
 me	N
 all	N
 australian	N
-nonprofit_organizations	C
+nonprofit_organizations	C-B
 .	N
 
-give	V
+give	V-B
 me	N
 all	N
-movies	C
-directed	R
-by	R
-Francis Ford Coppola	E
+movies	C-B
+directed	R-B
+by	R-B
+Francis	E-B
+Ford	E-I
+Coppola	E-E
 .	N
 
-give	V
+give	V-B
 me	N
 all	N
-books	C
-written	R
-by	R
-Danielle Steel	E
+books	C-B
+written	R-B
+by	R-B
+Danielle	E-B
+Steel	E-I
 .	N
 
-in	R
-which	V
-year	C
-was	R
-Rachel Stevens	E
-born	R
+in	R-B
+which	V-B
+year	C-B
+was	R-B
+Rachel	E-B
+Stevens	E-I
+born	R-B
 ?	N
 
-give	V
+give	V-B
 me	N
 a	N
-list	C
-of	R
+list	C-B
+of	R-B
 all	N
-trumpet_players	C
-that	R
-were	R
-bandleaders	C
+trumpet_players	C-B
+that	R-B
+were	R-B
+bandleaders	C-B
 .	N
 
-which	V
+which	V-B
 other	N
-weapons	C
-did	R
+weapons	C-B
+did	R-B
 the	N
-designer	C
-of	R
+designer	C-B
+of	R-B
 the	N
-Uzi	E
-develop	R
+Uzi	E-B
+develop	R-B
 ?	N
 
-how	V
+how	V-B
 many	N
-states	C
-are	R
-in	R
-Mexico	E
+states	C-B
+are	R-B
+in	R-B
+Mexico	E-B
 ?	N
 
-give	V
+give	V-B
 me	N
 the	N
-currency	C
-of	R
-China	E
+currency	C-B
+of	R-B
+China	E-B
 .	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
 birth	N
-name	C
-of	R
-Adele	E
+name	C-B
+of	R-B
+Adele	E-B
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
 highest place	N
-of	R
+of	R-B
 the	N
-Urals	E
+Urals	E-B
 ?	N
 
-which	V
-Indian company	C
-has	R
+which	V-B
+Indian	C-B
+company	C-I
+has	R-B
 the most employees	N
 ?	N
 
-for	R
-which	V
-label	C
-did	R
-Elvis	E
-record	R
+for	R-B
+which	V-B
+label	C-B
+did	R-B
+Elvis	E-B
+record	R-B
 his	N
 first	N
-album	C
+album	C-B
 ?	N
 
-in	R
-what	V
-city	C
-is	R
+in	R-B
+what	V-B
+city	C-B
+is	R-B
 the	N
-Heineken brewery	E
+Heineken	E-B
+brewery	E-I
 ?	N
 
-who	V
-was	R
+who	V-B
+was	R-B
 the	N
 first	N
-King of England	E
+King	E-B
+of	E-I
+England	E-E
 ?	N
 
-which	V
+which	V-B
 greek	N
-parties	C
-are	R
+parties	C-B
+are	R-B
 pro-European	N
 ?	N
 
-what	V
-are	R
+what	V-B
+are	R-B
 the	N
-specialities	C
-of	R
+specialities	C-B
+of	R-B
 the	N
-UNC Health Care	E
+UNC	E-B
+Health	E-I
+Care	E-E
 ?	N
 
-who	V
-are	R
+who	V-B
+are	R-B
 the	N
 four	N
 youngest	N
-MVP	C
-basketball_players	C
+MVP	C-B
+basketball_players	C-B
 ?	N
 
-which	V
-music_albums	C
-contain	R
+which	V-B
+music_albums	C-B
+contain	R-B
 the	N
-song	C
-Last Christmas	E
+song	C-B
+Last	E-B
+Christmas	E-I
 ?	N
 
-who	V
-produced	R
-films	C
-starring	R
-Natalie Portman	E
+who	V-B
+produced	R-B
+films	C-B
+starring	R-B
+Natalie	E-B
+Portman	E-I
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-Formula 1	C
-race driver	C
-with	R
+Formula	C-B
+1	C-I
+race	C-B
+driver	C-I
+with	R-B
 the	N
 most	N
-races	C
+races	C-B
 ?	N
 
-which	V
-of	R
-tim_burton's	E
-films	C
-had	R
+which	V-B
+of	R-B
+tim_burton's	E-B
+films	C-B
+had	R-B
 the	N
 highest budget	N
 ?	N
 
-give	V
+give	V-B
 me	N
 all	N
-ESA	E
-astronauts	C
+ESA	E-B
+astronauts	C-B
 .	N
 
-which	V
-movies	C
-star	R
-both	R
-Liz Taylor	E
-and	R
-richard_burton	E
+which	V-B
+movies	C-B
+star	R-B
+both	R-B
+Liz	E-B
+Taylor	E-I
+and	R-B
+richard_burton	E-B
 ?	N
 
-give	V
+give	V-B
 all	N
-swimmers	C
-that	R
-were	R
-born	R
-in	R
-Moscow	E
+swimmers	C-B
+that	R-B
+were	R-B
+born	R-B
+in	R-B
+Moscow	E-B
 .	N
 
-which	V
-telecommunications_organizations	C
-are	R
-located	R
-in	R
-Belgium	E
+which	V-B
+telecommunications_organizations	C-B
+are	R-B
+located	R-B
+in	R-B
+Belgium	E-B
 ?	N
 
-who	V
-discovered	R
-Ceres	E
+who	V-B
+discovered	R-B
+Ceres	E-B
 ?	N
 
-give	V
+give	V-B
 me	N
 all	N
-books	C
-by	R
-William Goldman	E
-with	R
+books	C-B
+by	R-B
+William	E-B
+Goldman	E-I
+with	R-B
 more than 300	N
-pages	C
+pages	C-B
 .	N
 
-who	V
-is	R
-8th President	C
-of	R
-us	E
+who	V-B
+is	R-B
+8th	C-B
+President	C-I
+of	R-B
+us	E-B
 ?	N
 
-did	R
-Che Guevara	E
-have	R
-children	C
+did	R-B
+Che	E-B
+Guevara	E-I
+have	R-B
+children	C-B
 ?	N
 
-is	R
-Barack Obama	E
-a	R
-democrat	C
+is	R-B
+Barack	E-B
+Obama	E-I
+a	R-B
+democrat	C-B
 ?	N
 
-give	V
+give	V-B
 me	N
 all	N
-actors	C
-who	V
-were	R
-born	R
-in	R
-Paris	E
+actors	C-B
+who	V-B
+were	R-B
+born	R-B
+in	R-B
+Paris	E-B
 after 1950	N
 .	N
 
-give	V
+give	V-B
 me	N
 all	N
-companies	C
-in	R
-Munich	E
+companies	C-B
+in	R-B
+Munich	E-B
 .	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-mayor	C
-of	R
+mayor	C-B
+of	R-B
 the	N
-capital	C
-of	R
-French Polynesia	E
+capital	C-B
+of	R-B
+French	E-B
+Polynesia	E-I
 ?	N
 
-when	V
-will	R
-start	R
+when	V-B
+will	R-B
+start	R-B
 the	N
 final	N
-match	C
-of	R
+match	C-B
+of	R-B
 the	N
-football world cup 2018	E
+football	E-B
+world	E-I
+cup	E-I
+2018	E-E
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
-ruling party	C
-in	R
-Lisbon	E
+ruling	C-B
+party	C-I
+in	R-B
+Lisbon	E-B
 ?	N
 
-How many people	V
-live	R
-in	R
-Poland	E
+How	V-B
+many	V-I
+people	V-E
+live	R-B
+in	R-B
+Poland	E-B
 ?	N
 
-did	R
-Kaurismäki	E
+did	R-B
+Kaurismäki	E-B
 ever	N
-win	R
+win	R-B
 the	N
-Grand Prix at Cannes	E
+Grand	E-B
+Prix	E-I
+at	E-I
+Cannes	E-E
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-manager	C
-of	R
-Real Madrid	E
+manager	C-B
+of	R-B
+Real	E-B
+Madrid	E-I
 ?	N
 
-who	V
-was	R
+who	V-B
+was	R-B
 the	N
-pope	C
-that	R
-founded	R
+pope	C-B
+that	R-B
+founded	R-B
 the	N
-Vatican Television	E
+Vatican	E-B
+Television	E-I
 ?	N
 
-which	V
-instruments	C
-does	R
-Cat Stevens	E
-play	R
+which	V-B
+instruments	C-B
+does	R-B
+Cat	E-B
+Stevens	E-I
+play	R-B
 ?	N
 
-how	V
+how	V-B
 high	N
-is	R
+is	R-B
 the	N
-Yokohama Marine Tower	E
+Yokohama	E-B
+Marine	E-I
+Tower	E-E
 ?	N
 
-give	V
+give	V-B
 me	N
 all	N
-people	C
-that	R
-were	R
-born	R
-in	R
-Vienna	E
-and	R
-died	R
-in	R
-Berlin	E
+people	C-B
+that	R-B
+were	R-B
+born	R-B
+in	R-B
+Vienna	E-B
+and	R-B
+died	R-B
+in	R-B
+Berlin	E-B
 .	N
 
-give	V
+give	V-B
 me	N
 all	N
-actors	C
-starring	R
-in	R
-movies	C
-directed	R
-by	R
-William Shatner	E
+actors	C-B
+starring	R-B
+in	R-B
+movies	C-B
+directed	R-B
+by	R-B
+William	E-B
+Shatner	E-I
 .	N
 
-how	V
+how	V-B
 much	N
-is	R
+is	R-B
 the	N
-population	C
+population	C-B
 densty	N
 rank	N
-of	R
-Germany	E
+of	R-B
+Germany	E-B
 ?	N
 
-which	V
-electronics companies	C
-were	R
-founded	R
-in	R
-Beijing	E
+which	V-B
+electronics	C-B
+companies	C-I
+were	R-B
+founded	R-B
+in	R-B
+Beijing	E-B
 ?	N
 
-who	V
-was	R
+who	V-B
+was	R-B
 the	N
-doctoral supervisor	C
-of	R
-Albert Einstein	E
+doctoral	C-B
+supervisor	C-I
+of	R-B
+Albert	E-B
+Einstein	E-I
 ?	N
 
-who	V
-is	R
-starring	R
-in	R
-Spanish movies	C
-produced	R
-by	R
-Benicio del Toro	E
+who	V-B
+is	R-B
+starring	R-B
+in	R-B
+Spanish	C-B
+movies	C-I
+produced	R-B
+by	R-B
+Benicio	E-B
+del	E-I
+Toro	E-E
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
 most frequent	N
-cause of death	C
+cause	C-B
+of	C-I
+death	C-E
 ?	N
 
-how	V
+how	V-B
 many	N
-inhabitants	C
-does	R
+inhabitants	C-B
+does	R-B
 the	N
-largest city	C
-in	R
-Canada	E
-have	R
+largest	C-B
+city	C-I
+in	R-B
+Canada	E-B
+have	R-B
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-mayor	C
-of	R
-New York City	E
+mayor	C-B
+of	R-B
+New	E-B
+York	E-I
+City	E-E
 ?	N
 
-where	V
-did	R
-Hillel Slovak	E
-die	R
+where	V-B
+did	R-B
+Hillel	E-B
+Slovak	E-I
+die	R-B
 ?	N
 
-what	V
-is	R
-in	R
+what	V-B
+is	R-B
+in	R-B
 a	N
-chocolate chip cookie	C
+chocolate	C-B
+chip	C-I
+cookie	C-E
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
-last work	C
-of	R
-Dan Brown	E
+last	C-B
+work	C-I
+of	R-B
+Dan	E-B
+Brown	E-I
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
 smallest	N
-city	C
-by	R
-area	C
-in	R
-Germany	E
+city	C-B
+by	R-B
+area	C-B
+in	R-B
+Germany	E-B
 ?	N
 
-when	V
-did	R
-Boris Becker	E
-end	R
+when	V-B
+did	R-B
+Boris	E-B
+Becker	E-I
+end	R-B
 his	N
 active	N
-career	C
+career	C-B
 ?	N
 
-in	R
-which	V
-country	C
-is	R
-Mecca	E
-located	R
+in	R-B
+which	V-B
+country	C-B
+is	R-B
+Mecca	E-B
+located	R-B
 ?	N
 
-who	V
-composed	R
+who	V-B
+composed	R-B
 the	N
-music	C
-for	R
-Harold and Maude	E
+music	C-B
+for	R-B
+Harold	E-B
+and	E-I
+Maude	E-E
 ?	N
 
-which	V
-musician	C
-wrote	R
+which	V-B
+musician	C-B
+wrote	R-B
 the most books	N
 ?	N
 
-how many	V
-ethnic groups	C
-live	R
-in	R
-Slovenia	E
+how	V-B
+many	V-I
+ethnic	C-B
+groups	C-I
+live	R-B
+in	R-B
+Slovenia	E-B
 ?	N
 
-what	V
-was	R
-brazil's	E
-lowest rank	C
-in	R
+what	V-B
+was	R-B
+brazil's	E-B
+lowest	C-B
+rank	C-I
+in	R-B
 the	N
-FIFA World Ranking	E
+FIFA	E-B
+World	E-I
+Ranking	E-E
 ?	N
 
-which	V
-countries	C
-have	R
+which	V-B
+countries	C-B
+have	R-B
 more than two	N
-official_languages	C
+official_languages	C-B
 ?	N
 
-who	V
-played	R
-Agent Smith	E
-in	R
-Matrix	E
+who	V-B
+played	R-B
+Agent	E-B
+Smith	E-I
+in	R-B
+Matrix	E-B
 ?	N
 
-which	V
-country	C
-does	R
+which	V-B
+country	C-B
+does	R-B
 the	N
-creator	C
-of	R
-Miffy	E
-come	R
-from	R
+creator	C-B
+of	R-B
+Miffy	E-B
+come	R-B
+from	R-B
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
-location	C
-of	R
+location	C-B
+of	R-B
 the	N
-Houses of Parliament	E
+Houses	E-B
+of	E-I
+Parliament	E-E
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
 tallest	N
-basketball player	C
+basketball	C-B
+player	C-I
 ?	N
 
-who	V
-wrote	R
+who	V-B
+wrote	R-B
 the	N
-book	C
-The pillars of the Earth	E
+book	C-B
+The	E-B
+pillars	E-I
+of	E-I
+the	E-I
+Earth	E-E
 ?	N
 
-how many	V
-airlines	C
-are	R
-members	C
-of	R
+how	V-B
+many	V-I
+airlines	C-B
+are	R-B
+members	C-B
+of	R-B
 the	N
-Star Alliance	E
+Star	E-B
+Alliance	E-I
 ?	N
 
-in	R
-which	V
-time zone	C
-is	R
-Rome	E
+in	R-B
+which	V-B
+time	C-B
+zone	C-I
+is	R-B
+Rome	E-B
 ?	N
 
-which	V
-companies	C
-have	R
+which	V-B
+companies	C-B
+have	R-B
 more than 1 million	N
-employees	C
+employees	C-B
 ?	N
 
-who	V
-created	R
-Family Guy	E
+who	V-B
+created	R-B
+Family	E-B
+Guy	E-I
 ?	N
 
-which	V
-poet	C
-wrote	R
+which	V-B
+poet	C-B
+wrote	R-B
 the	N
 most	N
-books	C
+books	C-B
 ?	N
 
-in	R
-which	V
-city	C
-did	R
-John F. Kennedy	E
-die	R
+in	R-B
+which	V-B
+city	C-B
+did	R-B
+John	E-B
+F.	E-I
+Kennedy	E-E
+die	R-B
 ?	N
 
-which	V
-states	C
-border	R
-Illinois	E
+which	V-B
+states	C-B
+border	R-B
+Illinois	E-B
 ?	N
 
-list	V
+list	V-B
 all	N
 the	N
-musicals	C
-with	R
-music by	R
-Leonard Bernstein	E
+musicals	C-B
+with	R-B
+music	R-B
+by	R-I
+Leonard	E-B
+Bernstein	E-I
 .	N
 
-give	V
+give	V-B
 me	N
 all	N
 Swiss	N
-non-profit_organizations	C
+non-profit_organizations	C-B
 .	N
 
-who	V
-was	R
+who	V-B
+was	R-B
 the	N
-successor	C
-of	R
-John F. Kennedy	E
+successor	C-B
+of	R-B
+John	E-B
+F.	E-I
+Kennedy	E-E
 ?	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-son	C
-of	R
-Sonny and Cher	E
+son	C-B
+of	R-B
+Sonny	E-B
+and	E-I
+Cher	E-E
 ?	N
 
-to	R
-which	V
-countries	C
-does	R
+to	R-B
+which	V-B
+countries	C-B
+does	R-B
 the	N
-Himalayan mountain system	E
-extend	R
+Himalayan	E-B
+mountain	E-I
+system	E-E
+extend	R-B
 ?	N
 
-from	R
-which	V
-region	C
-is	R
+from	R-B
+which	V-B
+region	C-B
+is	R-B
 the	N
-Melon de Bourgogne	E
+Melon	E-B
+de	E-I
+Bourgogne	E-E
 ?	N
 
-give	V
+give	V-B
 me	N
 the	N
-runtime	C
-of	R
-Toy Story	E
+runtime	C-B
+of	R-B
+Toy	E-B
+Story	E-I
 .	N
 
-in	R
-which	V
-programming language	C
-is	R
-GIMP	E
-written	R
+in	R-B
+which	V-B
+programming	C-B
+language	C-I
+is	R-B
+GIMP	E-B
+written	R-B
 ?	N
 
-which	V
-holidays	C
-are	R
-celebrated	R
-around	R
+which	V-B
+holidays	C-B
+are	R-B
+celebrated	R-B
+around	R-B
 the	N
 world	N
 ?	N
 
 test2	N
 
-show	V
+show	V-B
 me	N
 all	N
-books	C
-in	R
-asimov's	E
-Foundation series	E
+books	C-B
+in	R-B
+asimov's	E-B
+Foundation	E-B
+series	E-I
 .	N
 
-who	V
-is	R
+who	V-B
+is	R-B
 the	N
-oldest child	C
-of	R
-Meryl Streep	E
+oldest	C-B
+child	C-I
+of	R-B
+Meryl	E-B
+Streep	E-I
 ?	N
 
-give	V
+give	V-B
 me	N
 all	N
-films	C
-produced	R
-by	R
-Hal Roach	E
+films	C-B
+produced	R-B
+by	R-B
+Hal	E-B
+Roach	E-I
 .	N
 
-in	R
-which	V
-city	C
-does	R
+in	R-B
+which	V-B
+city	C-B
+does	R-B
 the	N
-Chile Route 68	E
-end	R
+Chile	E-B
+Route	E-I
+68	E-E
+end	R-B
 ?	N
 
-how	V
+how	V-B
 much	N
-is	R
+is	R-B
 the	N
-population	C
-Iraq	E
+population	C-B
+Iraq	E-B
 ?	N
 
-who	V
-was	R
-married to	R
-president Chirac	E
+who	V-B
+was	R-B
+married	R-B
+to	R-I
+president	E-B
+Chirac	E-I
 ?	N
 
-which	V
-caves	C
-have	R
+which	V-B
+caves	C-B
+have	R-B
 more than 3	N
-entrances	C
+entrances	C-B
 ?	N
 
-which	V
-actor	C
-played	R
-Chewbacca	E
+which	V-B
+actor	C-B
+played	R-B
+Chewbacca	E-B
 ?	N
 
-who	V
-has	R
-Tom Cruise	E
-been	R
-married	R
-to	R
+who	V-B
+has	R-B
+Tom	E-B
+Cruise	E-I
+been	R-B
+married	R-B
+to	R-B
 ?	N
 
-does	R
+does	R-B
 the	N
-Ford Motor Company	E
-have	R
+Ford	E-B
+Motor	E-I
+Company	E-E
+have	R-B
 a	N
-manufacturing plant	C
-in	R
-Malaysia	E
+manufacturing	C-B
+plant	C-I
+in	R-B
+Malaysia	E-B
 ?	N
 
-which	V
-beer	C
-originated	R
-in	R
-Ireland	E
+which	V-B
+beer	C-B
+originated	R-B
+in	R-B
+Ireland	E-B
 ?	N
 
-when	V
-was	R
-John Adams	E
-born	R
+when	V-B
+was	R-B
+John	E-B
+Adams	E-I
+born	R-B
 ?	N
 
-list	V
+list	V-B
 all	N
-games	C
-by	R
-GMT	E
+games	C-B
+by	R-B
+GMT	E-B
 .	N
 
-when	V
-did	R
-Operation Overlord	E
-commence	R
+when	V-B
+did	R-B
+Operation	E-B
+Overlord	E-I
+commence	R-B
 ?	N
 
-in	R
-which	V
-countries	C
-can	R
-you	V
-pay	R
-using	R
+in	R-B
+which	V-B
+countries	C-B
+can	R-B
+you	V-B
+pay	R-B
+using	R-B
 the	N
-West African CFA franc	E
+West	E-B
+African	E-I
+CFA	E-I
+franc	E-E
 ?	N
 
-what	V
-is	R
+what	V-B
+is	R-B
 the	N
-population	C
-of	R
-Cairo	E
+population	C-B
+of	R-B
+Cairo	E-B
 ?	N
 
-show	V
+show	V-B
 me	N
 all	N
-songs	C
-from	R
-Bruce Springsteen	E
-released	R
+songs	C-B
+from	R-B
+Bruce	E-B
+Springsteen	E-I
+released	R-B
 between 1980 and 1990	N
 .	N
 
-who	V
-created	R
-Wikipedia	E
+who	V-B
+created	R-B
+Wikipedia	E-B
 ?	N
