@@ -52,11 +52,3 @@ trainer.train(
     patience=100,                   # 👈 Forcer les 100 epochs
 )
 
-# 8️⃣ Test d’une prédiction
-model = SequenceTagger.load("model/best-model.pt")
-
-test_sentence = Sentence("Who is the CEO of Apple?")
-model.predict(test_sentence)
-
-print("📝 Résultat de la prédiction :")
-print(test_sentence.to_tagged_string())
