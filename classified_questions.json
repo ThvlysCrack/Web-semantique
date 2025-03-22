@@ -632,7 +632,7 @@
         "template_id": ""
     },
     {
-        "question": "which of tim_burton's films had the highest budget ?",
+        "question": "which of tim burton's films had the highest budget ?",
         "entity_tagging": [
             {
                 "token": "which",
@@ -643,8 +643,12 @@
                 "tag": "R-B"
             },
             {
-                "token": "tim_burton's",
+                "token": "tim",
                 "tag": "E-B"
+            },
+            {
+                "token": "burton's",
+                "tag": "E-I"
             },
             {
                 "token": "films",
@@ -1528,7 +1532,7 @@
         "template_id": ""
     },
     {
-        "question": "in which military_conflicts did Lawrence of Arabia participate ?",
+        "question": "in which military conflicts did Lawrence of Arabia participate ?",
         "entity_tagging": [
             {
                 "token": "in",
@@ -1539,8 +1543,12 @@
                 "tag": "V-B"
             },
             {
-                "token": "military_conflicts",
+                "token": "military",
                 "tag": "C-B"
+            },
+            {
+                "token": "conflicts",
+                "tag": "C-I"
             },
             {
                 "token": "did",
@@ -2078,7 +2086,7 @@
         "template_id": ""
     },
     {
-        "question": "give me all video_games published by Mean Hamster Software .",
+        "question": "give me all video games published by Mean Hamster Software .",
         "entity_tagging": [
             {
                 "token": "give",
@@ -2093,8 +2101,12 @@
                 "tag": "N"
             },
             {
-                "token": "video_games",
+                "token": "video",
                 "tag": "C-B"
+            },
+            {
+                "token": "games",
+                "tag": "C-I"
             },
             {
                 "token": "published",
@@ -2668,15 +2680,19 @@
         "template_id": ""
     },
     {
-        "question": "are tree_frogs a type of amphibian ?",
+        "question": "are tree frogs a type of amphibian ?",
         "entity_tagging": [
             {
                 "token": "are",
                 "tag": "R-B"
             },
             {
-                "token": "tree_frogs",
+                "token": "tree",
                 "tag": "C-B"
+            },
+            {
+                "token": "frogs",
+                "tag": "C-I"
             },
             {
                 "token": "a",
@@ -2790,15 +2806,19 @@
         "template_id": ""
     },
     {
-        "question": "which professional_surfers were born on the Philippines ?",
+        "question": "which professional surfers were born on the Philippines ?",
         "entity_tagging": [
             {
                 "token": "which",
                 "tag": "V-B"
             },
             {
-                "token": "professional_surfers",
+                "token": "professional",
                 "tag": "C-B"
+            },
+            {
+                "token": "surfers",
+                "tag": "C-I"
             },
             {
                 "token": "were",
@@ -3052,7 +3072,7 @@
         "template_id": ""
     },
     {
-        "question": "who was john_f._kennedy's vice president ?",
+        "question": "who was john f. kennedy's vice president ?",
         "entity_tagging": [
             {
                 "token": "who",
@@ -3063,8 +3083,16 @@
                 "tag": "R-B"
             },
             {
-                "token": "john_f._kennedy's",
+                "token": "john",
                 "tag": "E-B"
+            },
+            {
+                "token": "f.",
+                "tag": "E-I"
+            },
+            {
+                "token": "kennedy's",
+                "tag": "E-E"
             },
             {
                 "token": "vice",
@@ -3082,15 +3110,19 @@
         "template_id": ""
     },
     {
-        "question": "which professional_surfers were born in Australia ?",
+        "question": "which professional surfers were born in Australia ?",
         "entity_tagging": [
             {
                 "token": "which",
                 "tag": "V-B"
             },
             {
-                "token": "professional_surfers",
+                "token": "professional",
                 "tag": "C-B"
+            },
+            {
+                "token": "surfers",
+                "tag": "C-I"
             },
             {
                 "token": "were",
@@ -3848,7 +3880,7 @@
         "template_id": ""
     },
     {
-        "question": "give me all Canadian Grunge record_labels .",
+        "question": "give me all Canadian Grunge record labels .",
         "entity_tagging": [
             {
                 "token": "give",
@@ -3871,8 +3903,12 @@
                 "tag": "C-B"
             },
             {
-                "token": "record_labels",
-                "tag": "C-B"
+                "token": "record",
+                "tag": "C-I"
+            },
+            {
+                "token": "labels",
+                "tag": "C-E"
             },
             {
                 "token": ".",
@@ -4194,15 +4230,19 @@
         "template_id": ""
     },
     {
-        "question": "does abraham_lincoln's death place have a website ?",
+        "question": "does abraham lincoln's death place have a website ?",
         "entity_tagging": [
             {
                 "token": "does",
                 "tag": "R-B"
             },
             {
-                "token": "abraham_lincoln's",
+                "token": "abraham",
                 "tag": "E-B"
+            },
+            {
+                "token": "lincoln's",
+                "tag": "E-I"
             },
             {
                 "token": "death",
@@ -4782,7 +4822,7 @@
         "template_id": ""
     },
     {
-        "question": "which Indian company has the ?",
+        "question": "which Indian company has the most employees ?",
         "entity_tagging": [
             {
                 "token": "which",
@@ -4802,6 +4842,14 @@
             },
             {
                 "token": "the",
+                "tag": "N"
+            },
+            {
+                "token": "most",
+                "tag": "N"
+            },
+            {
+                "token": "employees",
                 "tag": "N"
             },
             {
@@ -4850,10 +4898,18 @@
         "template_id": ""
     },
     {
-        "question": "How does the home stadium of FC Porto have ?",
+        "question": "How many seats does the home stadium of FC Porto have ?",
         "entity_tagging": [
             {
                 "token": "How",
+                "tag": "N"
+            },
+            {
+                "token": "many",
+                "tag": "N"
+            },
+            {
+                "token": "seats",
                 "tag": "N"
             },
             {
@@ -5438,10 +5494,18 @@
         "template_id": ""
     },
     {
-        "question": "How live in Poland ?",
+        "question": "How many people live in Poland ?",
         "entity_tagging": [
             {
                 "token": "How",
+                "tag": "N"
+            },
+            {
+                "token": "many",
+                "tag": "N"
+            },
+            {
+                "token": "people",
                 "tag": "N"
             },
             {
@@ -6336,7 +6400,7 @@
         "template_id": ""
     },
     {
-        "question": "give me all launch_pads operated by NASA .",
+        "question": "give me all launch pads operated by NASA .",
         "entity_tagging": [
             {
                 "token": "give",
@@ -6351,7 +6415,11 @@
                 "tag": "N"
             },
             {
-                "token": "launch_pads",
+                "token": "launch",
+                "tag": "C-B"
+            },
+            {
+                "token": "pads",
                 "tag": "C-B"
             },
             {
@@ -6580,7 +6648,7 @@
         "template_id": ""
     },
     {
-        "question": "give me all cities in New Jersey with more inhabitants .",
+        "question": "give me all cities in New Jersey with more than 100000 inhabitants .",
         "entity_tagging": [
             {
                 "token": "give",
@@ -6616,6 +6684,14 @@
             },
             {
                 "token": "more",
+                "tag": "N"
+            },
+            {
+                "token": "than",
+                "tag": "N"
+            },
+            {
+                "token": "100000",
                 "tag": "N"
             },
             {
@@ -8030,7 +8106,7 @@
         "template_id": ""
     },
     {
-        "question": "who was john_f._kennedy's vice president ?",
+        "question": "who was john f. kennedy's vice president ?",
         "entity_tagging": [
             {
                 "token": "who",
@@ -8041,8 +8117,16 @@
                 "tag": "R-B"
             },
             {
-                "token": "john_f._kennedy's",
+                "token": "john",
                 "tag": "E-B"
+            },
+            {
+                "token": "f.",
+                "tag": "E-I"
+            },
+            {
+                "token": "kennedy's",
+                "tag": "E-E"
             },
             {
                 "token": "vice",
@@ -8844,15 +8928,19 @@
         "template_id": ""
     },
     {
-        "question": "which television_shows were created by John Cleese ?",
+        "question": "which television shows were created by John Cleese ?",
         "entity_tagging": [
             {
                 "token": "which",
                 "tag": "V-B"
             },
             {
-                "token": "television_shows",
+                "token": "television",
                 "tag": "C-B"
+            },
+            {
+                "token": "shows",
+                "tag": "C-I"
             },
             {
                 "token": "were",
@@ -9612,15 +9700,19 @@
         "template_id": ""
     },
     {
-        "question": "which u.s._states are in the same time zone as Utah ?",
+        "question": "which u.s. states are in the same time zone as Utah ?",
         "entity_tagging": [
             {
                 "token": "which",
                 "tag": "V-B"
             },
             {
-                "token": "u.s._states",
+                "token": "u.s.",
                 "tag": "C-B"
+            },
+            {
+                "token": "states",
+                "tag": "C-I"
             },
             {
                 "token": "are",
@@ -9958,15 +10050,19 @@
         "template_id": ""
     },
     {
-        "question": "are tree_frogs a type of amphibian ?",
+        "question": "are tree frogs a type of amphibian ?",
         "entity_tagging": [
             {
                 "token": "are",
                 "tag": "R-B"
             },
             {
-                "token": "tree_frogs",
+                "token": "tree",
                 "tag": "E-B"
+            },
+            {
+                "token": "frogs",
+                "tag": "E-I"
             },
             {
                 "token": "a",
@@ -10288,7 +10384,7 @@
         "template_id": ""
     },
     {
-        "question": "in which military_conflicts did Lawrence of Arabia participate ?",
+        "question": "in which military conflicts did Lawrence of Arabia participate ?",
         "entity_tagging": [
             {
                 "token": "in",
@@ -10299,8 +10395,12 @@
                 "tag": "V-B"
             },
             {
-                "token": "military_conflicts",
+                "token": "military",
                 "tag": "C-B"
+            },
+            {
+                "token": "conflicts",
+                "tag": "C-I"
             },
             {
                 "token": "did",
@@ -10612,7 +10712,7 @@
         "template_id": ""
     },
     {
-        "question": "which countries have more caves ?",
+        "question": "which countries have more than ten caves ?",
         "entity_tagging": [
             {
                 "token": "which",
@@ -10628,6 +10728,14 @@
             },
             {
                 "token": "more",
+                "tag": "N"
+            },
+            {
+                "token": "than",
+                "tag": "N"
+            },
+            {
+                "token": "ten",
                 "tag": "N"
             },
             {
@@ -10750,15 +10858,19 @@
         "template_id": ""
     },
     {
-        "question": "which u.s._states are in the same timezone as Utah ?",
+        "question": "which u.s. states are in the same timezone as Utah ?",
         "entity_tagging": [
             {
                 "token": "which",
                 "tag": "V-B"
             },
             {
-                "token": "u.s._states",
+                "token": "u.s.",
                 "tag": "C-B"
+            },
+            {
+                "token": "states",
+                "tag": "C-I"
             },
             {
                 "token": "are",
@@ -10998,7 +11110,7 @@
         "template_id": ""
     },
     {
-        "question": "give me all soccer_clubs in Spain .",
+        "question": "give me all soccer clubs in Spain .",
         "entity_tagging": [
             {
                 "token": "give",
@@ -11013,8 +11125,12 @@
                 "tag": "N"
             },
             {
-                "token": "soccer_clubs",
+                "token": "soccer",
                 "tag": "C-B"
+            },
+            {
+                "token": "clubs",
+                "tag": "C-I"
             },
             {
                 "token": "in",
@@ -11444,7 +11560,7 @@
         "template_id": ""
     },
     {
-        "question": "give me all cities in New Jersey with more inhabitants .",
+        "question": "give me all cities in New Jersey with more than 100000 inhabitants .",
         "entity_tagging": [
             {
                 "token": "give",
@@ -11480,6 +11596,14 @@
             },
             {
                 "token": "more",
+                "tag": "N"
+            },
+            {
+                "token": "than",
+                "tag": "N"
+            },
+            {
+                "token": "100000",
                 "tag": "N"
             },
             {
@@ -11878,15 +12002,19 @@
         "template_id": ""
     },
     {
-        "question": "which soccer_players were born on Malta ?",
+        "question": "which soccer players were born on Malta ?",
         "entity_tagging": [
             {
                 "token": "which",
                 "tag": "V-B"
             },
             {
-                "token": "soccer_players",
+                "token": "soccer",
                 "tag": "C-B"
+            },
+            {
+                "token": "players",
+                "tag": "C-I"
             },
             {
                 "token": "were",
@@ -12242,15 +12370,19 @@
         "template_id": ""
     },
     {
-        "question": "which television_shows were created by Walt Disney ?",
+        "question": "which television shows were created by Walt Disney ?",
         "entity_tagging": [
             {
                 "token": "which",
                 "tag": "V-B"
             },
             {
-                "token": "television_shows",
+                "token": "television",
                 "tag": "C-B"
+            },
+            {
+                "token": "shows",
+                "tag": "C-I"
             },
             {
                 "token": "were",
@@ -12746,7 +12878,7 @@
         "template_id": ""
     },
     {
-        "question": "what is the second mountain on earth ?",
+        "question": "what is the second highest mountain on earth ?",
         "entity_tagging": [
             {
                 "token": "what",
@@ -12762,6 +12894,10 @@
             },
             {
                 "token": "second",
+                "tag": "N"
+            },
+            {
+                "token": "highest",
                 "tag": "N"
             },
             {
@@ -13584,7 +13720,7 @@
         "template_id": ""
     },
     {
-        "question": "give me all video_games published by Mean Hamster Software .",
+        "question": "give me all video games published by Mean Hamster Software .",
         "entity_tagging": [
             {
                 "token": "give",
@@ -13599,8 +13735,12 @@
                 "tag": "N"
             },
             {
-                "token": "video_games",
+                "token": "video",
                 "tag": "C-B"
+            },
+            {
+                "token": "games",
+                "tag": "C-I"
             },
             {
                 "token": "published",
@@ -14170,7 +14310,7 @@
         "template_id": ""
     },
     {
-        "question": "give me all soccer_clubs in the Premier League .",
+        "question": "give me all soccer clubs in the Premier League .",
         "entity_tagging": [
             {
                 "token": "give",
@@ -14185,8 +14325,12 @@
                 "tag": "N"
             },
             {
-                "token": "soccer_clubs",
+                "token": "soccer",
                 "tag": "C-B"
+            },
+            {
+                "token": "clubs",
+                "tag": "C-I"
             },
             {
                 "token": "in",
@@ -14758,7 +14902,7 @@
         "template_id": ""
     },
     {
-        "question": "what are the official_languages of the Philippines ?",
+        "question": "what are the official languages of the Philippines ?",
         "entity_tagging": [
             {
                 "token": "what",
@@ -14773,8 +14917,12 @@
                 "tag": "N"
             },
             {
-                "token": "official_languages",
+                "token": "official",
                 "tag": "C-B"
+            },
+            {
+                "token": "languages",
+                "tag": "C-I"
             },
             {
                 "token": "of",
@@ -15330,7 +15478,7 @@
         "template_id": ""
     },
     {
-        "question": "show me all basketball players that are higher .",
+        "question": "show me all basketball players that are higher than 2 meters .",
         "entity_tagging": [
             {
                 "token": "show",
@@ -15362,6 +15510,18 @@
             },
             {
                 "token": "higher",
+                "tag": "N"
+            },
+            {
+                "token": "than",
+                "tag": "N"
+            },
+            {
+                "token": "2",
+                "tag": "N"
+            },
+            {
+                "token": "meters",
                 "tag": "N"
             },
             {
@@ -15564,7 +15724,7 @@
         "template_id": ""
     },
     {
-        "question": "give me all australian nonprofit_organizations .",
+        "question": "give me all australian nonprofit organizations .",
         "entity_tagging": [
             {
                 "token": "give",
@@ -15583,8 +15743,12 @@
                 "tag": "N"
             },
             {
-                "token": "nonprofit_organizations",
+                "token": "nonprofit",
                 "tag": "C-B"
+            },
+            {
+                "token": "organizations",
+                "tag": "C-I"
             },
             {
                 "token": ".",
@@ -15720,7 +15884,7 @@
         "template_id": ""
     },
     {
-        "question": "give me a list of all trumpet_players that were bandleaders .",
+        "question": "give me a list of all trumpet players that were bandleaders .",
         "entity_tagging": [
             {
                 "token": "give",
@@ -15747,8 +15911,12 @@
                 "tag": "N"
             },
             {
-                "token": "trumpet_players",
+                "token": "trumpet",
                 "tag": "C-B"
+            },
+            {
+                "token": "players",
+                "tag": "C-I"
             },
             {
                 "token": "that",
@@ -15926,7 +16094,7 @@
         "template_id": ""
     },
     {
-        "question": "what is the highest of the Urals ?",
+        "question": "what is the highest place of the Urals ?",
         "entity_tagging": [
             {
                 "token": "what",
@@ -15942,6 +16110,10 @@
             },
             {
                 "token": "highest",
+                "tag": "N"
+            },
+            {
+                "token": "place",
                 "tag": "N"
             },
             {
@@ -15964,7 +16136,7 @@
         "template_id": ""
     },
     {
-        "question": "which Indian company has the ?",
+        "question": "which Indian company has the most employees ?",
         "entity_tagging": [
             {
                 "token": "which",
@@ -15984,6 +16156,14 @@
             },
             {
                 "token": "the",
+                "tag": "N"
+            },
+            {
+                "token": "most",
+                "tag": "N"
+            },
+            {
+                "token": "employees",
                 "tag": "N"
             },
             {
@@ -16192,7 +16372,7 @@
         "template_id": ""
     },
     {
-        "question": "who are the four youngest MVP basketball_players ?",
+        "question": "who are the four youngest MVP basketball players ?",
         "entity_tagging": [
             {
                 "token": "who",
@@ -16219,8 +16399,12 @@
                 "tag": "C-B"
             },
             {
-                "token": "basketball_players",
+                "token": "basketball",
                 "tag": "C-B"
+            },
+            {
+                "token": "players",
+                "tag": "C-I"
             },
             {
                 "token": "?",
@@ -16230,15 +16414,19 @@
         "template_id": ""
     },
     {
-        "question": "which music_albums contain the song Last Christmas ?",
+        "question": "which music albums contain the song Last Christmas ?",
         "entity_tagging": [
             {
                 "token": "which",
                 "tag": "V-B"
             },
             {
-                "token": "music_albums",
+                "token": "music",
                 "tag": "C-B"
+            },
+            {
+                "token": "albums",
+                "tag": "C-I"
             },
             {
                 "token": "contain",
@@ -16356,7 +16544,7 @@
         "template_id": ""
     },
     {
-        "question": "which of tim_burton's films had the highest ?",
+        "question": "which of tim burton's films had the highest ?",
         "entity_tagging": [
             {
                 "token": "which",
@@ -16367,8 +16555,12 @@
                 "tag": "R-B"
             },
             {
-                "token": "tim_burton's",
+                "token": "tim",
                 "tag": "E-B"
+            },
+            {
+                "token": "burton's",
+                "tag": "E-I"
             },
             {
                 "token": "films",
@@ -16424,7 +16616,7 @@
         "template_id": ""
     },
     {
-        "question": "which movies star both Liz Taylor and richard_burton ?",
+        "question": "which movies star both Liz Taylor and richard burton ?",
         "entity_tagging": [
             {
                 "token": "which",
@@ -16455,8 +16647,12 @@
                 "tag": "R-B"
             },
             {
-                "token": "richard_burton",
+                "token": "richard",
                 "tag": "E-B"
+            },
+            {
+                "token": "burton",
+                "tag": "E-I"
             },
             {
                 "token": "?",
@@ -16508,15 +16704,19 @@
         "template_id": ""
     },
     {
-        "question": "which telecommunications_organizations are located in Belgium ?",
+        "question": "which telecommunications organizations are located in Belgium ?",
         "entity_tagging": [
             {
                 "token": "which",
                 "tag": "V-B"
             },
             {
-                "token": "telecommunications_organizations",
+                "token": "telecommunications",
                 "tag": "C-B"
+            },
+            {
+                "token": "organizations",
+                "tag": "C-I"
             },
             {
                 "token": "are",
@@ -16564,7 +16764,7 @@
         "template_id": ""
     },
     {
-        "question": "give me all books by William Goldman with more pages .",
+        "question": "give me all books by William Goldman with more than 300 pages .",
         "entity_tagging": [
             {
                 "token": "give",
@@ -16600,6 +16800,14 @@
             },
             {
                 "token": "more",
+                "tag": "N"
+            },
+            {
+                "token": "than",
+                "tag": "N"
+            },
+            {
+                "token": "300",
                 "tag": "N"
             },
             {
@@ -16708,7 +16916,7 @@
         "template_id": ""
     },
     {
-        "question": "give me all actors who were born in Paris after .",
+        "question": "give me all actors who were born in Paris after 1950 .",
         "entity_tagging": [
             {
                 "token": "give",
@@ -16748,6 +16956,10 @@
             },
             {
                 "token": "after",
+                "tag": "N"
+            },
+            {
+                "token": "1950",
                 "tag": "N"
             },
             {
@@ -17874,7 +18086,7 @@
         "template_id": ""
     },
     {
-        "question": "which musician wrote the ?",
+        "question": "which musician wrote the most books ?",
         "entity_tagging": [
             {
                 "token": "which",
@@ -17890,6 +18102,14 @@
             },
             {
                 "token": "the",
+                "tag": "N"
+            },
+            {
+                "token": "most",
+                "tag": "N"
+            },
+            {
+                "token": "books",
                 "tag": "N"
             },
             {
@@ -17988,7 +18208,7 @@
         "template_id": ""
     },
     {
-        "question": "which countries have more official_languages ?",
+        "question": "which countries have more than two official languages ?",
         "entity_tagging": [
             {
                 "token": "which",
@@ -18007,8 +18227,20 @@
                 "tag": "N"
             },
             {
-                "token": "official_languages",
+                "token": "than",
+                "tag": "N"
+            },
+            {
+                "token": "two",
+                "tag": "N"
+            },
+            {
+                "token": "official",
                 "tag": "C-B"
+            },
+            {
+                "token": "languages",
+                "tag": "C-I"
             },
             {
                 "token": "?",
@@ -18304,7 +18536,7 @@
         "template_id": ""
     },
     {
-        "question": "which companies have more employees ?",
+        "question": "which companies have more than 1 million employees ?",
         "entity_tagging": [
             {
                 "token": "which",
@@ -18320,6 +18552,18 @@
             },
             {
                 "token": "more",
+                "tag": "N"
+            },
+            {
+                "token": "than",
+                "tag": "N"
+            },
+            {
+                "token": "1",
+                "tag": "N"
+            },
+            {
+                "token": "million",
                 "tag": "N"
             },
             {
@@ -18508,7 +18752,7 @@
         "template_id": ""
     },
     {
-        "question": "give me all Swiss non-profit_organizations .",
+        "question": "give me all Swiss non-profit organizations .",
         "entity_tagging": [
             {
                 "token": "give",
@@ -18527,8 +18771,12 @@
                 "tag": "N"
             },
             {
-                "token": "non-profit_organizations",
+                "token": "non-profit",
                 "tag": "C-B"
+            },
+            {
+                "token": "organizations",
+                "tag": "C-I"
             },
             {
                 "token": ".",
@@ -19074,7 +19322,7 @@
         "template_id": ""
     },
     {
-        "question": "which caves have more entrances ?",
+        "question": "which caves have more than 3 entrances ?",
         "entity_tagging": [
             {
                 "token": "which",
@@ -19090,6 +19338,14 @@
             },
             {
                 "token": "more",
+                "tag": "N"
+            },
+            {
+                "token": "than",
+                "tag": "N"
+            },
+            {
+                "token": "3",
                 "tag": "N"
             },
             {
@@ -19434,7 +19690,7 @@
         "template_id": ""
     },
     {
-        "question": "show me all songs from Bruce Springsteen released between .",
+        "question": "show me all songs from Bruce Springsteen released between 1980 and 1990 .",
         "entity_tagging": [
             {
                 "token": "show",
@@ -19470,6 +19726,18 @@
             },
             {
                 "token": "between",
+                "tag": "N"
+            },
+            {
+                "token": "1980",
+                "tag": "N"
+            },
+            {
+                "token": "and",
+                "tag": "N"
+            },
+            {
+                "token": "1990",
                 "tag": "N"
             },
             {
@@ -19534,11 +19802,11 @@
             },
             {
                 "token": "Foundation",
-                "tag": "E-B"
+                "tag": "E-I"
             },
             {
                 "token": "series",
-                "tag": "E-I"
+                "tag": "E-E"
             },
             {
                 "token": ".",
@@ -19854,15 +20122,19 @@
         "template_id": ""
     },
     {
-        "question": "which television_shows were created by Walt Disney ?",
+        "question": "which television shows were created by Walt Disney ?",
         "entity_tagging": [
             {
                 "token": "which",
                 "tag": "V-B"
             },
             {
-                "token": "television_shows",
+                "token": "television",
                 "tag": "C-B"
+            },
+            {
+                "token": "shows",
+                "tag": "C-I"
             },
             {
                 "token": "were",
@@ -19972,7 +20244,7 @@
             },
             {
                 "token": "the",
-                "tag": "R-B"
+                "tag": "R-I"
             },
             {
                 "token": "most",
@@ -20724,23 +20996,23 @@
             },
             {
                 "token": "headquarters",
-                "tag": "E-B"
+                "tag": "R-B"
             },
             {
                 "token": "of",
-                "tag": "E-I"
+                "tag": "R-I"
             },
             {
                 "token": "the",
-                "tag": "E-I"
+                "tag": "N"
             },
             {
                 "token": "United",
-                "tag": "E-I"
+                "tag": "E-B"
             },
             {
                 "token": "Nations",
-                "tag": "E-E"
+                "tag": "E-I"
             },
             {
                 "token": "?",
@@ -20796,7 +21068,7 @@
         "template_id": ""
     },
     {
-        "question": "give me all books by William Goldman with more pages .",
+        "question": "give me all books by William Goldman with more than 300 pages .",
         "entity_tagging": [
             {
                 "token": "give",
@@ -20832,6 +21104,14 @@
             },
             {
                 "token": "more",
+                "tag": "N"
+            },
+            {
+                "token": "than",
+                "tag": "N"
+            },
+            {
+                "token": "300",
                 "tag": "N"
             },
             {
@@ -20884,7 +21164,7 @@
         "template_id": ""
     },
     {
-        "question": "how many companies were founded in the same as Google ?",
+        "question": "how many companies were founded in the same year as Google ?",
         "entity_tagging": [
             {
                 "token": "how",
@@ -20919,6 +21199,10 @@
                 "tag": "N"
             },
             {
+                "token": "year",
+                "tag": "N"
+            },
+            {
                 "token": "as",
                 "tag": "N"
             },
@@ -20934,7 +21218,7 @@
         "template_id": ""
     },
     {
-        "question": "list all episodes of the first of the HBO television series the sopranos !",
+        "question": "list all episodes of the first season of the HBO television series the sopranos !",
         "entity_tagging": [
             {
                 "token": "list",
@@ -20958,6 +21242,10 @@
             },
             {
                 "token": "first",
+                "tag": "N"
+            },
+            {
+                "token": "season",
                 "tag": "N"
             },
             {
@@ -21026,7 +21314,7 @@
             },
             {
                 "token": "is",
-                "tag": "R-B"
+                "tag": "N"
             },
             {
                 "token": "Fort",
@@ -21554,7 +21842,7 @@
         "template_id": ""
     },
     {
-        "question": "give me all Canadian Grunge record_labels .",
+        "question": "give me all Canadian Grunge record labels .",
         "entity_tagging": [
             {
                 "token": "give",
@@ -21577,8 +21865,12 @@
                 "tag": "C-B"
             },
             {
-                "token": "record_labels",
-                "tag": "C-B"
+                "token": "record",
+                "tag": "C-I"
+            },
+            {
+                "token": "labels",
+                "tag": "C-E"
             },
             {
                 "token": ".",
@@ -21740,15 +22032,19 @@
         "template_id": ""
     },
     {
-        "question": "which u.s._states possess gold minerals ?",
+        "question": "which u.s. states possess gold minerals ?",
         "entity_tagging": [
             {
                 "token": "which",
                 "tag": "V-B"
             },
             {
-                "token": "u.s._states",
+                "token": "u.s.",
                 "tag": "C-B"
+            },
+            {
+                "token": "states",
+                "tag": "C-I"
             },
             {
                 "token": "possess",
@@ -22074,15 +22370,19 @@
         "template_id": ""
     },
     {
-        "question": "does abraham_lincoln's death place have a website ?",
+        "question": "does abraham lincoln's death place have a website ?",
         "entity_tagging": [
             {
                 "token": "does",
                 "tag": "R-B"
             },
             {
-                "token": "abraham_lincoln's",
+                "token": "abraham",
                 "tag": "E-B"
+            },
+            {
+                "token": "lincoln's",
+                "tag": "E-I"
             },
             {
                 "token": "death",
@@ -22146,7 +22446,7 @@
         "template_id": ""
     },
     {
-        "question": "give me all launch_pads operated by NASA .",
+        "question": "give me all launch pads operated by NASA .",
         "entity_tagging": [
             {
                 "token": "give",
@@ -22161,8 +22461,12 @@
                 "tag": "N"
             },
             {
-                "token": "launch_pads",
+                "token": "launch",
                 "tag": "C-B"
+            },
+            {
+                "token": "pads",
+                "tag": "C-I"
             },
             {
                 "token": "operated",
@@ -22434,7 +22738,7 @@
         "template_id": ""
     },
     {
-        "question": "what are the top-10 action role-playing video games according to IGN ?",
+        "question": "what are the top-10 action role playing video games according to IGN ?",
         "entity_tagging": [
             {
                 "token": "what",
@@ -22457,8 +22761,12 @@
                 "tag": "C-B"
             },
             {
-                "token": "role-playing",
-                "tag": "C-B"
+                "token": "role",
+                "tag": "C-I"
+            },
+            {
+                "token": "playing",
+                "tag": "C-E"
             },
             {
                 "token": "video",
@@ -22466,7 +22774,7 @@
             },
             {
                 "token": "games",
-                "tag": "C-B"
+                "tag": "C-I"
             },
             {
                 "token": "according",
@@ -22508,7 +22816,7 @@
             },
             {
                 "token": "movies",
-                "tag": "C-B"
+                "tag": "C-I"
             },
             {
                 "token": ".",
@@ -22784,7 +23092,7 @@
         "template_id": ""
     },
     {
-        "question": "give me all films produced by Steven Spielberg with a budget of at least $80 .",
+        "question": "give me all films produced by Steven Spielberg with a budget of at least $80 million .",
         "entity_tagging": [
             {
                 "token": "give",
@@ -22844,6 +23152,10 @@
             },
             {
                 "token": "$80",
+                "tag": "N"
+            },
+            {
+                "token": "million",
                 "tag": "N"
             },
             {
@@ -23338,7 +23650,7 @@
         "template_id": ""
     },
     {
-        "question": "give me all world_heritage_sites designated within the past .",
+        "question": "give me all world heritage sites designated within the past .",
         "entity_tagging": [
             {
                 "token": "give",
@@ -23353,8 +23665,16 @@
                 "tag": "N"
             },
             {
-                "token": "world_heritage_sites",
+                "token": "world",
                 "tag": "C-B"
+            },
+            {
+                "token": "heritage",
+                "tag": "C-I"
+            },
+            {
+                "token": "sites",
+                "tag": "C-E"
             },
             {
                 "token": "designated",
@@ -23414,7 +23734,7 @@
         "template_id": ""
     },
     {
-        "question": "which country has the most official_languages ?",
+        "question": "which country has the most official languages ?",
         "entity_tagging": [
             {
                 "token": "which",
@@ -23437,8 +23757,12 @@
                 "tag": "N"
             },
             {
-                "token": "official_languages",
+                "token": "official",
                 "tag": "C-B"
+            },
+            {
+                "token": "languages",
+                "tag": "C-I"
             },
             {
                 "token": "?",
@@ -23778,7 +24102,7 @@
         "template_id": ""
     },
     {
-        "question": "which museum in New York has the ?",
+        "question": "which museum in New York has the most visitors ?",
         "entity_tagging": [
             {
                 "token": "which",
@@ -23806,6 +24130,14 @@
             },
             {
                 "token": "the",
+                "tag": "N"
+            },
+            {
+                "token": "most",
+                "tag": "N"
+            },
+            {
+                "token": "visitors",
                 "tag": "N"
             },
             {
@@ -23998,7 +24330,7 @@
         "template_id": ""
     },
     {
-        "question": "give me all libraries established earlier .",
+        "question": "give me all libraries established earlier than 1400 .",
         "entity_tagging": [
             {
                 "token": "give",
@@ -24022,6 +24354,14 @@
             },
             {
                 "token": "earlier",
+                "tag": "N"
+            },
+            {
+                "token": "than",
+                "tag": "N"
+            },
+            {
+                "token": "1400",
                 "tag": "N"
             },
             {
@@ -24114,7 +24454,7 @@
             },
             {
                 "token": "politicians",
-                "tag": "C-B"
+                "tag": "C-I"
             },
             {
                 "token": ".",
@@ -24178,7 +24518,7 @@
             },
             {
                 "token": "are",
-                "tag": "R-B"
+                "tag": "N"
             },
             {
                 "token": "spoken",
@@ -26600,7 +26940,7 @@
         "template_id": ""
     },
     {
-        "question": "what is angela_merkel’s birth name ?",
+        "question": "what is angela merkel’s birth name ?",
         "entity_tagging": [
             {
                 "token": "what",
@@ -26611,8 +26951,12 @@
                 "tag": "N"
             },
             {
-                "token": "angela_merkel’s",
+                "token": "angela",
                 "tag": "E-B"
+            },
+            {
+                "token": "merkel’s",
+                "tag": "E-I"
             },
             {
                 "token": "birth",
@@ -27688,15 +28032,19 @@
         "template_id": ""
     },
     {
-        "question": "which professional_surfers were born in Australia ?",
+        "question": "which professional surfers were born in Australia ?",
         "entity_tagging": [
             {
                 "token": "which",
                 "tag": "V-B"
             },
             {
-                "token": "professional_surfers",
+                "token": "professional",
                 "tag": "C-B"
+            },
+            {
+                "token": "surfers",
+                "tag": "C-I"
             },
             {
                 "token": "were",
@@ -28196,7 +28544,7 @@
         "template_id": ""
     },
     {
-        "question": "which german cities have more inhabitants ?",
+        "question": "which german cities have more than 250000 inhabitants ?",
         "entity_tagging": [
             {
                 "token": "which",
@@ -28216,6 +28564,14 @@
             },
             {
                 "token": "more",
+                "tag": "N"
+            },
+            {
+                "token": "than",
+                "tag": "N"
+            },
+            {
+                "token": "250000",
                 "tag": "N"
             },
             {
@@ -28932,7 +29288,7 @@
         "template_id": ""
     },
     {
-        "question": "give me all female german_chancellors .",
+        "question": "give me all female german chancellors .",
         "entity_tagging": [
             {
                 "token": "give",
@@ -28951,8 +29307,12 @@
                 "tag": "N"
             },
             {
-                "token": "german_chancellors",
+                "token": "german",
                 "tag": "C-B"
+            },
+            {
+                "token": "chancellors",
+                "tag": "C-I"
             },
             {
                 "token": ".",
@@ -29140,15 +29500,19 @@
         "template_id": ""
     },
     {
-        "question": "which professional_surfers were born on the Philippines ?",
+        "question": "which professional surfers were born on the Philippines ?",
         "entity_tagging": [
             {
                 "token": "which",
                 "tag": "V-B"
             },
             {
-                "token": "professional_surfers",
+                "token": "professional",
                 "tag": "C-B"
+            },
+            {
+                "token": "surfers",
+                "tag": "C-I"
             },
             {
                 "token": "were",
@@ -29526,15 +29890,15 @@
             },
             {
                 "token": "to",
-                "tag": "R-B"
+                "tag": "R-I"
             },
             {
                 "token": "be",
-                "tag": "R-B"
+                "tag": "R-I"
             },
             {
                 "token": "in",
-                "tag": "R-B"
+                "tag": "R-E"
             },
             {
                 "token": "cinemas",
@@ -29924,7 +30288,7 @@
         "template_id": ""
     },
     {
-        "question": "which daughters of british_earls died at the same place they were born at ?",
+        "question": "which daughters of british earls died at the same place they were born at ?",
         "entity_tagging": [
             {
                 "token": "which",
@@ -29939,8 +30303,12 @@
                 "tag": "R-B"
             },
             {
-                "token": "british_earls",
+                "token": "british",
                 "tag": "C-B"
+            },
+            {
+                "token": "earls",
+                "tag": "C-I"
             },
             {
                 "token": "died",
@@ -30942,7 +31310,7 @@
         "template_id": ""
     },
     {
-        "question": "give me all frisian_islands that belong to the Netherlands .",
+        "question": "give me all frisian islands that belong to the Netherlands .",
         "entity_tagging": [
             {
                 "token": "give",
@@ -30957,8 +31325,12 @@
                 "tag": "N"
             },
             {
-                "token": "frisian_islands",
+                "token": "frisian",
                 "tag": "E-B"
+            },
+            {
+                "token": "islands",
+                "tag": "E-I"
             },
             {
                 "token": "that",
@@ -31814,7 +32186,7 @@
         "template_id": ""
     },
     {
-        "question": "give me the websites of companies with more employees .",
+        "question": "give me the websites of companies with more than 500000 employees .",
         "entity_tagging": [
             {
                 "token": "give",
@@ -31846,6 +32218,14 @@
             },
             {
                 "token": "more",
+                "tag": "N"
+            },
+            {
+                "token": "than",
+                "tag": "N"
+            },
+            {
+                "token": "500000",
                 "tag": "N"
             },
             {
