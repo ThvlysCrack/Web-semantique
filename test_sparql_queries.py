@@ -2,11 +2,108 @@ import json
 import sys
 import os
 from sparql_utils import validate_sparql_query, execute_sparql_query, extract_results_for_display
+from generate_sparql import generate_sparql_query
 
 def load_json_file(file_path):
     """Load a JSON file and return its contents."""
     with open(file_path, 'r', encoding='utf-8') as file:
         return json.load(file)
+
+def process_single_query(query_dict):
+    """
+    Process a single query dictionary in the format from mapped_classified_questions.json
+    
+    Args:
+        query_dict (dict): A single query dictionary with question, template_id, and mapping
+        
+    Returns:
+        dict: Results of testing the query
+    """
+    # Load the templates
+    templates = load_json_file('template_map.json')
+    
+    # Use the generate_sparql_query function to create a SPARQL query
+    query_result = {}
+    
+    # Check if this is a correctly structured query dict
+    if not isinstance(query_dict, dict) or not all(key in query_dict for key in ['question', 'template_id', 'mapping']):
+        return {
+            "error": "Invalid query dictionary format. Required keys: question, template_id, mapping",
+            "valid": False,
+            "executed": False
+        }
+    
+    # Generate the SPARQL query using the same logic as in generate_sparql.py
+    try:
+        # Create a list with just this query to match the function's expected input
+        query_list = [query_dict]
+        # Generate the query (use index 0 since we only have one query)
+        query_result = generate_sparql_query(0, query_list, templates)
+    except Exception as e:
+        return {
+            "question": query_dict.get("question", "Unknown question"),
+            "error": f"Error generating SPARQL query: {str(e)}",
+            "valid": False,
+            "executed": False
+        }
+    
+    # Check if the query generation had an error
+    if isinstance(query_result, str) and "Error:" in query_result:
+        return {
+            "question": query_dict.get("question", "Unknown question"),
+            "error": query_result,
+            "valid": False,
+            "executed": False
+        }
+    
+    # Extract the SPARQL query
+    sparql_query = query_result.get("sparql_query")
+    
+    if not sparql_query or "ERROR_MISSING" in sparql_query:
+        return {
+            "question": query_dict["question"],
+            "error": "Missing or incomplete query",
+            "valid": False,
+            "executed": False
+        }
+    
+    # Validate the query
+    is_valid, validation_message = validate_sparql_query(sparql_query)
+    
+    result = {
+        "question": query_dict["question"],
+        "template_id": query_dict["template_id"],
+        "query": sparql_query,
+        "entity_mappings": query_result.get("entity_mappings", {}),
+        "predicate_mappings": query_result.get("predicate_mappings", {}),
+        "valid": is_valid,
+        "validation_message": validation_message
+    }
+    
+    if is_valid:
+        # Execute the query
+        try:
+            execution_results = execute_sparql_query(sparql_query)
+            result["executed"] = execution_results["success"]
+            
+            if execution_results["success"]:
+                # Extract formatted results
+                formatted_results = extract_results_for_display(execution_results)
+                result["results"] = formatted_results
+                
+                # Check if results are empty
+                if len(formatted_results) == 1 and formatted_results[0] == "No results found":
+                    result["valid"] = False
+                    result["validation_message"] = "Query is syntactically valid but returns no results"
+            else:
+                result["execution_error"] = execution_results["error"]
+        except Exception as e:
+            result["executed"] = False
+            result["execution_error"] = str(e)
+    else:
+        result["executed"] = False
+    
+    return result
 
 def test_queries(results_file, output_file=None, limit=None, verbose=True):
     """Test each SPARQL query in the results file.
@@ -156,11 +253,42 @@ def main():
     """Main function to run the script."""
     # Parse command-line arguments
     if len(sys.argv) < 2:
-        print("Usage: python test_sparql_queries.py <results_file.json> [output_file.json] [--limit N]")
-        print("\nExample:")
+        print("Usage:")
+        print("  python test_sparql_queries.py <results_file.json> [output_file.json] [--limit N]")
+        print("  python test_sparql_queries.py --single '<json_string>'")
+        print("\nExamples:")
         print("  python test_sparql_queries.py improved_results.json test_results.json --limit 10")
+        print("  python test_sparql_queries.py --single '{\"question\": \"give me the currency of China .\", \"template_id\": \"A\", \"mapping\": {\"currency\": \"dbo:currency\", \"of\": \"dbo:Of\", \"China\": \"dbr:china\"}}'")
         sys.exit(1)
     
+    # Check if we're processing a single query
+    if sys.argv[1] == "--single" and len(sys.argv) > 2:
+        try:
+            # Parse the query dictionary from the command line
+            query_dict = json.loads(sys.argv[2])
+            
+            # Process the single query
+            result = process_single_query(query_dict)
+            
+            # Print the result
+            print(json.dumps(result, indent=2))
+            
+            # If an output file is specified, save the result
+            if len(sys.argv) > 3 and not sys.argv[3].startswith("--"):
+                output_file = sys.argv[3]
+                with open(output_file, 'w', encoding='utf-8') as f:
+                    json.dump(result, f, indent=2)
+                print(f"Result saved to {output_file}")
+            
+            return
+        except json.JSONDecodeError:
+            print("Error: Invalid JSON string for the single query")
+            sys.exit(1)
+        except Exception as e:
+            print(f"Error processing single query: {str(e)}")
+            sys.exit(1)
+    
+    # Regular processing of a results file
     results_file = sys.argv[1]
     output_file = None
     limit = None
