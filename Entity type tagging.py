@@ -27,3 +27,7 @@ def tag_entities_with_bilstm(model_path, questions):
         results[question] = token_tags
 
     return results
+'''
+results = tag_entities_with_bilstm("model/best-model.pt", ["Who is the CEO of Apple ?"])
+print(list(results.values())[0])
+'''

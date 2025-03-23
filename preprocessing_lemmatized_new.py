@@ -36,11 +36,12 @@ def preprocess_question(question):
         pos_tags.append((token.text, corrected_pos))
 
     return {
+        "question": question,
         "tokens": tokens,
         "lemmas": lemmas,
         "pos_tags": pos_tags
     }
-
+'''
 # Exemple d'utilisation
 if __name__ == "__main__":
     question = "Who is the CEO of Apple?"
@@ -62,7 +63,7 @@ questions = [
     "Who wrote the book The Catcher in the Rye?",
     "What is the currency used in Canada?"
 ]
-'''
+
 # 📌 Exécuter le prétraitement sur chaque question
 for i, question in enumerate(questions):
     print(f"\n📝 Question {i+1}: {question}")

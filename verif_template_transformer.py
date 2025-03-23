@@ -12,15 +12,10 @@ def cosine_similarity(vec1, vec2):
         return 0.0
     return dot / (norm1 * norm2)
 
-def load_template_map(filepath):
-    """Charge le fichier template_map.json."""
-    with open(filepath, "r", encoding="utf-8") as f:
-        return json.load(f)
-
 def get_dependency_distribution(text, nlp):
     """
     Extrait la distribution des étiquettes de dépendance pour une phrase.
-    Retourne un Counter sous forme de dictionnaire {dep_label: count}.
+    Retourne un Counter {dep_label: count}.
     """
     doc = nlp(text)
     dep_labels = [token.dep_ for token in doc]
@@ -43,20 +38,26 @@ def compute_structure_similarity(text1, text2, nlp):
     vec2 = counter_to_vector(dist2, vocabulary)
     return cosine_similarity(vec1, vec2)
 
-def predict_template_with_confidence(entity_tagging, question_text, nlp):
+def predict_template_with_confidence(question_obj, nlp):
     """
-    Prédit le template de la question et renvoie un score de confiance selon les règles heuristiques.
+    Prédit le template de la question et renvoie un score de confiance en se basant sur des règles heuristiques.
+    
+    La question_obj est un dictionnaire avec :
+      - "question": le texte de la question
+      - "entity_tagging": une liste d'annotations par token (ex : {"token": "Who", "tag": "V-B"}, ...)
     
     Règles appliquées :
-      - Si la question est booléenne (commence par "is", "are", "was", "were"), renvoyer ("D", 1.0).
-      - Filtrer les tokens dont le tag n'est pas "N" (considérant V, E, C, R).
-      - Regrouper ces tokens par continuité.
-         Si plusieurs groupes sont détectés, la question est ambiguë → ("unknown", None).
-      - Dans le groupe unique, repérer le premier token de type "V" et le premier token de type "E".
-         * Si le token "V" apparaît avant le token "E", renvoyer ("A", 0.9).
-         * Sinon, renvoyer ("B", 0.9).
-      - Si l'un des types "V" ou "E" est absent, renvoyer ("unknown", None).
+      - Si la question est booléenne (commence par "is", "are", "was", "were"), retourne ("D", 1.0).
+      - On filtre les tokens dont le tag commence par {"V", "E", "C", "R"}.
+      - On regroupe ces tokens par continuité (si plusieurs groupes sont détectés, la question est ambiguë → ("unknown", None)).
+      - Dans le groupe unique, on repère le premier token de type "V" et le premier token de type "E".
+           * Si le token "V" apparaît avant le token "E", retourne ("A", 0.9).
+           * Sinon, retourne ("B", 0.9).
+      - Si l'un des types "V" ou "E" est absent, retourne ("unknown", None).
     """
+    question_text = question_obj.get("question", "")
+    entity_tagging = question_obj.get("entity_tagging", [])
+    
     lower_q = question_text.lower().strip()
     if lower_q.startswith(("is ", "are ", "was ", "were ")):
         return ("D", 1.0)
@@ -69,7 +70,7 @@ def predict_template_with_confidence(entity_tagging, question_text, nlp):
     if not filtered:
         return ("unknown", None)
     
-    # Regrouper par continuité : si la différence entre deux indices consécutifs > 1, c'est un nouveau groupe
+    # Regrouper par continuité : un nouveau groupe si différence d'indices > 1
     groups = []
     current_group = [filtered[0]]
     for current in filtered[1:]:
@@ -83,7 +84,7 @@ def predict_template_with_confidence(entity_tagging, question_text, nlp):
     if len(groups) != 1:
         return ("unknown", None)
     
-    # Dans le groupe unique, rechercher le premier token de type V et E
+    # Dans le groupe unique, trouver le premier token de type V et le premier de type E
     group = groups[0]
     first_v = None
     first_e = None
@@ -102,44 +103,54 @@ def predict_template_with_confidence(entity_tagging, question_text, nlp):
     else:
         return ("B", 0.9)
 
-def select_best_template_using_structure(test_question, template_map, nlp):
+def select_best_template_using_structure(question_obj, template_map, nlp):
     """
-    Compare la structure syntaxique de la question test avec celle de l'exemple de chaque template
-    du template_map (via la distribution des dépendances) et retourne le template avec le meilleur score.
+    Compare la structure syntaxique de la question (question_obj["question"]) avec l'exemple de chaque template
+    dans le template_map (via la distribution des dépendances), et retourne le template ayant la meilleure similarité.
+    
+    Args:
+        question_obj (dict): Dictionnaire avec "question" et "entity_tagging".
+        template_map (dict): Dictionnaire contenant les templates (ex. A, B, D) et leur "example".
+        nlp: Le modèle spaCy chargé (ici, en_core_web_trf).
+    
+    Returns:
+        tuple: (template_id, best_score)
     """
+    question_text = question_obj.get("question", "")
     best_template = None
     best_score = -1.0
     for template_id, info in template_map.items():
         example = info.get("example", "")
-        score = compute_structure_similarity(test_question, example, nlp)
+        score = compute_structure_similarity(question_text, example, nlp)
         if score > best_score:
             best_score = score
             best_template = template_id
     return best_template, best_score
 
 if __name__ == "__main__":
-    # Charger le modèle transformer en_core_web_trf
+    # Charger le modèle spaCy transformer
     nlp = spacy.load("en_core_web_trf")
     
     # Charger le template_map.json
     with open("template_map.json", "r", encoding="utf-8") as f:
         template_map = json.load(f)
     
-    # Exemple de question test
-    test_question = "Who is the CEO of Apple?"
-    # Exemple d'annotation entity_tagging pour cette question
-    tagging_example = [
-        {"token": "Who", "tag": "V-B"},
-        {"token": "is", "tag": "R-B"},
-        {"token": "the", "tag": "N"},
-        {"token": "CEO", "tag": "C-B"},
-        {"token": "of", "tag": "R-B"},
-        {"token": "Apple", "tag": "E-B"},
-        {"token": "?", "tag": "N"}
-    ]
+    # Exemple de question sous forme de dictionnaire
+    question_obj = {
+        "question": "Who is the CEO of Apple?",
+        "entity_tagging": [
+            {"token": "Who", "tag": "V-B"},
+            {"token": "is", "tag": "R-B"},
+            {"token": "the", "tag": "N"},
+            {"token": "CEO", "tag": "C-B"},
+            {"token": "of", "tag": "R-B"},
+            {"token": "Apple", "tag": "E-B"},
+            {"token": "?", "tag": "N"}
+        ]
+    }
     
-    tpl_pred, conf_pred = predict_template_with_confidence(tagging_example, test_question, nlp)
+    tpl_pred, conf_pred = predict_template_with_confidence(question_obj, nlp)
     print(f"Règles heuristiques : Template prédit = {tpl_pred}, Score = {conf_pred}")
     
-    best_tpl, score = select_best_template_using_structure(test_question, template_map, nlp)
-    print(f"Comparaison structurelle : Template choisi = {best_tpl} avec un score de {score:.2f}")
+    best_tpl, score = select_best_template_using_structure(question_obj, template_map, nlp)
+    print(f"Comparaison structurelle : Template choisi = {best_tpl}, Score = {score:.2f}")
