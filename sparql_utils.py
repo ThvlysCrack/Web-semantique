@@ -39,7 +39,23 @@ def validate_sparql_query(query):
         # Attempt to prepare the query (will raise exception if invalid)
         sparql.query()
         
-        return True, "Query is valid"
+        # Check if query actually returns results
+        try:
+            test_results = execute_sparql_query(query)
+            
+            # If execution was successful
+            if test_results["success"]:
+                formatted_results = extract_results_for_display(test_results)
+                
+                # If there are no results found, mark as invalid
+                if len(formatted_results) == 1 and formatted_results[0] == "No results found":
+                    return False, "Query is syntactically valid but returns no results"
+            
+            return True, "Query is valid and returns results"
+        except Exception as exec_err:
+            # If there was an issue testing the query, still mark as valid syntactically
+            return True, "Query is syntactically valid, but couldn't verify results"
+        
     except Exception as e:
         # Extract the error message
         error_msg = str(e)

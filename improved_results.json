@@ -1,0 +1,1789 @@
+[
+  {
+    "question": "in which year was Rachel Stevens born ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Rachel_Stevens dbo:birthyear ?ans . }",
+    "entity_mappings": {
+      "Rachel Stevens": "dbr:Rachel_Stevens"
+    },
+    "predicate_mappings": {
+      "in": "dbo:In",
+      "year": "dbo:birthyear",
+      "was": "dbo:Was",
+      "born": "dbo:Born"
+    }
+  },
+  {
+    "question": "give me all actors starring in Last Action Hero .",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Actors dbr:Last_Action_Hero . }",
+    "entity_mappings": {
+      "Last Action Hero": "dbr:Last_Action_Hero"
+    },
+    "predicate_mappings": {
+      "actors": "dbo:Actors",
+      "starring in": "dbo:Starring_In"
+    }
+  },
+  {
+    "question": "where does Piccadilly start ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Piccadilly dbo:Start ?ans . }",
+    "entity_mappings": {
+      "Piccadilly": "dbr:Piccadilly"
+    },
+    "predicate_mappings": {
+      "does": "dbo:Does",
+      "start": "dbo:Start"
+    }
+  },
+  {
+    "question": "how many Aldi stores are there ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Aldi dbo:Stores ?ans . }",
+    "entity_mappings": {
+      "Aldi": "dbr:Aldi"
+    },
+    "predicate_mappings": {
+      "stores": "dbo:Stores",
+      "are there": "dbo:Are_There"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "what was the last movie with Alec Guinness ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Movie dbr:Alec_Guinness . }",
+    "entity_mappings": {
+      "Alec Guinness": "dbr:Alec_Guinness"
+    },
+    "predicate_mappings": {
+      "was": "dbo:Was",
+      "movie": "dbo:Movie",
+      "with": "dbo:With"
+    }
+  },
+  {
+    "question": "in which ancient empire could you pay with cocoa beans ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Ancient_Empire ERROR_MISSING_OBJECT . }",
+    "entity_mappings": {},
+    "predicate_mappings": {
+      "in": "dbo:In",
+      "ancient empire": "dbo:Ancient_Empire",
+      "could": "dbo:Could",
+      "pay with": "dbo:Pay_With",
+      "cocoa beans": "dbo:Cocoa_Beans"
+    }
+  },
+  {
+    "question": "give me the currency of China .",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:China dbo:currency ?ans . }",
+    "entity_mappings": {
+      "China": "dbr:China"
+    },
+    "predicate_mappings": {
+      "currency": "dbo:currency",
+      "of": "dbo:Of"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "who is the founder of Penguin Books ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Penguin_Books dbo:founder ?ans . }",
+    "entity_mappings": {
+      "Penguin Books": "dbr:Penguin_Books"
+    },
+    "predicate_mappings": {
+      "is": "dbo:Is",
+      "founder": "dbo:founder",
+      "of": "dbo:Of"
+    }
+  },
+  {
+    "question": "in which city did John F. Kennedy die ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:John_F._Kennedy dbo:city ?ans . }",
+    "entity_mappings": {
+      "John F. Kennedy": "dbr:John_F._Kennedy"
+    },
+    "predicate_mappings": {
+      "in": "dbo:In",
+      "city": "dbo:city",
+      "did": "dbo:Did",
+      "die": "dbo:Die"
+    }
+  },
+  {
+    "question": "give me all Swedish oceanographers .",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Oceanographers ERROR_MISSING_OBJECT . }",
+    "entity_mappings": {},
+    "predicate_mappings": {
+      "oceanographers": "dbo:Oceanographers"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "how many languages are spoken in Colombia ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Colombia dbo:language ?ans . }",
+    "entity_mappings": {
+      "Colombia": "dbr:Colombia"
+    },
+    "predicate_mappings": {
+      "languages": "dbo:language",
+      "are spoken in": "dbo:Are_Spoken_In"
+    }
+  },
+  {
+    "question": "what is the largest city in Australia ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Australia dbo:Largest_City ?ans . }",
+    "entity_mappings": {
+      "Australia": "dbr:Australia"
+    },
+    "predicate_mappings": {
+      "is": "dbo:Is",
+      "largest city": "dbo:Largest_City",
+      "in": "dbo:In"
+    }
+  },
+  {
+    "question": "which cities does the Weser flow through ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Weser dbo:Cities ?ans . }",
+    "entity_mappings": {
+      "Weser": "dbr:Weser"
+    },
+    "predicate_mappings": {
+      "cities": "dbo:Cities",
+      "does": "dbo:Does",
+      "flow through": "dbo:Flow_Through"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "how much did Pulp Fiction cost ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Pulp_Fiction dbo:Much_Did ?ans . }",
+    "entity_mappings": {
+      "Pulp Fiction": "dbr:Pulp_Fiction"
+    },
+    "predicate_mappings": {
+      "much did": "dbo:Much_Did",
+      "cost": "dbo:Cost"
+    }
+  },
+  {
+    "question": "who developed the video game World of Warcraft ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:World_Of_Warcraft dbo:Developed ?ans . }",
+    "entity_mappings": {
+      "World of Warcraft": "dbr:World_Of_Warcraft"
+    },
+    "predicate_mappings": {
+      "developed": "dbo:Developed",
+      "video game": "dbo:Video_Game"
+    }
+  },
+  {
+    "question": "in which city does Sylvester Stallone live ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Sylvester_Stallone dbo:city ?ans . }",
+    "entity_mappings": {
+      "Sylvester Stallone": "dbr:Sylvester_Stallone"
+    },
+    "predicate_mappings": {
+      "in": "dbo:In",
+      "city": "dbo:city",
+      "does": "dbo:Does",
+      "live": "dbo:Live"
+    }
+  },
+  {
+    "question": "who discovered Ceres ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Discovered dbr:Ceres . }",
+    "entity_mappings": {
+      "Ceres": "dbr:Ceres"
+    },
+    "predicate_mappings": {
+      "discovered": "dbo:Discovered"
+    }
+  },
+  {
+    "question": "for which label did Elvis record his first album ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Elvis_Presley dbo:recordlabel ?ans . }",
+    "entity_mappings": {
+      "Elvis": "dbr:Elvis_Presley"
+    },
+    "predicate_mappings": {
+      "for": "dbo:For",
+      "label": "dbo:recordlabel",
+      "did": "dbo:Did",
+      "record": "dbo:Record",
+      "album": "dbo:album"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "what is the time zone of Salt Lake City ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Salt_Lake_City dbo:Time_Zone ?ans . }",
+    "entity_mappings": {
+      "Salt Lake City": "dbr:Salt_Lake_City"
+    },
+    "predicate_mappings": {
+      "is": "dbo:Is",
+      "time zone": "dbo:Time_Zone",
+      "of": "dbo:Of"
+    }
+  },
+  {
+    "question": "did Che Guevara have children ?",
+    "template_id": "D",
+    "sparql_query": "ASK WHERE { dbr:Che_Guevara dbo:child ERROR_MISSING_OBJECT . }",
+    "entity_mappings": {
+      "Che Guevara": "dbr:Che_Guevara"
+    },
+    "predicate_mappings": {
+      "did": "dbo:Did",
+      "have": "dbo:Have",
+      "children": "dbo:child"
+    }
+  },
+  {
+    "question": "what is the location of the Houses of Parliament ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Houses_Of_Parliament dbo:location ?ans . }",
+    "entity_mappings": {
+      "Houses of Parliament": "dbr:Houses_Of_Parliament"
+    },
+    "predicate_mappings": {
+      "is": "dbo:Is",
+      "location": "dbo:location",
+      "of": "dbo:Of"
+    }
+  },
+  {
+    "question": "how many pages does War and Peace have ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:War_And_Peace dbo:numberofpages ?ans . }",
+    "entity_mappings": {
+      "War and Peace": "dbr:War_And_Peace"
+    },
+    "predicate_mappings": {
+      "pages": "dbo:numberofpages",
+      "does": "dbo:Does",
+      "have": "dbo:Have"
+    }
+  },
+  {
+    "question": "how high is the lighthouse in Colombo ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Lighthouse_In_Colombo dbo:High_Is ?ans . }",
+    "entity_mappings": {
+      "lighthouse in Colombo": "dbr:Lighthouse_In_Colombo"
+    },
+    "predicate_mappings": {
+      "high is": "dbo:High_Is"
+    }
+  },
+  {
+    "question": "what color expresses loyalty ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Color ERROR_MISSING_OBJECT . }",
+    "entity_mappings": {},
+    "predicate_mappings": {
+      "color": "dbo:Color",
+      "expresses": "dbo:Expresses",
+      "loyalty": "dbo:Loyalty"
+    }
+  },
+  {
+    "question": "who was Vincent van Gogh inspired by ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Vincent_Van_Gogh dbo:Inspired_By ?ans . }",
+    "entity_mappings": {
+      "Vincent van Gogh": "dbr:Vincent_Van_Gogh"
+    },
+    "predicate_mappings": {
+      "was": "dbo:Was",
+      "inspired by": "dbo:Inspired_By"
+    }
+  },
+  {
+    "question": "in which country is Mecca located ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Mecca dbo:sourcecountry ?ans . }",
+    "entity_mappings": {
+      "Mecca": "dbr:Mecca"
+    },
+    "predicate_mappings": {
+      "in": "dbo:In",
+      "country": "dbo:sourcecountry",
+      "is": "dbo:Is",
+      "located": "dbo:Located"
+    }
+  },
+  {
+    "question": "who was the wife of U.S. president Lincoln ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Wife dbr:Abraham_Lincoln . }",
+    "entity_mappings": {
+      "Lincoln": "dbr:Abraham_Lincoln"
+    },
+    "predicate_mappings": {
+      "was": "dbo:Was",
+      "wife": "dbo:Wife",
+      "of": "dbo:Of",
+      "U.S. president": "dbo:U.s._President"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "is Rita Wilson the wife of Tom Hanks ?",
+    "template_id": "D",
+    "sparql_query": "ASK WHERE { dbr:Rita_Wilson dbo:Wife dbr:Tom_Hanks . }",
+    "entity_mappings": {
+      "Rita Wilson": "dbr:Rita_Wilson",
+      "Tom Hanks": "dbr:Tom_Hanks"
+    },
+    "predicate_mappings": {
+      "is": "dbo:Is",
+      "wife": "dbo:Wife",
+      "of": "dbo:Of"
+    }
+  },
+  {
+    "question": "in which country is the Limerick Lake ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Limerick_Lake dbo:sourcecountry ?ans . }",
+    "entity_mappings": {
+      "Limerick Lake": "dbr:Limerick_Lake"
+    },
+    "predicate_mappings": {
+      "in": "dbo:In",
+      "country": "dbo:sourcecountry",
+      "is": "dbo:Is"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "how tall is Michael Jordan ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Michael_Jordan dbo:Tall_Is ?ans . }",
+    "entity_mappings": {
+      "Michael Jordan": "dbr:Michael_Jordan"
+    },
+    "predicate_mappings": {
+      "tall is": "dbo:Tall_Is"
+    }
+  },
+  {
+    "question": "which movies did Kurosawa direct ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Movies dbr:Akira_Kurosawa . }",
+    "entity_mappings": {
+      "Kurosawa": "dbr:Akira_Kurosawa"
+    },
+    "predicate_mappings": {
+      "movies": "dbo:Movies",
+      "did": "dbo:Did",
+      "direct": "dbo:director"
+    }
+  },
+  {
+    "question": "did Arnold Schwarzenegger attend a university ?",
+    "template_id": "D",
+    "sparql_query": "ASK WHERE { dbr:Arnold_Schwarzenegger dbo:Attend ERROR_MISSING_OBJECT . }",
+    "entity_mappings": {
+      "Arnold Schwarzenegger": "dbr:Arnold_Schwarzenegger"
+    },
+    "predicate_mappings": {
+      "did": "dbo:Did",
+      "attend": "dbo:Attend",
+      "university": "dbo:university"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "in which military conflicts did Lawrence of Arabia participate ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Lawrence_Of_Arabia dbo:Military_Conflicts ?ans . }",
+    "entity_mappings": {
+      "Lawrence of Arabia": "dbr:Lawrence_Of_Arabia"
+    },
+    "predicate_mappings": {
+      "in": "dbo:In",
+      "military conflicts": "dbo:Military_Conflicts",
+      "did": "dbo:Did",
+      "participate": "dbo:Participate"
+    }
+  },
+  {
+    "question": "who is the oldest child of Meryl Streep ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:child dbr:Meryl_Streep . }",
+    "entity_mappings": {
+      "Meryl Streep": "dbr:Meryl_Streep"
+    },
+    "predicate_mappings": {
+      "is": "dbo:Is",
+      "oldest child": "dbo:child",
+      "of": "dbo:Of"
+    }
+  },
+  {
+    "question": "in which city did Nikos Kazantzakis die ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Nikos_Kazantzakis dbo:city ?ans . }",
+    "entity_mappings": {
+      "Nikos Kazantzakis": "dbr:Nikos_Kazantzakis"
+    },
+    "predicate_mappings": {
+      "in": "dbo:In",
+      "city": "dbo:city",
+      "did": "dbo:Did",
+      "die": "dbo:Die"
+    }
+  },
+  {
+    "question": "who was married to president Chirac ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Was_Married_To dbr:President_Chirac . }",
+    "entity_mappings": {
+      "president Chirac": "dbr:President_Chirac"
+    },
+    "predicate_mappings": {
+      "was married to": "dbo:Was_Married_To"
+    }
+  },
+  {
+    "question": "did Socrates influence Aristotle ?",
+    "template_id": "D",
+    "sparql_query": "ASK WHERE { dbr:Socrates dbo:influencedby dbr:Aristotle . }",
+    "entity_mappings": {
+      "Socrates": "dbr:Socrates",
+      "Aristotle": "dbr:Aristotle"
+    },
+    "predicate_mappings": {
+      "did": "dbo:Did",
+      "influence": "dbo:influencedby"
+    }
+  },
+  {
+    "question": "who developed Slack ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Developed dbr:Slack . }",
+    "entity_mappings": {
+      "Slack": "dbr:Slack"
+    },
+    "predicate_mappings": {
+      "developed": "dbo:Developed"
+    }
+  },
+  {
+    "question": "who painted The Storm on the Sea of Galilee ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Painted dbr:The_Storm_On_The_Sea_Of_Galilee . }",
+    "entity_mappings": {
+      "The Storm on the Sea of Galilee": "dbr:The_Storm_On_The_Sea_Of_Galilee"
+    },
+    "predicate_mappings": {
+      "painted": "dbo:Painted"
+    }
+  },
+  {
+    "question": "where was Bach born ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Johann_Sebastian_Bach dbo:Born ?ans . }",
+    "entity_mappings": {
+      "Bach": "dbr:Johann_Sebastian_Bach"
+    },
+    "predicate_mappings": {
+      "was": "dbo:Was",
+      "born": "dbo:Born"
+    }
+  },
+  {
+    "question": "which companies produce hovercrafts ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Companies dbr:Hovercraft . }",
+    "entity_mappings": {
+      "hovercrafts": "dbr:Hovercraft"
+    },
+    "predicate_mappings": {
+      "companies": "dbo:Companies",
+      "produce": "dbo:Produce"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "which films did Stanley Kubrick direct ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Films dbr:Stanley_Kubrick . }",
+    "entity_mappings": {
+      "Stanley Kubrick": "dbr:Stanley_Kubrick"
+    },
+    "predicate_mappings": {
+      "films": "dbo:Films",
+      "did": "dbo:Did",
+      "direct": "dbo:director"
+    }
+  },
+  {
+    "question": "who is the mayor of Rotterdam ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:mayor dbr:Rotterdam . }",
+    "entity_mappings": {
+      "Rotterdam": "dbr:Rotterdam"
+    },
+    "predicate_mappings": {
+      "is": "dbo:Is",
+      "mayor": "dbo:mayor",
+      "of": "dbo:Of"
+    }
+  },
+  {
+    "question": "which electronics companies were founded in Beijing ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Were_Founded_In dbr:Electronics . }",
+    "entity_mappings": {
+      "electronics companies": "dbr:Electronics",
+      "Beijing": "dbr:Beijing"
+    },
+    "predicate_mappings": {
+      "were founded in": "dbo:Were_Founded_In"
+    }
+  },
+  {
+    "question": "did Kaurism\u00e4ki ever win the Grand Prix at Cannes ?",
+    "template_id": "D",
+    "sparql_query": "ASK WHERE { dbr:Kaurism\u00e4ki dbo:Win dbr:Grand_Prix_At_Cannes . }",
+    "entity_mappings": {
+      "Kaurism\u00e4ki": "dbr:Kaurism\u00e4ki",
+      "Grand Prix at Cannes": "dbr:Grand_Prix_At_Cannes"
+    },
+    "predicate_mappings": {
+      "did": "dbo:Did",
+      "win": "dbo:Win"
+    }
+  },
+  {
+    "question": "give me all video games published by Mean Hamster Software .",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Video_Games dbr:Mean_Hamster_Software . }",
+    "entity_mappings": {
+      "Mean Hamster Software": "dbr:Mean_Hamster_Software"
+    },
+    "predicate_mappings": {
+      "video games": "dbo:Video_Games",
+      "published by": "dbo:Published_By"
+    }
+  },
+  {
+    "question": "from which region is the Melon de Bourgogne ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Melon_De_Bourgogne dbo:From ?ans . }",
+    "entity_mappings": {
+      "Melon de Bourgogne": "dbr:Melon_De_Bourgogne"
+    },
+    "predicate_mappings": {
+      "from": "dbo:From",
+      "region": "dbo:wineregion",
+      "is": "dbo:Is"
+    }
+  },
+  {
+    "question": "which books by Kerouac were published by Viking Press ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Books dbr:Jack_Kerouac . }",
+    "entity_mappings": {
+      "Kerouac": "dbr:Jack_Kerouac",
+      "Viking Press": "dbr:Viking_Press"
+    },
+    "predicate_mappings": {
+      "books": "dbo:Books",
+      "by": "dbo:By",
+      "were published by": "dbo:Were_Published_By"
+    }
+  },
+  {
+    "question": "what does IYCM stand for ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Iycm dbo:Stand_For ?ans . }",
+    "entity_mappings": {
+      "IYCM": "dbr:Iycm"
+    },
+    "predicate_mappings": {
+      "does": "dbo:Does",
+      "stand for": "dbo:Stand_For"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "in which countries do people speak Japanese ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Which_Countries dbr:Japanese_Language . }",
+    "entity_mappings": {
+      "Japanese": "dbr:Japanese_Language"
+    },
+    "predicate_mappings": {
+      "in": "dbo:In",
+      "which countries": "dbo:Which_Countries",
+      "do": "dbo:Do",
+      "people": "dbo:People",
+      "speak": "dbo:Speak"
+    }
+  },
+  {
+    "question": "when did the Ming dynasty dissolve ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Ming_Dynasty dbo:Dissolve ?ans . }",
+    "entity_mappings": {
+      "Ming dynasty": "dbr:Ming_Dynasty"
+    },
+    "predicate_mappings": {
+      "did": "dbo:Did",
+      "dissolve": "dbo:Dissolve"
+    }
+  },
+  {
+    "question": "when was the Battle of Gettysburg ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Battle_Of_Gettysburg dbo:Was ?ans . }",
+    "entity_mappings": {
+      "Battle of Gettysburg": "dbr:Battle_Of_Gettysburg"
+    },
+    "predicate_mappings": {
+      "was": "dbo:Was"
+    }
+  },
+  {
+    "question": "who were the parents of Queen Victoria ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:parent dbr:Queen_Victoria . }",
+    "entity_mappings": {
+      "Queen Victoria": "dbr:Queen_Victoria"
+    },
+    "predicate_mappings": {
+      "were": "dbo:Were",
+      "parents": "dbo:parent",
+      "of": "dbo:Of"
+    }
+  },
+  {
+    "question": "how many ethnic groups live in Slovenia ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Ethnic_Groups dbr:Slovenia . }",
+    "entity_mappings": {
+      "Slovenia": "dbr:Slovenia"
+    },
+    "predicate_mappings": {
+      "ethnic groups": "dbo:Ethnic_Groups",
+      "live in": "dbo:Live_In"
+    }
+  },
+  {
+    "question": "give me all members of Prodigy .",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Members dbr:The_Prodigy . }",
+    "entity_mappings": {
+      "Prodigy": "dbr:The_Prodigy"
+    },
+    "predicate_mappings": {
+      "members": "dbo:Members",
+      "of": "dbo:Of"
+    }
+  },
+  {
+    "question": "is Barack Obama a democrat ?",
+    "template_id": "D",
+    "sparql_query": "ASK WHERE { dbr:Barack_Obama dbo:Democrat ERROR_MISSING_OBJECT . }",
+    "entity_mappings": {
+      "Barack Obama": "dbr:Barack_Obama"
+    },
+    "predicate_mappings": {
+      "is": "dbo:Is",
+      "democrat": "dbo:Democrat"
+    }
+  },
+  {
+    "question": "is Christian Bale starring in Velvet Goldmine ?",
+    "template_id": "D",
+    "sparql_query": "ASK WHERE { dbr:Christian_Bale dbo:Starring_In dbr:Velvet_Goldmine . }",
+    "entity_mappings": {
+      "Christian Bale": "dbr:Christian_Bale",
+      "Velvet Goldmine": "dbr:Velvet_Goldmine"
+    },
+    "predicate_mappings": {
+      "is": "dbo:Is",
+      "starring in": "dbo:Starring_In"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "are tree frogs a type of amphibian ?",
+    "template_id": "D",
+    "sparql_query": "ASK WHERE { dbr:Amphibian dbo:Tree_Frogs ERROR_MISSING_OBJECT . }",
+    "entity_mappings": {
+      "amphibian": "dbr:Amphibian"
+    },
+    "predicate_mappings": {
+      "are": "dbo:Are",
+      "tree frogs": "dbo:Tree_Frogs",
+      "type": "dbo:Type",
+      "of": "dbo:Of"
+    }
+  },
+  {
+    "question": "who is the son of Sonny and Cher ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Of dbr:Sonny_Bono . }",
+    "entity_mappings": {
+      "son": "dbr:Sonny_Bono",
+      "Sonny and Cher": "dbr:Cher"
+    },
+    "predicate_mappings": {
+      "is": "dbo:Is",
+      "of": "dbo:Of"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "which professional surfers were born on the Philippines ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Professional_Surfers dbr:Philippines . }",
+    "entity_mappings": {
+      "Philippines": "dbr:Philippines"
+    },
+    "predicate_mappings": {
+      "professional surfers": "dbo:Professional_Surfers",
+      "were born on": "dbo:Were_Born_On"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "who wrote the book The pillars of the Earth ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Wrote dbr:The_Pillars_Of_The_Earth . }",
+    "entity_mappings": {
+      "The pillars of the Earth": "dbr:The_Pillars_Of_The_Earth"
+    },
+    "predicate_mappings": {
+      "wrote": "dbo:Wrote",
+      "book": "dbo:book"
+    }
+  },
+  {
+    "question": "who was the 16th president of the United States ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:16th_President dbr:United_States . }",
+    "entity_mappings": {
+      "United States": "dbr:United_States"
+    },
+    "predicate_mappings": {
+      "was": "dbo:Was",
+      "16th president": "dbo:16th_President",
+      "of": "dbo:Of"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "who created Family Guy ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Created dbr:Family_Guy . }",
+    "entity_mappings": {
+      "Family Guy": "dbr:Family_Guy"
+    },
+    "predicate_mappings": {
+      "created": "dbo:Created"
+    }
+  },
+  {
+    "question": "whom did Lance Bass marry ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Marry dbr:Lance_Bass . }",
+    "entity_mappings": {
+      "Lance Bass": "dbr:Lance_Bass"
+    },
+    "predicate_mappings": {
+      "did": "dbo:Did",
+      "marry": "dbo:Marry"
+    }
+  },
+  {
+    "question": "who was john f. kennedy's vice president ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Vice_President dbr:John_F._Kennedy's . }",
+    "entity_mappings": {
+      "john f. kennedy's": "dbr:John_F._Kennedy's"
+    },
+    "predicate_mappings": {
+      "was": "dbo:Was",
+      "vice president": "dbo:Vice_President"
+    }
+  },
+  {
+    "question": "which professional surfers were born in Australia ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Professional_Surfers dbr:Australia . }",
+    "entity_mappings": {
+      "Australia": "dbr:Australia"
+    },
+    "predicate_mappings": {
+      "professional surfers": "dbo:Professional_Surfers",
+      "were born in": "dbo:Were_Born_In"
+    }
+  },
+  {
+    "question": "who designed the Brooklyn Bridge ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Designed dbr:Brooklyn_Bridge . }",
+    "entity_mappings": {
+      "Brooklyn Bridge": "dbr:Brooklyn_Bridge"
+    },
+    "predicate_mappings": {
+      "designed": "dbo:Designed"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "what is the capital of Cameroon ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Cameroon dbo:capital ?ans . }",
+    "entity_mappings": {
+      "Cameroon": "dbr:Cameroon"
+    },
+    "predicate_mappings": {
+      "is": "dbo:Is",
+      "capital": "dbo:capital",
+      "of": "dbo:Of"
+    }
+  },
+  {
+    "question": "who wrote the book les piliers de la terre ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Wrote dbr:Les_Piliers_De_La_Terre . }",
+    "entity_mappings": {
+      "les piliers de la terre": "dbr:Les_Piliers_De_La_Terre"
+    },
+    "predicate_mappings": {
+      "wrote": "dbo:Wrote",
+      "book": "dbo:book"
+    }
+  },
+  {
+    "question": "who are the developers of DBpedia ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:developer dbr:Dbpedia . }",
+    "entity_mappings": {
+      "DBpedia": "dbr:Dbpedia"
+    },
+    "predicate_mappings": {
+      "are": "dbo:Are",
+      "developers": "dbo:developer",
+      "of": "dbo:Of"
+    }
+  },
+  {
+    "question": "where is Syngman Rhee buried ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Syngman_Rhee dbo:Buried ?ans . }",
+    "entity_mappings": {
+      "Syngman Rhee": "dbr:Syngman_Rhee"
+    },
+    "predicate_mappings": {
+      "is": "dbo:Is",
+      "buried": "dbo:Buried"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "what country is Mount Everest in ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Mount_Everest dbo:sourcecountry ?ans . }",
+    "entity_mappings": {
+      "Mount Everest": "dbr:Mount_Everest"
+    },
+    "predicate_mappings": {
+      "country": "dbo:sourcecountry",
+      "is": "dbo:Is",
+      "in": "dbo:In"
+    }
+  },
+  {
+    "question": "which airports does Yeti Airlines serve ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Yeti_Airlines dbo:Airports ?ans . }",
+    "entity_mappings": {
+      "Yeti Airlines": "dbr:Yeti_Airlines"
+    },
+    "predicate_mappings": {
+      "airports": "dbo:Airports",
+      "does": "dbo:Does",
+      "serve": "dbo:Serve"
+    }
+  },
+  {
+    "question": "when did princess Diana die ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Princess_Diana dbo:Die ?ans . }",
+    "entity_mappings": {
+      "princess Diana": "dbr:Princess_Diana"
+    },
+    "predicate_mappings": {
+      "did": "dbo:Did",
+      "die": "dbo:Die"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "who was the successor of John F. Kennedy ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:successor dbr:John_F._Kennedy . }",
+    "entity_mappings": {
+      "John F. Kennedy": "dbr:John_F._Kennedy"
+    },
+    "predicate_mappings": {
+      "was": "dbo:Was",
+      "successor": "dbo:successor",
+      "of": "dbo:Of"
+    }
+  },
+  {
+    "question": "who was the father of Queen Elizabeth II ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Father dbr:Queen_Elizabeth_Ii . }",
+    "entity_mappings": {
+      "Queen Elizabeth II": "dbr:Queen_Elizabeth_Ii"
+    },
+    "predicate_mappings": {
+      "was": "dbo:Was",
+      "father": "dbo:Father",
+      "of": "dbo:Of"
+    }
+  },
+  {
+    "question": "which ingredients do i need for carrot cake ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:ingredient ERROR_MISSING_OBJECT . }",
+    "entity_mappings": {},
+    "predicate_mappings": {
+      "ingredients": "dbo:ingredient",
+      "do": "dbo:Do",
+      "need for": "dbo:Need_For",
+      "carrot cake": "dbo:Carrot_Cake"
+    }
+  },
+  {
+    "question": "through which countries does the Yenisei river flow ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Yenisei_River dbo:Through ?ans . }",
+    "entity_mappings": {
+      "Yenisei river": "dbr:Yenisei_River"
+    },
+    "predicate_mappings": {
+      "through": "dbo:Through",
+      "countries": "dbo:Countries",
+      "does": "dbo:Does",
+      "flow": "dbo:inflow"
+    }
+  },
+  {
+    "question": "list all games by GMT .",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Games dbr:Gmt_Games . }",
+    "entity_mappings": {
+      "GMT": "dbr:Gmt_Games"
+    },
+    "predicate_mappings": {
+      "games": "dbo:Games",
+      "by": "dbo:By"
+    }
+  },
+  {
+    "question": "in which time zone is Rome ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Rome dbo:Time_Zone ?ans . }",
+    "entity_mappings": {
+      "Rome": "dbr:Rome"
+    },
+    "predicate_mappings": {
+      "in": "dbo:In",
+      "time zone": "dbo:Time_Zone",
+      "is": "dbo:Is"
+    }
+  },
+  {
+    "question": "which types of grapes grow in Oregon ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Types dbr:Oregon_Wine . }",
+    "entity_mappings": {
+      "Oregon": "dbr:Oregon_Wine"
+    },
+    "predicate_mappings": {
+      "types": "dbo:Types",
+      "of": "dbo:Of",
+      "grapes": "dbo:Grapes",
+      "grow in": "dbo:Grow_In"
+    }
+  },
+  {
+    "question": "is Michelle Obama the wife of Barack Obama ?",
+    "template_id": "D",
+    "sparql_query": "ASK WHERE { dbr:Michelle_Obama dbo:Wife dbr:Barack_Obama . }",
+    "entity_mappings": {
+      "Michelle Obama": "dbr:Michelle_Obama",
+      "Barack Obama": "dbr:Barack_Obama"
+    },
+    "predicate_mappings": {
+      "is": "dbo:Is",
+      "wife": "dbo:Wife",
+      "of": "dbo:Of"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "when did Boris Becker end his active career ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Boris_Becker dbo:End ?ans . }",
+    "entity_mappings": {
+      "Boris Becker": "dbr:Boris_Becker"
+    },
+    "predicate_mappings": {
+      "did": "dbo:Did",
+      "end": "dbo:End",
+      "career": "dbo:Career"
+    }
+  },
+  {
+    "question": "what country is Sitecore from ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Sitecore dbo:sourcecountry ?ans . }",
+    "entity_mappings": {
+      "Sitecore": "dbr:Sitecore"
+    },
+    "predicate_mappings": {
+      "country": "dbo:sourcecountry",
+      "is": "dbo:Is",
+      "from": "dbo:From"
+    }
+  },
+  {
+    "question": "how many languages are spoken in Turkmenistan ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Turkmenistan dbo:language ?ans . }",
+    "entity_mappings": {
+      "Turkmenistan": "dbr:Turkmenistan"
+    },
+    "predicate_mappings": {
+      "languages": "dbo:language",
+      "are spoken in": "dbo:Are_Spoken_In"
+    }
+  },
+  {
+    "question": "in which country does the Nile start ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Nile dbo:Start ?ans . }",
+    "entity_mappings": {
+      "Nile": "dbr:Nile"
+    },
+    "predicate_mappings": {
+      "in": "dbo:In",
+      "country": "dbo:sourcecountry",
+      "does": "dbo:Does",
+      "start": "dbo:Start"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "was the wife of president Lincoln called Mary ?",
+    "template_id": "D",
+    "sparql_query": "ASK WHERE { dbr:Abraham_Lincoln dbo:Wife dbr:Mary . }",
+    "entity_mappings": {
+      "Lincoln": "dbr:Abraham_Lincoln",
+      "Mary": "dbr:Mary"
+    },
+    "predicate_mappings": {
+      "was": "dbo:Was",
+      "wife": "dbo:Wife",
+      "of": "dbo:Of",
+      "president": "dbo:President",
+      "called": "dbo:Called"
+    }
+  },
+  {
+    "question": "who composed the music for Harold and Maude ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Composed dbr:Harold_And_Maude . }",
+    "entity_mappings": {
+      "Harold and Maude": "dbr:Harold_And_Maude"
+    },
+    "predicate_mappings": {
+      "composed": "dbo:Composed",
+      "music": "dbo:musiccomposer",
+      "for": "dbo:For"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "give me a list of all critically endangered birds .",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:List ERROR_MISSING_OBJECT . }",
+    "entity_mappings": {},
+    "predicate_mappings": {
+      "list": "dbo:List",
+      "of": "dbo:Of",
+      "critically endangered birds": "dbo:bird"
+    }
+  },
+  {
+    "question": "who composed the soundtrack for Cameron's Titanic ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Composed dbr:Cameron's_Titanic . }",
+    "entity_mappings": {
+      "Cameron's Titanic": "dbr:Cameron's_Titanic"
+    },
+    "predicate_mappings": {
+      "composed": "dbo:Composed",
+      "soundtrack": "dbo:Soundtrack",
+      "for": "dbo:For"
+    }
+  },
+  {
+    "question": "who was the doctoral supervisor of Albert Einstein ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Doctoral_Supervisor dbr:Albert_Einstein . }",
+    "entity_mappings": {
+      "Albert Einstein": "dbr:Albert_Einstein"
+    },
+    "predicate_mappings": {
+      "was": "dbo:Was",
+      "doctoral supervisor": "dbo:Doctoral_Supervisor",
+      "of": "dbo:Of"
+    }
+  },
+  {
+    "question": "who is the president of Eritrea ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:President dbr:Eritrea . }",
+    "entity_mappings": {
+      "Eritrea": "dbr:Eritrea"
+    },
+    "predicate_mappings": {
+      "is": "dbo:Is",
+      "president": "dbo:President",
+      "of": "dbo:Of"
+    }
+  },
+  {
+    "question": "in which programming language is GIMP written ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Gimp dbo:Programming_Language ?ans . }",
+    "entity_mappings": {
+      "GIMP": "dbr:Gimp"
+    },
+    "predicate_mappings": {
+      "in": "dbo:In",
+      "programming language": "dbo:Programming_Language",
+      "is": "dbo:Is",
+      "written": "dbo:Written"
+    }
+  },
+  {
+    "question": "in which U.S. state is Fort Knox located ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Fort_Knox dbo:U.s._State ?ans . }",
+    "entity_mappings": {
+      "Fort Knox": "dbr:Fort_Knox"
+    },
+    "predicate_mappings": {
+      "in": "dbo:In",
+      "U.S. state": "dbo:U.s._State",
+      "is": "dbo:Is",
+      "located": "dbo:Located"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "how high is the Yokohama Marine Tower ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Yokohama_Marine_Tower dbo:High ?ans . }",
+    "entity_mappings": {
+      "Yokohama Marine Tower": "dbr:Yokohama_Marine_Tower"
+    },
+    "predicate_mappings": {
+      "high": "dbo:High",
+      "is": "dbo:Is"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "show me hemingway's autobiography .",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Hemingway's ERROR_MISSING_PREDICATE ?ans . }",
+    "entity_mappings": {
+      "hemingway's": "dbr:Hemingway's",
+      "autobiography": "dbr:Autobiography"
+    },
+    "predicate_mappings": {}
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "who is the host of the BBC Wildlife Specials ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Bbc_Wildlife_Specials dbo:Host ?ans . }",
+    "entity_mappings": {
+      "BBC Wildlife Specials": "dbr:Bbc_Wildlife_Specials"
+    },
+    "predicate_mappings": {
+      "is": "dbo:Is",
+      "host": "dbo:Host",
+      "of": "dbo:Of"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "how much did the Lego Movie cost ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Lego_Movie dbo:Cost ?ans . }",
+    "entity_mappings": {
+      "Lego Movie": "dbr:Lego_Movie"
+    },
+    "predicate_mappings": {
+      "did": "dbo:Did",
+      "cost": "dbo:Cost"
+    }
+  },
+  {
+    "question": "How many seats does the home stadium of FC Porto have ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Stadium_Of_Fc_Porto dbo:Does ?ans . }",
+    "entity_mappings": {
+      "stadium of FC Porto": "dbr:Stadium_Of_Fc_Porto"
+    },
+    "predicate_mappings": {
+      "does": "dbo:Does",
+      "have": "dbo:Have"
+    }
+  },
+  {
+    "question": "give me all movies directed by Francis Ford Coppola .",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Movies dbr:Francis_Ford_Coppola . }",
+    "entity_mappings": {
+      "Francis Ford Coppola": "dbr:Francis_Ford_Coppola"
+    },
+    "predicate_mappings": {
+      "movies": "dbo:Movies",
+      "directed by": "dbo:Directed_By"
+    }
+  },
+  {
+    "question": "which subsidiary of TUI Travel serves both Glasgow and Dublin ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Tui_Travel dbo:subsidiary ?ans . }",
+    "entity_mappings": {
+      "TUI Travel": "dbr:Tui_Travel",
+      "Glasgow": "dbr:Glasgow",
+      "Dublin": "dbr:Dublin"
+    },
+    "predicate_mappings": {
+      "subsidiary": "dbo:subsidiary",
+      "of": "dbo:Of",
+      "serves": "dbo:Serves",
+      "and": "dbo:And"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "what is the area code of Berlin ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Berlin dbo:Area_Code ?ans . }",
+    "entity_mappings": {
+      "Berlin": "dbr:Berlin"
+    },
+    "predicate_mappings": {
+      "is": "dbo:Is",
+      "area code": "dbo:Area_Code",
+      "of": "dbo:Of"
+    }
+  },
+  {
+    "question": "how tall is Claudia Schiffer ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Claudia_Schiffer dbo:Tall ?ans . }",
+    "entity_mappings": {
+      "Claudia Schiffer": "dbr:Claudia_Schiffer"
+    },
+    "predicate_mappings": {
+      "tall": "dbo:Tall",
+      "is": "dbo:Is"
+    }
+  },
+  {
+    "question": "was U.S. president Jackson involved in a war ?",
+    "template_id": "D",
+    "sparql_query": "ASK WHERE { dbr:Andrew_Jackson dbo:U.s._President ERROR_MISSING_OBJECT . }",
+    "entity_mappings": {
+      "Jackson": "dbr:Andrew_Jackson"
+    },
+    "predicate_mappings": {
+      "was": "dbo:Was",
+      "U.S. president": "dbo:U.s._President",
+      "involved in": "dbo:Involved_In",
+      "war": "dbo:War"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "is Christian Bale starring in Batman Begins ?",
+    "template_id": "D",
+    "sparql_query": "ASK WHERE { dbr:Christian_Bale dbo:Starring_In dbr:Batman_Begins . }",
+    "entity_mappings": {
+      "Christian Bale": "dbr:Christian_Bale",
+      "Batman Begins": "dbr:Batman_Begins"
+    },
+    "predicate_mappings": {
+      "is": "dbo:Is",
+      "starring in": "dbo:Starring_In"
+    }
+  },
+  {
+    "question": "which museum exhibits the Scream by Munch ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:The_Scream dbo:museum ?ans . }",
+    "entity_mappings": {
+      "Scream": "dbr:The_Scream",
+      "Munch": "dbr:Munch"
+    },
+    "predicate_mappings": {
+      "museum": "dbo:museum",
+      "exhibits": "dbo:Exhibits",
+      "by": "dbo:By"
+    }
+  },
+  {
+    "question": "who is the mayor of Tel Aviv ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:mayor dbr:Tel_Aviv . }",
+    "entity_mappings": {
+      "Tel Aviv": "dbr:Tel_Aviv"
+    },
+    "predicate_mappings": {
+      "is": "dbo:Is",
+      "mayor": "dbo:mayor",
+      "of": "dbo:Of"
+    }
+  },
+  {
+    "question": "give me all professional skateboarders from Sweden .",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Professional_Skateboarders dbr:Sweden . }",
+    "entity_mappings": {
+      "Sweden": "dbr:Sweden"
+    },
+    "predicate_mappings": {
+      "professional skateboarders": "dbo:Professional_Skateboarders",
+      "from": "dbo:From"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "How many people live in Poland ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Live_In dbr:Poland . }",
+    "entity_mappings": {
+      "Poland": "dbr:Poland"
+    },
+    "predicate_mappings": {
+      "live in": "dbo:Live_In"
+    }
+  },
+  {
+    "question": "what form of government does Russia have ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Russia dbo:Form_Of_Government ?ans . }",
+    "entity_mappings": {
+      "Russia": "dbr:Russia"
+    },
+    "predicate_mappings": {
+      "form of government": "dbo:Form_Of_Government",
+      "does": "dbo:Does",
+      "have": "dbo:Have"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "when was Jack Wolfskin founded ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Jack_Wolfskin dbo:foundedby ?ans . }",
+    "entity_mappings": {
+      "Jack Wolfskin": "dbr:Jack_Wolfskin"
+    },
+    "predicate_mappings": {
+      "was": "dbo:Was",
+      "founded": "dbo:foundedby"
+    }
+  },
+  {
+    "question": "what is the currency of the Czech republic ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Czech_Republic dbo:currency ?ans . }",
+    "entity_mappings": {
+      "Czech republic": "dbr:Czech_Republic"
+    },
+    "predicate_mappings": {
+      "is": "dbo:Is",
+      "currency": "dbo:currency",
+      "of": "dbo:Of"
+    }
+  },
+  {
+    "question": "who is the mayor of Paris ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:mayor dbr:Paris . }",
+    "entity_mappings": {
+      "Paris": "dbr:Paris"
+    },
+    "predicate_mappings": {
+      "is": "dbo:Is",
+      "mayor": "dbo:mayor",
+      "of": "dbo:Of"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "who wrote the Game of Thrones theme ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Wrote dbr:Game_Of_Thrones . }",
+    "entity_mappings": {
+      "Game of Thrones": "dbr:Game_Of_Thrones"
+    },
+    "predicate_mappings": {
+      "wrote": "dbo:Wrote",
+      "theme": "dbo:Theme"
+    }
+  },
+  {
+    "question": "who is the editor of Forbes ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:editor dbr:Forbes . }",
+    "entity_mappings": {
+      "Forbes": "dbr:Forbes"
+    },
+    "predicate_mappings": {
+      "is": "dbo:Is",
+      "editor": "dbo:editor",
+      "of": "dbo:Of"
+    }
+  },
+  {
+    "question": "in which UK city are the headquarters of the MI6 ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Uk dbo:city ?ans . }",
+    "entity_mappings": {
+      "UK": "dbr:Uk",
+      "MI6": "dbr:Mi6"
+    },
+    "predicate_mappings": {
+      "in": "dbo:In",
+      "city": "dbo:city",
+      "are": "dbo:Are",
+      "headquarters": "dbo:headquarter",
+      "of": "dbo:Of"
+    }
+  },
+  {
+    "question": "where in France is sparkling wine produced ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:France dbo:Sparkling_Wine ?ans . }",
+    "entity_mappings": {
+      "France": "dbr:France"
+    },
+    "predicate_mappings": {
+      "in": "dbo:In",
+      "is": "dbo:Is",
+      "sparkling wine": "dbo:Sparkling_Wine",
+      "produced": "dbo:wineproduced"
+    }
+  },
+  {
+    "question": "how tall is Amazon Eve ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Amazon_Eve dbo:Tall ?ans . }",
+    "entity_mappings": {
+      "Amazon Eve": "dbr:Amazon_Eve"
+    },
+    "predicate_mappings": {
+      "tall": "dbo:Tall",
+      "is": "dbo:Is"
+    }
+  },
+  {
+    "question": "what is the official language of Suriname ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Suriname dbo:Official_Language ?ans . }",
+    "entity_mappings": {
+      "Suriname": "dbr:Suriname"
+    },
+    "predicate_mappings": {
+      "is": "dbo:Is",
+      "official language": "dbo:Official_Language",
+      "of": "dbo:Of"
+    }
+  },
+  {
+    "question": "what are the nicknames of San Francisco ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:San_Francisco dbo:Nicknames ?ans . }",
+    "entity_mappings": {
+      "San Francisco": "dbr:San_Francisco"
+    },
+    "predicate_mappings": {
+      "are": "dbo:Are",
+      "nicknames": "dbo:Nicknames",
+      "of": "dbo:Of"
+    }
+  },
+  {
+    "question": "what is batman's real name ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Batman's dbo:Real_Name ?ans . }",
+    "entity_mappings": {
+      "batman's": "dbr:Batman's"
+    },
+    "predicate_mappings": {
+      "is": "dbo:Is",
+      "real name": "dbo:Real_Name"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "which country was Bill Gates born in ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Bill_Gates dbo:sourcecountry ?ans . }",
+    "entity_mappings": {
+      "Bill Gates": "dbr:Bill_Gates"
+    },
+    "predicate_mappings": {
+      "country": "dbo:sourcecountry",
+      "was": "dbo:Was",
+      "born in": "dbo:Born_In"
+    }
+  },
+  {
+    "question": "is James Bond married ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Married dbr:James_Bond . }",
+    "entity_mappings": {
+      "James Bond": "dbr:James_Bond"
+    },
+    "predicate_mappings": {
+      "is": "dbo:Is",
+      "married": "dbo:Married"
+    }
+  },
+  {
+    "question": "how many children did Benjamin Franklin have ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Benjamin_Franklin dbo:child ?ans . }",
+    "entity_mappings": {
+      "Benjamin Franklin": "dbr:Benjamin_Franklin"
+    },
+    "predicate_mappings": {
+      "children": "dbo:child",
+      "did": "dbo:Did",
+      "have": "dbo:Have"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  "Error: Template ID 'unknown' not found in the template map.",
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "what did Bruce Carver die from ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Bruce_Carver dbo:Die_From ?ans . }",
+    "entity_mappings": {
+      "Bruce Carver": "dbr:Bruce_Carver"
+    },
+    "predicate_mappings": {
+      "did": "dbo:Did",
+      "die from": "dbo:Die_From"
+    }
+  },
+  {
+    "question": "give me all launch pads operated by NASA .",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Launch_Pads dbr:Nasa . }",
+    "entity_mappings": {
+      "NASA": "dbr:Nasa"
+    },
+    "predicate_mappings": {
+      "launch pads": "dbo:Launch_Pads",
+      "operated by": "dbo:Operated_By"
+    }
+  },
+  {
+    "question": "what is the timezone in San Pedro de Atacama ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:San_Pedro_De_Atacama dbo:timezone ?ans . }",
+    "entity_mappings": {
+      "San Pedro de Atacama": "dbr:San_Pedro_De_Atacama"
+    },
+    "predicate_mappings": {
+      "is": "dbo:Is",
+      "timezone": "dbo:timezone",
+      "in": "dbo:In"
+    }
+  },
+  {
+    "question": "give me the grandchildren of Elvis Presley .",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Elvis_Presley dbo:child ?ans . }",
+    "entity_mappings": {
+      "Elvis Presley": "dbr:Elvis_Presley"
+    },
+    "predicate_mappings": {
+      "grandchildren": "dbo:child",
+      "of": "dbo:Of"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "list the children of Margaret Thatcher .",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Margaret_Thatcher dbo:child ?ans . }",
+    "entity_mappings": {
+      "Margaret Thatcher": "dbr:Margaret_Thatcher"
+    },
+    "predicate_mappings": {
+      "children": "dbo:child",
+      "of": "dbo:Of"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "who was the wife of U.S. president Lincoln ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Wife dbr:Abraham_Lincoln . }",
+    "entity_mappings": {
+      "Lincoln": "dbr:Abraham_Lincoln"
+    },
+    "predicate_mappings": {
+      "was": "dbo:Was",
+      "wife": "dbo:Wife",
+      "of": "dbo:Of",
+      "U.S. president": "dbo:U.s._President"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "which countries adopted the Euro ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Countries dbr:Euro . }",
+    "entity_mappings": {
+      "Euro": "dbr:Euro"
+    },
+    "predicate_mappings": {
+      "countries": "dbo:Countries",
+      "adopted": "dbo:Adopted"
+    }
+  },
+  {
+    "question": "how many theories did Albert Einstein come up with ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Theories dbr:Albert_Einstein . }",
+    "entity_mappings": {
+      "Albert Einstein": "dbr:Albert_Einstein"
+    },
+    "predicate_mappings": {
+      "theories": "dbo:Theories",
+      "did": "dbo:Did",
+      "come up with": "dbo:Come_Up_With"
+    }
+  },
+  {
+    "question": "what kind of music did Lou Reed play ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Kind_Of_Music dbr:Lou_Reed . }",
+    "entity_mappings": {
+      "Lou Reed": "dbr:Lou_Reed"
+    },
+    "predicate_mappings": {
+      "kind of music": "dbo:Kind_Of_Music",
+      "did": "dbo:Did",
+      "play": "dbo:Play"
+    }
+  },
+  {
+    "question": "who wrote the Hunger Games ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Hunger_Games dbo:Wrote ?ans . }",
+    "entity_mappings": {
+      "Hunger Games": "dbr:Hunger_Games"
+    },
+    "predicate_mappings": {
+      "wrote": "dbo:Wrote"
+    }
+  },
+  {
+    "question": "who are the developers of DBpedia ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:developer dbr:Dbpedia . }",
+    "entity_mappings": {
+      "DBpedia": "dbr:Dbpedia"
+    },
+    "predicate_mappings": {
+      "are": "dbo:Are",
+      "developers": "dbo:developer",
+      "of": "dbo:Of"
+    }
+  },
+  {
+    "question": "who are the writers of the wall album of pink floyd ?",
+    "template_id": "A",
+    "sparql_query": "SELECT ?ans WHERE { dbr:Pink_Floyd dbo:Writers ?ans . }",
+    "entity_mappings": {
+      "pink floyd": "dbr:Pink_Floyd"
+    },
+    "predicate_mappings": {
+      "are": "dbo:Are",
+      "writers": "dbo:Writers",
+      "of": "dbo:Of",
+      "the wall album": "dbo:The_Wall_Album"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  "Error: Template ID 'unknown' not found in the template map.",
+  "Error: Template ID 'unknown' not found in the template map.",
+  "Error: Template ID 'unknown' not found in the template map.",
+  {
+    "question": "what does IYCM stand for ?",
+    "template_id": "B",
+    "sparql_query": "SELECT ?ans WHERE { ?ans dbo:Stand_For dbr:Iycm . }",
+    "entity_mappings": {
+      "IYCM": "dbr:Iycm"
+    },
+    "predicate_mappings": {
+      "does": "dbo:Does",
+      "stand for": "dbo:Stand_For"
+    }
+  },
+  "Error: Template ID 'unknown' not found in the template map.",
+  "Error: Template ID 'unknown' not found in the template map."
+]

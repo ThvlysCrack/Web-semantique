@@ -1,0 +1,267 @@
+[
+  {
+    "index": 7,
+    "question": "give me the currency of China .",
+    "query": "SELECT ?ans WHERE { dbr:China dbo:currency ?ans . }",
+    "valid": true,
+    "validation_message": "Query is valid and returns results",
+    "executed": true,
+    "results": [
+      {
+        "ans": "Renminbi"
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "question": "who is the founder of Penguin Books ?",
+    "query": "SELECT ?ans WHERE { dbr:Penguin_Books dbo:founder ?ans . }",
+    "valid": true,
+    "validation_message": "Query is valid and returns results",
+    "executed": true,
+    "results": [
+      {
+        "ans": "Allen Lane"
+      }
+    ]
+  },
+  {
+    "index": 33,
+    "question": "is Rita Wilson the wife of Tom Hanks ?",
+    "query": "ASK WHERE { dbr:Rita_Wilson dbo:Wife dbr:Tom_Hanks . }",
+    "valid": true,
+    "validation_message": "Query is valid and returns results",
+    "executed": true,
+    "results": [
+      "No"
+    ]
+  },
+  {
+    "index": 41,
+    "question": "who is the oldest child of Meryl Streep ?",
+    "query": "SELECT ?ans WHERE { ?ans dbo:child dbr:Meryl_Streep . }",
+    "valid": true,
+    "validation_message": "Query is valid and returns results",
+    "executed": true,
+    "results": [
+      {
+        "ans": "Mary Wilkinson Streep"
+      }
+    ]
+  },
+  {
+    "index": 44,
+    "question": "did Socrates influence Aristotle ?",
+    "query": "ASK WHERE { dbr:Socrates dbo:influencedby dbr:Aristotle . }",
+    "valid": true,
+    "validation_message": "Query is valid and returns results",
+    "executed": true,
+    "results": [
+      "No"
+    ]
+  },
+  {
+    "index": 54,
+    "question": "did Kaurism\u00e4ki ever win the Grand Prix at Cannes ?",
+    "query": "ASK WHERE { dbr:Kaurism\u00e4ki dbo:Win dbr:Grand_Prix_At_Cannes . }",
+    "valid": true,
+    "validation_message": "Query is valid and returns results",
+    "executed": true,
+    "results": [
+      "No"
+    ]
+  },
+  {
+    "index": 63,
+    "question": "who were the parents of Queen Victoria ?",
+    "query": "SELECT ?ans WHERE { ?ans dbo:parent dbr:Queen_Victoria . }",
+    "valid": true,
+    "validation_message": "Query is valid and returns results",
+    "executed": true,
+    "results": [
+      {
+        "ans": "Princess Beatrice of the United Kingdom"
+      },
+      {
+        "ans": "Edward VII"
+      }
+    ]
+  },
+  {
+    "index": 67,
+    "question": "is Christian Bale starring in Velvet Goldmine ?",
+    "query": "ASK WHERE { dbr:Christian_Bale dbo:Starring_In dbr:Velvet_Goldmine . }",
+    "valid": true,
+    "validation_message": "Query is valid and returns results",
+    "executed": true,
+    "results": [
+      "No"
+    ]
+  },
+  {
+    "index": 80,
+    "question": "who was john f. kennedy's vice president ?",
+    "query": "SELECT ?ans WHERE { ?ans dbo:Vice_President dbr:John_F._Kennedy's . }",
+    "valid": false,
+    "validation_message": "Invalid query: QueryBadFormed: A bad request has been sent to the endpoint: probably the SPARQL query is badly formed. \n\nResponse:\nb\"Virtuoso 37000 Error SP030: SPARQL compiler, line 0: End-of-line in a short single-quoted string at ''s . }\\n'\\n\\nSPARQL query:\\n#output-format:application/sparql-results+json\\nSELECT ?ans WHERE { ?ans dbo:Vice_President dbr:John_F._Kennedy's . }\\n\"",
+    "executed": false
+  },
+  {
+    "index": 84,
+    "question": "what is the capital of Cameroon ?",
+    "query": "SELECT ?ans WHERE { dbr:Cameroon dbo:capital ?ans . }",
+    "valid": true,
+    "validation_message": "Query is valid and returns results",
+    "executed": true,
+    "results": [
+      {
+        "ans": "Yaound\u00e9"
+      }
+    ]
+  },
+  {
+    "index": 94,
+    "question": "who was the successor of John F. Kennedy ?",
+    "query": "SELECT ?ans WHERE { ?ans dbo:successor dbr:John_F._Kennedy . }",
+    "valid": true,
+    "validation_message": "Query is valid and returns results",
+    "executed": true,
+    "results": [
+      {
+        "ans": "Dwight D. Eisenhower  Tenure  1"
+      },
+      {
+        "ans": "Henry Cabot Lodge Jr.  Tenure  6"
+      },
+      {
+        "ans": "James Michael Curley  Tenure  6"
+      }
+    ]
+  },
+  {
+    "index": 101,
+    "question": "is Michelle Obama the wife of Barack Obama ?",
+    "query": "ASK WHERE { dbr:Michelle_Obama dbo:Wife dbr:Barack_Obama . }",
+    "valid": true,
+    "validation_message": "Query is valid and returns results",
+    "executed": true,
+    "results": [
+      "No"
+    ]
+  },
+  {
+    "index": 108,
+    "question": "was the wife of president Lincoln called Mary ?",
+    "query": "ASK WHERE { dbr:Abraham_Lincoln dbo:Wife dbr:Mary . }",
+    "valid": true,
+    "validation_message": "Query is valid and returns results",
+    "executed": true,
+    "results": [
+      "No"
+    ]
+  },
+  {
+    "index": 113,
+    "question": "who composed the soundtrack for Cameron's Titanic ?",
+    "query": "SELECT ?ans WHERE { ?ans dbo:Composed dbr:Cameron's_Titanic . }",
+    "valid": false,
+    "validation_message": "Invalid query: QueryBadFormed: A bad request has been sent to the endpoint: probably the SPARQL query is badly formed. \n\nResponse:\nb\"Virtuoso 37000 Error SP030: SPARQL compiler, line 0: End-of-line in a short single-quoted string at ''s_Titanic . }\\n'\\n\\nSPARQL query:\\n#output-format:application/sparql-results+json\\nSELECT ?ans WHERE { ?ans dbo:Composed dbr:Cameron's_Titanic . }\\n\"",
+    "executed": false
+  },
+  {
+    "index": 135,
+    "question": "is Christian Bale starring in Batman Begins ?",
+    "query": "ASK WHERE { dbr:Christian_Bale dbo:Starring_In dbr:Batman_Begins . }",
+    "valid": true,
+    "validation_message": "Query is valid and returns results",
+    "executed": true,
+    "results": [
+      "No"
+    ]
+  },
+  {
+    "index": 136,
+    "question": "which museum exhibits the Scream by Munch ?",
+    "query": "SELECT ?ans WHERE { dbr:The_Scream dbo:museum ?ans . }",
+    "valid": true,
+    "validation_message": "Query is valid and returns results",
+    "executed": true,
+    "results": [
+      {
+        "ans": "Munch Museum"
+      },
+      {
+        "ans": "National Gallery (Norway)"
+      }
+    ]
+  },
+  {
+    "index": 145,
+    "question": "what is the currency of the Czech republic ?",
+    "query": "SELECT ?ans WHERE { dbr:Czech_Republic dbo:currency ?ans . }",
+    "valid": true,
+    "validation_message": "Query is valid and returns results",
+    "executed": true,
+    "results": [
+      {
+        "ans": "Czech koruna"
+      }
+    ]
+  },
+  {
+    "index": 155,
+    "question": "what is batman's real name ?",
+    "query": "SELECT ?ans WHERE { dbr:Batman's dbo:Real_Name ?ans . }",
+    "valid": false,
+    "validation_message": "Invalid query: QueryBadFormed: A bad request has been sent to the endpoint: probably the SPARQL query is badly formed. \n\nResponse:\nb\"Virtuoso 37000 Error SP030: SPARQL compiler, line 0: End-of-line in a short single-quoted string at ''s dbo:Real_Name ?ans . }\\n'\\n\\nSPARQL query:\\n#output-format:application/sparql-results+json\\nSELECT ?ans WHERE { dbr:Batman's dbo:Real_Name ?ans . }\\n\"",
+    "executed": false
+  },
+  {
+    "index": 159,
+    "question": "how many children did Benjamin Franklin have ?",
+    "query": "SELECT ?ans WHERE { dbr:Benjamin_Franklin dbo:child ?ans . }",
+    "valid": true,
+    "validation_message": "Query is valid and returns results",
+    "executed": true,
+    "results": [
+      {
+        "ans": "Sarah Franklin Bache"
+      },
+      {
+        "ans": "William Franklin"
+      },
+      {
+        "ans": "Francis Folger Franklin"
+      }
+    ]
+  },
+  {
+    "index": 166,
+    "question": "give me the grandchildren of Elvis Presley .",
+    "query": "SELECT ?ans WHERE { dbr:Elvis_Presley dbo:child ?ans . }",
+    "valid": true,
+    "validation_message": "Query is valid and returns results",
+    "executed": true,
+    "results": [
+      {
+        "ans": "Lisa Marie Presley"
+      }
+    ]
+  },
+  {
+    "index": 169,
+    "question": "list the children of Margaret Thatcher .",
+    "query": "SELECT ?ans WHERE { dbr:Margaret_Thatcher dbo:child ?ans . }",
+    "valid": true,
+    "validation_message": "Query is valid and returns results",
+    "executed": true,
+    "results": [
+      {
+        "ans": "Carol Thatcher"
+      },
+      {
+        "ans": "Mark Thatcher"
+      }
+    ]
+  }
+]
