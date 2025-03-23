@@ -8,7 +8,7 @@ import os
 import argparse
 
 # 1) Renseignez votre clé OpenAI
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="")
 
 DBPEDIA_SPARQL_ENDPOINT = "https://dbpedia.org/sparql"
 
