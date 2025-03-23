@@ -1,0 +1,687 @@
+{
+  "date_execution": "2025-03-23 12:49:34",
+  "resultats": [
+    {
+      "question": "In which country is the city of Durban located?",
+      "requete_sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX dbr: <http://dbpedia.org/resource/>\n\nSELECT ?country\nWHERE {\n  dbr:Durban dbo:country ?country .\n}",
+      "resultats": {
+        "head": {
+          "link": [],
+          "vars": [
+            "country"
+          ]
+        },
+        "results": {
+          "distinct": false,
+          "ordered": true,
+          "bindings": [
+            {
+              "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/South_Africa"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "question": "What is the release date of the video game Undertale?",
+      "requete_sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX dbr: <http://dbpedia.org/resource/>\n\nSELECT ?releaseDate\nWHERE {\n  dbr:Undertale dbo:releaseDate ?releaseDate .\n}",
+      "resultats": {
+        "head": {
+          "link": [],
+          "vars": [
+            "releaseDate"
+          ]
+        },
+        "results": {
+          "distinct": false,
+          "ordered": true,
+          "bindings": [
+            {
+              "releaseDate": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "value": "2015-09-15"
+              }
+            },
+            {
+              "releaseDate": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "value": "2016-07-17"
+              }
+            },
+            {
+              "releaseDate": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "value": "2017-08-15"
+              }
+            },
+            {
+              "releaseDate": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "value": "2018-09-18"
+              }
+            },
+            {
+              "releaseDate": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "value": "2021-03-16"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "question": "What is the administrative capital of Bolivia?",
+      "requete_sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX dbr: <http://dbpedia.org/resource/>\n\nSELECT ?capital\nWHERE {\n  dbr:Bolivia dbo:capital ?capital .\n}",
+      "resultats": {
+        "head": {
+          "link": [],
+          "vars": [
+            "capital"
+          ]
+        },
+        "results": {
+          "distinct": false,
+          "ordered": true,
+          "bindings": [
+            {
+              "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Sucre"
+              }
+            },
+            {
+              "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/La_Paz"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "question": "What is Ed Sheeran's country of origin?",
+      "requete_sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX dbr: <http://dbpedia.org/resource/>\n\nSELECT ?country\nWHERE {\n  dbr:Ed_Sheeran dbo:birthPlace ?place .\n  ?place dbo:country ?country .\n}",
+      "resultats": {
+        "head": {
+          "link": [],
+          "vars": [
+            "country"
+          ]
+        },
+        "results": {
+          "distinct": false,
+          "ordered": true,
+          "bindings": [
+            {
+              "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/United_Kingdom"
+              }
+            },
+            {
+              "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/England_national_rugby_union_team"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "question": "Who is the director of the movie Inception?",
+      "requete_sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX dbr: <http://dbpedia.org/resource/>\n\nSELECT ?director\nWHERE {\n  dbr:Inception dbo:director ?director .\n}",
+      "resultats": {
+        "head": {
+          "link": [],
+          "vars": [
+            "director"
+          ]
+        },
+        "results": {
+          "distinct": false,
+          "ordered": true,
+          "bindings": [
+            {
+              "director": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Christopher_Nolan"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "question": "When was Albert Einstein born?",
+      "requete_sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX dbr: <http://dbpedia.org/resource/>\n\nSELECT ?birthDate\nWHERE {\n  dbr:Albert_Einstein dbo:birthDate ?birthDate .\n}",
+      "resultats": {
+        "head": {
+          "link": [],
+          "vars": [
+            "birthDate"
+          ]
+        },
+        "results": {
+          "distinct": false,
+          "ordered": true,
+          "bindings": [
+            {
+              "birthDate": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "value": "1879-03-14"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "question": "In which city was Victor Hugo born?",
+      "requete_sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX dbr: <http://dbpedia.org/resource/>\n\nSELECT ?birthPlace\nWHERE {\n  dbr:Victor_Hugo dbo:birthPlace ?birthPlace .\n}",
+      "resultats": {
+        "head": {
+          "link": [],
+          "vars": [
+            "birthPlace"
+          ]
+        },
+        "results": {
+          "distinct": false,
+          "ordered": true,
+          "bindings": [
+            {
+              "birthPlace": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Besançon"
+              }
+            },
+            {
+              "birthPlace": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/French_First_Republic"
+              }
+            },
+            {
+              "birthPlace": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Doubs"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "question": "What is the highest mountain in France?",
+      "requete_sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX dbr: <http://dbpedia.org/resource/>\n\nSELECT ?mountain\nWHERE {\n  ?mountain dbo:location dbr:France ;\n            dbo:elevation ?elevation .\n}\nORDER BY DESC(?elevation)\nLIMIT 1",
+      "resultats": {
+        "head": {
+          "link": [],
+          "vars": [
+            "mountain"
+          ]
+        },
+        "results": {
+          "distinct": false,
+          "ordered": true,
+          "bindings": [
+            {
+              "mountain": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Lac_d'Allos"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "question": "Who wrote Les Misérables?",
+      "requete_sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX dbr: <http://dbpedia.org/resource/>\n\nSELECT ?author\nWHERE {\n  dbr:Les_Misérables dbo:author ?author .\n}",
+      "resultats": {
+        "head": {
+          "link": [],
+          "vars": [
+            "author"
+          ]
+        },
+        "results": {
+          "distinct": false,
+          "ordered": true,
+          "bindings": [
+            {
+              "author": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Victor_Hugo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "question": "What is the capital of Italy?",
+      "requete_sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX dbr: <http://dbpedia.org/resource/>\n\nSELECT ?capital\nWHERE {\n  dbr:Italy dbo:capital ?capital .\n}",
+      "resultats": {
+        "head": {
+          "link": [],
+          "vars": [
+            "capital"
+          ]
+        },
+        "results": {
+          "distinct": false,
+          "ordered": true,
+          "bindings": [
+            {
+              "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Rome"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "question": "What is the area of Spain?",
+      "requete_sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX dbr: <http://dbpedia.org/resource/>\n\nSELECT ?area\nWHERE {\n  dbr:Spain dbo:areaTotal ?area .\n}",
+      "resultats": {
+        "head": {
+          "link": [],
+          "vars": [
+            "area"
+          ]
+        },
+        "results": {
+          "distinct": false,
+          "ordered": true,
+          "bindings": []
+        }
+      }
+    },
+    {
+      "question": "What is the population of Tokyo?",
+      "requete_sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX dbr: <http://dbpedia.org/resource/>\n\nSELECT ?population\nWHERE {\n  dbr:Tokyo dbo:populationTotal ?population .\n}",
+      "resultats": {
+        "head": {
+          "link": [],
+          "vars": [
+            "population"
+          ]
+        },
+        "results": {
+          "distinct": false,
+          "ordered": true,
+          "bindings": [
+            {
+              "population": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+                "value": "13988129"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "question": "In which country is the city of Barcelona?",
+      "requete_sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX dbr: <http://dbpedia.org/resource/>\n\nSELECT ?country\nWHERE {\n  dbr:Barcelona dbo:country ?country .\n}",
+      "resultats": {
+        "head": {
+          "link": [],
+          "vars": [
+            "country"
+          ]
+        },
+        "results": {
+          "distinct": false,
+          "ordered": true,
+          "bindings": [
+            {
+              "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Spain"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "question": "What is the length of the Nile River?",
+      "requete_sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX dbr: <http://dbpedia.org/resource/>\n\nSELECT ?length\nWHERE {\n  dbr:Nile dbo:length ?length .\n}",
+      "resultats": {
+        "head": {
+          "link": [],
+          "vars": [
+            "length"
+          ]
+        },
+        "results": {
+          "distinct": false,
+          "ordered": true,
+          "bindings": [
+            {
+              "length": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#double",
+                "value": "6650000.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "question": "When did Vincent van Gogh die?",
+      "requete_sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX dbr: <http://dbpedia.org/resource/>\n\nSELECT ?date\nWHERE {\n  dbr:Vincent_van_Gogh dbo:deathDate ?date .\n}",
+      "resultats": {
+        "head": {
+          "link": [],
+          "vars": [
+            "date"
+          ]
+        },
+        "results": {
+          "distinct": false,
+          "ordered": true,
+          "bindings": [
+            {
+              "date": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "value": "1890-07-29"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "question": "Who created Facebook?",
+      "requete_sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX dbr: <http://dbpedia.org/resource/>\n\nSELECT ?creator\nWHERE {\n  dbr:Facebook dbo:creator ?creator .\n}",
+      "resultats": {
+        "head": {
+          "link": [],
+          "vars": [
+            "creator"
+          ]
+        },
+        "results": {
+          "distinct": false,
+          "ordered": true,
+          "bindings": []
+        }
+      }
+    },
+    {
+      "question": "What is the average temperature on Mars?",
+      "requete_sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX dbr: <http://dbpedia.org/resource/>\n\nSELECT ?temperature\nWHERE {\n  dbr:Mars dbo:meanTemperature ?temperature .\n}",
+      "resultats": {
+        "head": {
+          "link": [],
+          "vars": [
+            "temperature"
+          ]
+        },
+        "results": {
+          "distinct": false,
+          "ordered": true,
+          "bindings": [
+            {
+              "temperature": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#double",
+                "value": "213.15"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "question": "Who is the author of \"The Little Prince\"?",
+      "requete_sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX dbr: <http://dbpedia.org/resource/>\n\nSELECT ?author\nWHERE {\n  dbr:The_Little_Prince dbo:author ?author .\n}",
+      "resultats": {
+        "head": {
+          "link": [],
+          "vars": [
+            "author"
+          ]
+        },
+        "results": {
+          "distinct": false,
+          "ordered": true,
+          "bindings": [
+            {
+              "author": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Antoine_de_Saint-Exupéry"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "question": "How many countries are part of NATO?",
+      "requete_sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX dbr: <http://dbpedia.org/resource/>\nPREFIX dbc: <http://dbpedia.org/resource/Category:>\n\nSELECT (COUNT(?country) AS ?numberOfCountries)\nWHERE {\n  ?country dbo:membership dbr:NATO .\n}",
+      "resultats": {
+        "head": {
+          "link": [],
+          "vars": [
+            "numberOfCountries"
+          ]
+        },
+        "results": {
+          "distinct": false,
+          "ordered": true,
+          "bindings": [
+            {
+              "numberOfCountries": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                "value": "0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "question": "Is Paris the capital of France?",
+      "requete_sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX dbr: <http://dbpedia.org/resource/>\n\nASK {\n  dbr:France dbo:capital dbr:Paris .\n}",
+      "resultats": {
+        "head": {
+          "link": []
+        },
+        "boolean": true
+      }
+    },
+    {
+      "question": "Is Mount Everest located in Nepal?",
+      "requete_sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX dbr: <http://dbpedia.org/resource/>\n\nASK {\n  dbr:Mount_Everest dbo:location dbr:Nepal .\n}",
+      "resultats": {
+        "head": {
+          "link": []
+        },
+        "boolean": false
+      }
+    },
+    {
+      "question": "Was Albert Einstein born in Germany?",
+      "requete_sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX dbr: <http://dbpedia.org/resource/>\n\nASK {\n  dbr:Albert_Einstein dbo:birthPlace dbr:Germany .\n}",
+      "resultats": {
+        "head": {
+          "link": []
+        },
+        "boolean": false
+      }
+    },
+    {
+      "question": "Is English the official language of Brazil?",
+      "requete_sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX dbr: <http://dbpedia.org/resource/>\n\nASK {\n  dbr:Brazil dbo:officialLanguage dbr:English .\n}",
+      "resultats": {
+        "head": {
+          "link": []
+        },
+        "boolean": false
+      }
+    },
+    {
+      "question": "Did The Beatles form in Liverpool?",
+      "requete_sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX dbr: <http://dbpedia.org/resource/>\n\nASK {\n  dbr:The_Beatles dbo:formationPlace dbr:Liverpool .\n}",
+      "resultats": {
+        "head": {
+          "link": []
+        },
+        "boolean": false
+      }
+    },
+    {
+      "question": "Is Tokyo the largest city in the world?",
+      "requete_sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX dbr: <http://dbpedia.org/resource/>\n\nASK {\n  dbr:Tokyo dbo:largestCityOf dbr:World .\n}",
+      "resultats": {
+        "head": {
+          "link": []
+        },
+        "boolean": false
+      }
+    },
+    {
+      "question": "Has SpaceX launched rockets to Mars?",
+      "requete_sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX dbr: <http://dbpedia.org/resource/>\n\nASK {\n  ?launch dbo:operator dbr:SpaceX ;\n          dbo:destination dbr:Mars .\n}",
+      "resultats": {
+        "head": {
+          "link": []
+        },
+        "boolean": false
+      }
+    },
+    {
+      "question": "Is William Shakespeare still alive?",
+      "requete_sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX dbr: <http://dbpedia.org/resource/>\n\nASK {\n  dbr:William_Shakespeare dbo:deathDate ?deathDate .\n}",
+      "resultats": {
+        "head": {
+          "link": []
+        },
+        "boolean": true
+      }
+    },
+    {
+      "question": "Does the Eiffel Tower have more than 1000 steps?",
+      "requete_sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX dbr: <http://dbpedia.org/resource/>\n\nASK {\n  dbr:Eiffel_Tower dbo:numberOfSteps ?steps .\n  FILTER(?steps > 1000)\n}",
+      "resultats": {
+        "head": {
+          "link": []
+        },
+        "boolean": false
+      }
+    },
+    {
+      "question": "Where is the Great Barrier Reef?,",
+      "requete_sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX dbr: <http://dbpedia.org/resource/>\n\nSELECT ?location\nWHERE {\n  dbr:Great_Barrier_Reef dbo:location ?location .\n}",
+      "resultats": {
+        "head": {
+          "link": [],
+          "vars": [
+            "location"
+          ]
+        },
+        "results": {
+          "distinct": false,
+          "ordered": true,
+          "bindings": []
+        }
+      }
+    },
+    {
+      "question": "What is machine learning?,",
+      "requete_sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX dbr: <http://dbpedia.org/resource/>\n\nSELECT ?abstract\nWHERE {\n  dbr:Machine_learning dbo:abstract ?abstract .\n  FILTER (lang(?abstract) = \"en\")\n}",
+      "resultats": {
+        "head": {
+          "link": [],
+          "vars": [
+            "abstract"
+          ]
+        },
+        "results": {
+          "distinct": false,
+          "ordered": true,
+          "bindings": [
+            {
+              "abstract": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Machine learning (ML) is a field of inquiry devoted to understanding and building methods that 'learn', that is, methods that leverage data to improve performance on some set of tasks. It is seen as a part of artificial intelligence. Machine learning algorithms build a model based on sample data, known as training data, in order to make predictions or decisions without being explicitly programmed to do so. Machine learning algorithms are used in a wide variety of applications, such as in medicine, email filtering, speech recognition, agriculture, and computer vision, where it is difficult or unfeasible to develop conventional algorithms to perform the needed tasks. A subset of machine learning is closely related to computational statistics, which focuses on making predictions using computers, but not all machine learning is statistical learning. The study of mathematical optimization delivers methods, theory and application domains to the field of machine learning. Data mining is a related field of study, focusing on exploratory data analysis through unsupervised learning. Some implementations of machine learning use data and neural networks in a way that mimics the working of a biological brain. In its application across business problems, machine learning is also referred to as predictive analytics."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "question": "How many people live in Tokyo?,",
+      "requete_sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX dbr: <http://dbpedia.org/resource/>\n\nSELECT ?population\nWHERE {\n  dbr:Tokyo dbo:populationTotal ?population .\n}",
+      "resultats": {
+        "head": {
+          "link": [],
+          "vars": [
+            "population"
+          ]
+        },
+        "results": {
+          "distinct": false,
+          "ordered": true,
+          "bindings": [
+            {
+              "population": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+                "value": "13988129"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "question": "What is the capital of France?,",
+      "requete_sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX dbr: <http://dbpedia.org/resource/>\n\nSELECT ?capital\nWHERE {\n  dbr:France dbo:capital ?capital .\n}",
+      "resultats": {
+        "head": {
+          "link": [],
+          "vars": [
+            "capital"
+          ]
+        },
+        "results": {
+          "distinct": false,
+          "ordered": true,
+          "bindings": [
+            {
+              "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Paris"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
