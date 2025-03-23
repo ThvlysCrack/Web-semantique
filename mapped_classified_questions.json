@@ -35,7 +35,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "in": "dbo:In",
+            "year": "dbo:birthyear",
+            "was": "dbo:Was",
+            "Rachel Stevens": "dbr:Rachel_Stevens",
+            "born": "dbo:Born"
+        }
     },
     {
         "question": "give me all actors starring in Last Action Hero .",
@@ -81,7 +88,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "actors": "dbo:Actors",
+            "starring in": "dbo:Starring_In",
+            "Last Action Hero": "dbr:Last_Action_Hero"
+        }
     },
     {
         "question": "where does Piccadilly start ?",
@@ -107,7 +119,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "does": "dbo:Does",
+            "Piccadilly": "dbr:Piccadilly",
+            "start": "dbo:Start"
+        }
     },
     {
         "question": "how many Aldi stores are there ?",
@@ -141,7 +158,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "Aldi": "dbr:aldi",
+            "stores": "dbo:Stores",
+            "are there": "dbo:Are_There"
+        }
     },
     {
         "question": "how many inhabitants does the largest city in Canada have ?",
@@ -191,7 +213,15 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "inhabitants": "dbo:Inhabitants",
+            "does": "dbo:Does",
+            "largest city": "dbo:Largest_City",
+            "in": "dbo:In",
+            "Canada": "dbr:canada",
+            "have": "dbo:Have"
+        }
     },
     {
         "question": "what was the last movie with Alec Guinness ?",
@@ -233,7 +263,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "was": "dbo:Was",
+            "movie": "dbo:Movie",
+            "with": "dbo:With",
+            "Alec Guinness": "dbr:Alec_Guinness"
+        }
     },
     {
         "question": "in which ancient empire could you pay with cocoa beans ?",
@@ -283,7 +319,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "in": "dbo:In",
+            "ancient empire": "dbo:Ancient_Empire",
+            "could": "dbo:Could",
+            "pay with": "dbo:Pay_With",
+            "cocoa beans": "dbo:Cocoa_Beans"
+        }
     },
     {
         "question": "give me the currency of China .",
@@ -317,7 +360,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "currency": "dbo:currency",
+            "of": "dbo:Of",
+            "China": "dbr:china"
+        }
     },
     {
         "question": "what is in a chocolate chip cookie ?",
@@ -355,7 +403,11 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "is in": "dbo:Is_In",
+            "chocolate chip cookie": "dbo:Chocolate_Chip_Cookie"
+        }
     },
     {
         "question": "who is the founder of Penguin Books ?",
@@ -393,7 +445,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "is": "dbo:Is",
+            "founder": "dbo:founder",
+            "of": "dbo:Of",
+            "Penguin Books": "dbr:Penguin_Books"
+        }
     },
     {
         "question": "in which city did John F. Kennedy die ?",
@@ -435,7 +493,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "in": "dbo:In",
+            "city": "dbo:city",
+            "did": "dbo:Did",
+            "John F. Kennedy": "dbr:John_F._Kennedy",
+            "die": "dbo:Die"
+        }
     },
     {
         "question": "give me all Swedish oceanographers .",
@@ -465,7 +530,10 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "oceanographers": "dbo:Oceanographers"
+        }
     },
     {
         "question": "which movies starring Mickey Rourke were directed by Guy Ritchie ?",
@@ -515,7 +583,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "movies": "dbo:Movies",
+            "starring": "dbo:starring",
+            "Mickey Rourke": "dbr:Mickey_Rourke",
+            "were directed by": "dbo:Were_Directed_By",
+            "Guy Ritchie": "dbr:Guy_Ritchie"
+        }
     },
     {
         "question": "how many languages are spoken in Colombia ?",
@@ -553,7 +628,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "languages": "dbo:language",
+            "are spoken in": "dbo:Are_Spoken_In",
+            "Colombia": "dbr:colombia"
+        }
     },
     {
         "question": "what is the largest city in Australia ?",
@@ -591,7 +671,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "is": "dbo:Is",
+            "largest city": "dbo:Largest_City",
+            "in": "dbo:In",
+            "Australia": "dbr:australia"
+        }
     },
     {
         "question": "which cities does the Weser flow through ?",
@@ -629,7 +715,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "cities": "dbo:Cities",
+            "does": "dbo:Does",
+            "Weser": "dbr:weser",
+            "flow through": "dbo:Flow_Through"
+        }
     },
     {
         "question": "which of tim burton's films had the highest budget ?",
@@ -675,7 +767,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "of": "dbo:Of",
+            "tim burton's": "dbr:Tim_Burton's",
+            "films": "dbo:Films",
+            "had": "dbo:Had",
+            "highest budget": "dbo:budget"
+        }
     },
     {
         "question": "how much did Pulp Fiction cost ?",
@@ -709,7 +808,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "much did": "dbo:Much_Did",
+            "Pulp Fiction": "dbr:Pulp_Fiction",
+            "cost": "dbo:Cost"
+        }
     },
     {
         "question": "who developed the video game World of Warcraft ?",
@@ -751,7 +855,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "developed": "dbo:Developed",
+            "video game": "dbo:Video_Game",
+            "World of Warcraft": "dbr:World_Of_Warcraft"
+        }
     },
     {
         "question": "in which city does Sylvester Stallone live ?",
@@ -789,7 +898,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "in": "dbo:In",
+            "city": "dbo:city",
+            "does": "dbo:Does",
+            "Sylvester Stallone": "dbr:Sylvester_Stallone",
+            "live": "dbo:Live"
+        }
     },
     {
         "question": "who discovered Ceres ?",
@@ -811,7 +927,11 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "discovered": "dbo:Discovered",
+            "Ceres": "dbr:Ceres"
+        }
     },
     {
         "question": "for which label did Elvis record his first album ?",
@@ -857,7 +977,15 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "for": "dbo:For",
+            "label": "dbo:recordlabel",
+            "did": "dbo:Did",
+            "Elvis": "dbr:elvis_presley",
+            "record": "dbo:Record",
+            "album": "dbo:album"
+        }
     },
     {
         "question": "which city has the least inhabitants ?",
@@ -891,7 +1019,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "city": "dbo:city",
+            "has": "dbo:Has",
+            "the least inhabitants": "dbo:The_Least_Inhabitants"
+        }
     },
     {
         "question": "what is the time zone of Salt Lake City ?",
@@ -937,7 +1070,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "is": "dbo:Is",
+            "time zone": "dbo:Time_Zone",
+            "of": "dbo:Of",
+            "Salt Lake City": "dbr:Salt_Lake_City"
+        }
     },
     {
         "question": "did Che Guevara have children ?",
@@ -967,7 +1106,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "D"
+        "template_id": "D",
+        "mapping": {
+            "did": "dbo:Did",
+            "Che Guevara": "dbr:Che_Guevara",
+            "have": "dbo:Have",
+            "children": "dbo:child"
+        }
     },
     {
         "question": "what is the location of the Houses of Parliament ?",
@@ -1013,7 +1158,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "is": "dbo:Is",
+            "location": "dbo:location",
+            "of": "dbo:Of",
+            "Houses of Parliament": "dbr:Houses_Of_Parliament"
+        }
     },
     {
         "question": "how many pages does War and Peace have ?",
@@ -1055,7 +1206,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "pages": "dbo:numberofpages",
+            "does": "dbo:Does",
+            "War and Peace": "dbr:War_And_Peace",
+            "have": "dbo:Have"
+        }
     },
     {
         "question": "how high is the lighthouse in Colombo ?",
@@ -1093,7 +1250,11 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "high is": "dbo:High_Is",
+            "lighthouse in Colombo": "dbr:Lighthouse_In_Colombo"
+        }
     },
     {
         "question": "what color expresses loyalty ?",
@@ -1119,7 +1280,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "color": "dbo:Color",
+            "expresses": "dbo:Expresses",
+            "loyalty": "dbo:Loyalty"
+        }
     },
     {
         "question": "who was Vincent van Gogh inspired by ?",
@@ -1157,7 +1323,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "was": "dbo:Was",
+            "Vincent van Gogh": "dbr:Vincent_Van_Gogh",
+            "inspired by": "dbo:Inspired_By"
+        }
     },
     {
         "question": "in which country is Mecca located ?",
@@ -1191,7 +1362,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "in": "dbo:In",
+            "country": "dbo:sourcecountry",
+            "is": "dbo:Is",
+            "Mecca": "dbr:mecca",
+            "located": "dbo:Located"
+        }
     },
     {
         "question": "who was the wife of U.S. president Lincoln ?",
@@ -1233,7 +1411,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "was": "dbo:Was",
+            "wife": "dbo:Wife",
+            "of": "dbo:Of",
+            "U.S. president": "dbo:U.s._President",
+            "Lincoln": "dbr:abraham_lincoln"
+        }
     },
     {
         "question": "who is the daughter of Robert Kennedy married to ?",
@@ -1279,7 +1464,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "is": "dbo:Is",
+            "daughter": "dbo:Daughter",
+            "of": "dbo:Of",
+            "Robert Kennedy": "dbr:Robert_Kennedy",
+            "married to": "dbo:Married_To"
+        }
     },
     {
         "question": "is Rita Wilson the wife of Tom Hanks ?",
@@ -1321,7 +1513,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "D"
+        "template_id": "D",
+        "mapping": {
+            "is": "dbo:Is",
+            "Rita Wilson": "dbr:Rita_Wilson",
+            "wife": "dbo:Wife",
+            "of": "dbo:Of",
+            "Tom Hanks": "dbr:Tom_Hanks"
+        }
     },
     {
         "question": "in which country is the Limerick Lake ?",
@@ -1359,7 +1558,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "in": "dbo:In",
+            "country": "dbo:sourcecountry",
+            "is": "dbo:Is",
+            "Limerick Lake": "dbr:Limerick_Lake"
+        }
     },
     {
         "question": "which museum in New York has the most visitors ?",
@@ -1405,7 +1610,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "museum": "dbo:museum",
+            "in": "dbo:In",
+            "New York": "dbr:New_York",
+            "has": "dbo:Has",
+            "the most visitors": "dbo:The_Most_Visitors"
+        }
     },
     {
         "question": "how tall is Michael Jordan ?",
@@ -1435,7 +1647,11 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "tall is": "dbo:Tall_Is",
+            "Michael Jordan": "dbr:Michael_Jordan"
+        }
     },
     {
         "question": "which movies did Kurosawa direct ?",
@@ -1465,7 +1681,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "movies": "dbo:Movies",
+            "did": "dbo:Did",
+            "Kurosawa": "dbr:akira_kurosawa",
+            "direct": "dbo:director"
+        }
     },
     {
         "question": "did Arnold Schwarzenegger attend a university ?",
@@ -1499,7 +1721,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "D"
+        "template_id": "D",
+        "mapping": {
+            "did": "dbo:Did",
+            "Arnold Schwarzenegger": "dbr:Arnold_Schwarzenegger",
+            "attend": "dbo:Attend",
+            "university": "dbo:university"
+        }
     },
     {
         "question": "is Frank Herbert still alive ?",
@@ -1529,7 +1757,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "is": "dbo:Is",
+            "Frank Herbert": "dbr:Frank_Herbert",
+            "still alive": "dbo:Still_Alive"
+        }
     },
     {
         "question": "in which military conflicts did Lawrence of Arabia participate ?",
@@ -1575,7 +1808,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "in": "dbo:In",
+            "military conflicts": "dbo:Military_Conflicts",
+            "did": "dbo:Did",
+            "Lawrence of Arabia": "dbr:Lawrence_Of_Arabia",
+            "participate": "dbo:Participate"
+        }
     },
     {
         "question": "who is the oldest child of Meryl Streep ?",
@@ -1617,7 +1857,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "is": "dbo:Is",
+            "oldest child": "dbo:child",
+            "of": "dbo:Of",
+            "Meryl Streep": "dbr:Meryl_Streep"
+        }
     },
     {
         "question": "in which city did Nikos Kazantzakis die ?",
@@ -1655,7 +1901,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "in": "dbo:In",
+            "city": "dbo:city",
+            "did": "dbo:Did",
+            "Nikos Kazantzakis": "dbr:Nikos_Kazantzakis",
+            "die": "dbo:Die"
+        }
     },
     {
         "question": "who was married to president Chirac ?",
@@ -1689,7 +1942,11 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "was married to": "dbo:Was_Married_To",
+            "president Chirac": "dbr:President_Chirac"
+        }
     },
     {
         "question": "did Socrates influence Aristotle ?",
@@ -1715,7 +1972,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "D"
+        "template_id": "D",
+        "mapping": {
+            "did": "dbo:Did",
+            "Socrates": "dbr:socrates",
+            "influence": "dbo:influencedby",
+            "Aristotle": "dbr:aristotle"
+        }
     },
     {
         "question": "who developed Slack ?",
@@ -1737,7 +2000,11 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "developed": "dbo:Developed",
+            "Slack": "dbr:Slack"
+        }
     },
     {
         "question": "who painted The Storm on the Sea of Galilee ?",
@@ -1783,7 +2050,11 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "painted": "dbo:Painted",
+            "The Storm on the Sea of Galilee": "dbr:The_Storm_On_The_Sea_Of_Galilee"
+        }
     },
     {
         "question": "where was Bach born ?",
@@ -1809,7 +2080,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "was": "dbo:Was",
+            "Bach": "dbr:johann_sebastian_bach",
+            "born": "dbo:Born"
+        }
     },
     {
         "question": "which companies produce hovercrafts ?",
@@ -1835,7 +2111,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "companies": "dbo:Companies",
+            "produce": "dbo:Produce",
+            "hovercrafts": "dbr:hovercraft"
+        }
     },
     {
         "question": "in which city was the president of Montenegro born ?",
@@ -1881,7 +2162,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "in": "dbo:In",
+            "city": "dbo:city",
+            "was": "dbo:Was",
+            "president of Montenegro": "dbr:President_Of_Montenegro",
+            "born": "dbo:Born"
+        }
     },
     {
         "question": "does Breaking Bad have more episodes than Game of Thrones ?",
@@ -1931,7 +2219,15 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "does": "dbo:Does",
+            "Breaking Bad": "dbr:Breaking_Bad",
+            "have": "dbo:Have",
+            "episodes": "dbo:numberofepisodes",
+            "than": "dbo:Than",
+            "Game of Thrones": "dbr:Game_Of_Thrones"
+        }
     },
     {
         "question": "which films did Stanley Kubrick direct ?",
@@ -1965,7 +2261,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "films": "dbo:Films",
+            "did": "dbo:Did",
+            "Stanley Kubrick": "dbr:Stanley_Kubrick",
+            "direct": "dbo:director"
+        }
     },
     {
         "question": "who is the mayor of Rotterdam ?",
@@ -1999,7 +2301,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "is": "dbo:Is",
+            "mayor": "dbo:mayor",
+            "of": "dbo:Of",
+            "Rotterdam": "dbr:rotterdam"
+        }
     },
     {
         "question": "which electronics companies were founded in Beijing ?",
@@ -2037,7 +2345,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "electronics companies": "dbr:electronics",
+            "were founded in": "dbo:Were_Founded_In",
+            "Beijing": "dbr:beijing"
+        }
     },
     {
         "question": "did Kaurismäki ever win the Grand Prix at Cannes ?",
@@ -2083,7 +2396,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "D"
+        "template_id": "D",
+        "mapping": {
+            "did": "dbo:Did",
+            "Kaurismäki": "dbr:Kaurismäki",
+            "win": "dbo:Win",
+            "Grand Prix at Cannes": "dbr:Grand_Prix_At_Cannes"
+        }
     },
     {
         "question": "give me all video games published by Mean Hamster Software .",
@@ -2133,7 +2452,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "video games": "dbo:Video_Games",
+            "published by": "dbo:Published_By",
+            "Mean Hamster Software": "dbr:Mean_Hamster_Software"
+        }
     },
     {
         "question": "from which region is the Melon de Bourgogne ?",
@@ -2175,7 +2499,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "from": "dbo:From",
+            "region": "dbo:wineregion",
+            "is": "dbo:Is",
+            "Melon de Bourgogne": "dbr:Melon_De_Bourgogne"
+        }
     },
     {
         "question": "which books by Kerouac were published by Viking Press ?",
@@ -2221,7 +2551,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "books": "dbo:Books",
+            "by": "dbo:By",
+            "Kerouac": "dbr:jack_kerouac",
+            "were published by": "dbo:Were_Published_By",
+            "Viking Press": "dbr:Viking_Press"
+        }
     },
     {
         "question": "what does IYCM stand for ?",
@@ -2251,7 +2588,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "does": "dbo:Does",
+            "IYCM": "dbr:Iycm",
+            "stand for": "dbo:Stand_For"
+        }
     },
     {
         "question": "to which artistic movement did the painter of The Three Dancers belong ?",
@@ -2309,7 +2651,16 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "to": "dbo:To",
+            "artistic movement": "dbo:movement",
+            "did": "dbo:Did",
+            "painter": "dbo:Painter",
+            "of": "dbo:Of",
+            "The Three Dancers": "dbr:The_Three_Dancers",
+            "belong": "dbo:Belong"
+        }
     },
     {
         "question": "in which countries do people speak Japanese ?",
@@ -2347,7 +2698,15 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "in": "dbo:In",
+            "which countries": "dbo:Which_Countries",
+            "do": "dbo:Do",
+            "people": "dbo:People",
+            "speak": "dbo:Speak",
+            "Japanese": "dbr:japanese_language"
+        }
     },
     {
         "question": "when did the Ming dynasty dissolve ?",
@@ -2381,7 +2740,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "did": "dbo:Did",
+            "Ming dynasty": "dbr:Ming_Dynasty",
+            "dissolve": "dbo:Dissolve"
+        }
     },
     {
         "question": "when was the Battle of Gettysburg ?",
@@ -2415,7 +2779,11 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "was": "dbo:Was",
+            "Battle of Gettysburg": "dbr:Battle_Of_Gettysburg"
+        }
     },
     {
         "question": "who were the parents of Queen Victoria ?",
@@ -2453,7 +2821,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "were": "dbo:Were",
+            "parents": "dbo:parent",
+            "of": "dbo:Of",
+            "Queen Victoria": "dbr:Queen_Victoria"
+        }
     },
     {
         "question": "how many ethnic groups live in Slovenia ?",
@@ -2491,7 +2865,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "ethnic groups": "dbo:Ethnic_Groups",
+            "live in": "dbo:Live_In",
+            "Slovenia": "dbr:slovenia"
+        }
     },
     {
         "question": "give me all members of Prodigy .",
@@ -2525,7 +2904,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "members": "dbo:Members",
+            "of": "dbo:Of",
+            "Prodigy": "dbr:the_prodigy"
+        }
     },
     {
         "question": "is Barack Obama a democrat ?",
@@ -2555,7 +2939,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "D"
+        "template_id": "D",
+        "mapping": {
+            "is": "dbo:Is",
+            "Barack Obama": "dbr:Barack_Obama",
+            "democrat": "dbo:Democrat"
+        }
     },
     {
         "question": "is Christian Bale starring in Velvet Goldmine ?",
@@ -2593,7 +2982,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "D"
+        "template_id": "D",
+        "mapping": {
+            "is": "dbo:Is",
+            "Christian Bale": "dbr:Christian_Bale",
+            "starring in": "dbo:Starring_In",
+            "Velvet Goldmine": "dbr:Velvet_Goldmine"
+        }
     },
     {
         "question": "which book has the most pages ?",
@@ -2627,7 +3022,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "book": "dbo:book",
+            "has": "dbo:Has",
+            "the most pages": "dbo:The_Most_Pages"
+        }
     },
     {
         "question": "which subsidiary of Lufthansa serves both Dortmund and Berlin Tegel ?",
@@ -2677,7 +3077,16 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "subsidiary": "dbo:subsidiary",
+            "of": "dbo:Of",
+            "Lufthansa": "dbr:lufthansa",
+            "serves": "dbo:Serves",
+            "Dortmund": "dbr:dortmund_airport",
+            "and": "dbo:And",
+            "Berlin Tegel": "dbr:Berlin_Tegel"
+        }
     },
     {
         "question": "are tree frogs a type of amphibian ?",
@@ -2715,7 +3124,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "D"
+        "template_id": "D",
+        "mapping": {
+            "are": "dbo:Are",
+            "tree frogs": "dbo:Tree_Frogs",
+            "type": "dbo:Type",
+            "of": "dbo:Of",
+            "amphibian": "dbr:amphibian"
+        }
     },
     {
         "question": "who is the son of Sonny and Cher ?",
@@ -2757,7 +3173,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "is": "dbo:Is",
+            "son": "dbr:sonny_bono",
+            "of": "dbo:Of",
+            "Sonny and Cher": "dbr:cher"
+        }
     },
     {
         "question": "is Lake Baikal bigger than the Great Bear Lake ?",
@@ -2803,7 +3225,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "is": "dbo:Is",
+            "Lake Baikal": "dbr:Lake_Baikal",
+            "bigger than": "dbo:Bigger_Than",
+            "Great Bear Lake": "dbr:Great_Bear_Lake"
+        }
     },
     {
         "question": "which professional surfers were born on the Philippines ?",
@@ -2845,7 +3273,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "professional surfers": "dbo:Professional_Surfers",
+            "were born on": "dbo:Were_Born_On",
+            "Philippines": "dbr:philippines"
+        }
     },
     {
         "question": "who played Agent Smith in Matrix ?",
@@ -2879,7 +3312,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "played": "dbo:Played",
+            "Agent Smith": "dbr:Agent_Smith",
+            "in": "dbo:In",
+            "Matrix": "dbr:Matrix"
+        }
     },
     {
         "question": "who wrote the book The pillars of the Earth ?",
@@ -2925,7 +3364,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "wrote": "dbo:Wrote",
+            "book": "dbo:book",
+            "The pillars of the Earth": "dbr:The_Pillars_Of_The_Earth"
+        }
     },
     {
         "question": "who was the 16th president of the United States ?",
@@ -2971,7 +3415,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "was": "dbo:Was",
+            "16th president": "dbo:16th_President",
+            "of": "dbo:Of",
+            "United States": "dbr:United_States"
+        }
     },
     {
         "question": "is there a video game called Battle Chess ?",
@@ -3013,7 +3463,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "is there": "dbo:Is_There",
+            "video game": "dbo:Video_Game",
+            "called": "dbo:Called",
+            "Battle Chess": "dbr:Battle_Chess"
+        }
     },
     {
         "question": "who created Family Guy ?",
@@ -3039,7 +3495,11 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "created": "dbo:Created",
+            "Family Guy": "dbr:Family_Guy"
+        }
     },
     {
         "question": "whom did Lance Bass marry ?",
@@ -3069,7 +3529,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "did": "dbo:Did",
+            "Lance Bass": "dbr:Lance_Bass",
+            "marry": "dbo:Marry"
+        }
     },
     {
         "question": "who was john f. kennedy's vice president ?",
@@ -3107,7 +3572,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "was": "dbo:Was",
+            "john f. kennedy's": "dbr:John_F._Kennedy's",
+            "vice president": "dbo:Vice_President"
+        }
     },
     {
         "question": "which professional surfers were born in Australia ?",
@@ -3145,7 +3615,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "professional surfers": "dbo:Professional_Surfers",
+            "were born in": "dbo:Were_Born_In",
+            "Australia": "dbr:australia"
+        }
     },
     {
         "question": "who designed the Brooklyn Bridge ?",
@@ -3175,7 +3650,11 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "designed": "dbo:Designed",
+            "Brooklyn Bridge": "dbr:Brooklyn_Bridge"
+        }
     },
     {
         "question": "what was the first Queen album ?",
@@ -3209,7 +3688,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "was": "dbo:Was",
+            "Queen": "dbr:Queen",
+            "album": "dbo:album"
+        }
     },
     {
         "question": "what is the capital of Cameroon ?",
@@ -3243,7 +3727,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "is": "dbo:Is",
+            "capital": "dbo:capital",
+            "of": "dbo:Of",
+            "Cameroon": "dbr:cameroon"
+        }
     },
     {
         "question": "who wrote the book les piliers de la terre ?",
@@ -3289,7 +3779,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "wrote": "dbo:Wrote",
+            "book": "dbo:book",
+            "les piliers de la terre": "dbr:Les_Piliers_De_La_Terre"
+        }
     },
     {
         "question": "who are the developers of DBpedia ?",
@@ -3323,7 +3818,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "are": "dbo:Are",
+            "developers": "dbo:developer",
+            "of": "dbo:Of",
+            "DBpedia": "dbr:dbpedia"
+        }
     },
     {
         "question": "where is Syngman Rhee buried ?",
@@ -3353,7 +3854,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "is": "dbo:Is",
+            "Syngman Rhee": "dbr:Syngman_Rhee",
+            "buried": "dbo:Buried"
+        }
     },
     {
         "question": "who is the youngest Darts player ?",
@@ -3387,7 +3893,11 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "is": "dbo:Is",
+            "Darts player": "dbo:Darts_Player"
+        }
     },
     {
         "question": "is the wife of president Obama called Michelle ?",
@@ -3429,7 +3939,16 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "is": "dbo:Is",
+            "wife": "dbo:Wife",
+            "of": "dbo:Of",
+            "president": "dbo:President",
+            "Obama": "dbr:barack_obama",
+            "called": "dbo:Called",
+            "Michelle": "dbr:Michelle"
+        }
     },
     {
         "question": "what country is Mount Everest in ?",
@@ -3463,7 +3982,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "country": "dbo:sourcecountry",
+            "is": "dbo:Is",
+            "Mount Everest": "dbr:Mount_Everest",
+            "in": "dbo:In"
+        }
     },
     {
         "question": "which airports does Yeti Airlines serve ?",
@@ -3497,7 +4022,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "airports": "dbo:Airports",
+            "does": "dbo:Does",
+            "Yeti Airlines": "dbr:Yeti_Airlines",
+            "serve": "dbo:Serve"
+        }
     },
     {
         "question": "when did princess Diana die ?",
@@ -3527,7 +4058,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "did": "dbo:Did",
+            "princess Diana": "dbr:Princess_Diana",
+            "die": "dbo:Die"
+        }
     },
     {
         "question": "what is the highest mountain in Australia ?",
@@ -3565,7 +4101,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "is": "dbo:Is",
+            "highest mountain": "dbo:mountain",
+            "in": "dbo:In",
+            "Australia": "dbr:australia"
+        }
     },
     {
         "question": "who was the successor of John F. Kennedy ?",
@@ -3607,7 +4149,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "was": "dbo:Was",
+            "successor": "dbo:successor",
+            "of": "dbo:Of",
+            "John F. Kennedy": "dbr:John_F._Kennedy"
+        }
     },
     {
         "question": "who was the father of Queen Elizabeth II ?",
@@ -3649,7 +4197,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "was": "dbo:Was",
+            "father": "dbo:Father",
+            "of": "dbo:Of",
+            "Queen Elizabeth II": "dbr:Queen_Elizabeth_Ii"
+        }
     },
     {
         "question": "which ingredients do i need for carrot cake ?",
@@ -3691,7 +4245,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "ingredients": "dbo:ingredient",
+            "do": "dbo:Do",
+            "need for": "dbo:Need_For",
+            "carrot cake": "dbo:Carrot_Cake"
+        }
     },
     {
         "question": "through which countries does the Yenisei river flow ?",
@@ -3733,91 +4293,273 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "through": "dbo:Through",
+            "countries": "dbo:Countries",
+            "does": "dbo:Does",
+            "Yenisei river": "dbr:Yenisei_River",
+            "flow": "dbo:inflow"
+        }
     },
     {
         "question": "list all games by GMT .",
         "entity_tagging": [
-          { "token": "list", "tag": "V-B" },
-          { "token": "all", "tag": "N" },
-          { "token": "games", "tag": "C-B" },
-          { "token": "by", "tag": "R-B" },
-          { "token": "GMT", "tag": "E-B" },
-          { "token": ".", "tag": "N" }
+            {
+                "token": "list",
+                "tag": "V-B"
+            },
+            {
+                "token": "all",
+                "tag": "N"
+            },
+            {
+                "token": "games",
+                "tag": "C-B"
+            },
+            {
+                "token": "by",
+                "tag": "R-B"
+            },
+            {
+                "token": "GMT",
+                "tag": "E-B"
+            },
+            {
+                "token": ".",
+                "tag": "N"
+            }
         ],
-        "template_id": "B"
-      },
-      {
+        "template_id": "B",
+        "mapping": {
+            "games": "dbo:Games",
+            "by": "dbo:By",
+            "GMT": "dbr:gmt_games"
+        }
+    },
+    {
         "question": "in which time zone is Rome ?",
         "entity_tagging": [
-          { "token": "in", "tag": "R-B" },
-          { "token": "which", "tag": "V-B" },
-          { "token": "time", "tag": "C-B" },
-          { "token": "zone", "tag": "C-I" },
-          { "token": "is", "tag": "R-B" },
-          { "token": "Rome", "tag": "E-B" },
-          { "token": "?", "tag": "N" }
+            {
+                "token": "in",
+                "tag": "R-B"
+            },
+            {
+                "token": "which",
+                "tag": "V-B"
+            },
+            {
+                "token": "time",
+                "tag": "C-B"
+            },
+            {
+                "token": "zone",
+                "tag": "C-I"
+            },
+            {
+                "token": "is",
+                "tag": "R-B"
+            },
+            {
+                "token": "Rome",
+                "tag": "E-B"
+            },
+            {
+                "token": "?",
+                "tag": "N"
+            }
         ],
-        "template_id": "A"
-      },
-      {
+        "template_id": "A",
+        "mapping": {
+            "in": "dbo:In",
+            "time zone": "dbo:Time_Zone",
+            "is": "dbo:Is",
+            "Rome": "dbr:rome"
+        }
+    },
+    {
         "question": "which types of grapes grow in Oregon ?",
         "entity_tagging": [
-          { "token": "which", "tag": "V-B" },
-          { "token": "types", "tag": "C-B" },
-          { "token": "of", "tag": "R-B" },
-          { "token": "grapes", "tag": "C-B" },
-          { "token": "grow", "tag": "R-B" },
-          { "token": "in", "tag": "R-B" },
-          { "token": "Oregon", "tag": "E-B" },
-          { "token": "?", "tag": "N" }
+            {
+                "token": "which",
+                "tag": "V-B"
+            },
+            {
+                "token": "types",
+                "tag": "C-B"
+            },
+            {
+                "token": "of",
+                "tag": "R-B"
+            },
+            {
+                "token": "grapes",
+                "tag": "C-B"
+            },
+            {
+                "token": "grow",
+                "tag": "R-B"
+            },
+            {
+                "token": "in",
+                "tag": "R-B"
+            },
+            {
+                "token": "Oregon",
+                "tag": "E-B"
+            },
+            {
+                "token": "?",
+                "tag": "N"
+            }
         ],
-        "template_id": "B"
-      },
-      {
+        "template_id": "B",
+        "mapping": {
+            "types": "dbo:Types",
+            "of": "dbo:Of",
+            "grapes": "dbo:Grapes",
+            "grow in": "dbo:Grow_In",
+            "Oregon": "dbr:oregon_wine"
+        }
+    },
+    {
         "question": "is Michelle Obama the wife of Barack Obama ?",
         "entity_tagging": [
-          { "token": "is", "tag": "R-B" },
-          { "token": "Michelle", "tag": "E-B" },
-          { "token": "Obama", "tag": "E-I" },
-          { "token": "the", "tag": "N" },
-          { "token": "wife", "tag": "C-B" },
-          { "token": "of", "tag": "R-B" },
-          { "token": "Barack", "tag": "E-B" },
-          { "token": "Obama", "tag": "E-I" },
-          { "token": "?", "tag": "N" }
+            {
+                "token": "is",
+                "tag": "R-B"
+            },
+            {
+                "token": "Michelle",
+                "tag": "E-B"
+            },
+            {
+                "token": "Obama",
+                "tag": "E-I"
+            },
+            {
+                "token": "the",
+                "tag": "N"
+            },
+            {
+                "token": "wife",
+                "tag": "C-B"
+            },
+            {
+                "token": "of",
+                "tag": "R-B"
+            },
+            {
+                "token": "Barack",
+                "tag": "E-B"
+            },
+            {
+                "token": "Obama",
+                "tag": "E-I"
+            },
+            {
+                "token": "?",
+                "tag": "N"
+            }
         ],
-        "template_id": "D"
-      },
-      {
+        "template_id": "D",
+        "mapping": {
+            "is": "dbo:Is",
+            "Michelle Obama": "dbr:Michelle_Obama",
+            "wife": "dbo:Wife",
+            "of": "dbo:Of",
+            "Barack Obama": "dbr:Barack_Obama"
+        }
+    },
+    {
         "question": "give me all Canadian Grunge record labels .",
         "entity_tagging": [
-          { "token": "give", "tag": "V-B" },
-          { "token": "me", "tag": "N" },
-          { "token": "all", "tag": "N" },
-          { "token": "Canadian", "tag": "N" },
-          { "token": "Grunge", "tag": "C-B" },
-          { "token": "record", "tag": "C-I" },
-          { "token": "labels", "tag": "C-E" },
-          { "token": ".", "tag": "N" }
+            {
+                "token": "give",
+                "tag": "V-B"
+            },
+            {
+                "token": "me",
+                "tag": "N"
+            },
+            {
+                "token": "all",
+                "tag": "N"
+            },
+            {
+                "token": "Canadian",
+                "tag": "N"
+            },
+            {
+                "token": "Grunge",
+                "tag": "C-B"
+            },
+            {
+                "token": "record",
+                "tag": "C-I"
+            },
+            {
+                "token": "labels",
+                "tag": "C-E"
+            },
+            {
+                "token": ".",
+                "tag": "N"
+            }
         ],
-        "template_id": "unknown"
-      },
-      {
+        "template_id": "unknown",
+        "mapping": {
+            "Grunge record labels": "dbo:Grunge_Record_Labels"
+        }
+    },
+    {
         "question": "when did Boris Becker end his active career ?",
         "entity_tagging": [
-          { "token": "when", "tag": "V-B" },
-          { "token": "did", "tag": "R-B" },
-          { "token": "Boris", "tag": "E-B" },
-          { "token": "Becker", "tag": "E-I" },
-          { "token": "end", "tag": "R-B" },
-          { "token": "his", "tag": "N" },
-          { "token": "active", "tag": "N" },
-          { "token": "career", "tag": "C-B" },
-          { "token": "?", "tag": "N" }
+            {
+                "token": "when",
+                "tag": "V-B"
+            },
+            {
+                "token": "did",
+                "tag": "R-B"
+            },
+            {
+                "token": "Boris",
+                "tag": "E-B"
+            },
+            {
+                "token": "Becker",
+                "tag": "E-I"
+            },
+            {
+                "token": "end",
+                "tag": "R-B"
+            },
+            {
+                "token": "his",
+                "tag": "N"
+            },
+            {
+                "token": "active",
+                "tag": "N"
+            },
+            {
+                "token": "career",
+                "tag": "C-B"
+            },
+            {
+                "token": "?",
+                "tag": "N"
+            }
         ],
-        "template_id": "A"
-      },
+        "template_id": "A",
+        "mapping": {
+            "did": "dbo:Did",
+            "Boris Becker": "dbr:Boris_Becker",
+            "end": "dbo:End",
+            "career": "dbo:Career"
+        }
+    },
     {
         "question": "what country is Sitecore from ?",
         "entity_tagging": [
@@ -3846,7 +4588,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "country": "dbo:sourcecountry",
+            "is": "dbo:Is",
+            "Sitecore": "dbr:sitecore",
+            "from": "dbo:From"
+        }
     },
     {
         "question": "how many languages are spoken in Turkmenistan ?",
@@ -3884,7 +4632,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "languages": "dbo:language",
+            "are spoken in": "dbo:Are_Spoken_In",
+            "Turkmenistan": "dbr:turkmenistan"
+        }
     },
     {
         "question": "in which country does the Nile start ?",
@@ -3922,7 +4675,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "in": "dbo:In",
+            "country": "dbo:sourcecountry",
+            "does": "dbo:Does",
+            "Nile": "dbr:nile",
+            "start": "dbo:Start"
+        }
     },
     {
         "question": "who is the tallest basketball player ?",
@@ -3956,7 +4716,11 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "is": "dbo:Is",
+            "tallest basketball player": "dbo:Tallest_Basketball_Player"
+        }
     },
     {
         "question": "was the wife of president Lincoln called Mary ?",
@@ -3998,7 +4762,16 @@
                 "tag": "N"
             }
         ],
-        "template_id": "D"
+        "template_id": "D",
+        "mapping": {
+            "was": "dbo:Was",
+            "wife": "dbo:Wife",
+            "of": "dbo:Of",
+            "president": "dbo:President",
+            "Lincoln": "dbr:abraham_lincoln",
+            "called": "dbo:Called",
+            "Mary": "dbr:Mary"
+        }
     },
     {
         "question": "who composed the music for Harold and Maude ?",
@@ -4040,7 +4813,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "composed": "dbo:Composed",
+            "music": "dbo:musiccomposer",
+            "for": "dbo:For",
+            "Harold and Maude": "dbr:Harold_And_Maude"
+        }
     },
     {
         "question": "what is the total population of melbourne , florida ?",
@@ -4086,7 +4865,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "is": "dbo:Is",
+            "total population": "dbo:Total_Population",
+            "of": "dbo:Of",
+            "melbourne": "dbr:Melbourne",
+            "florida": "dbr:Florida"
+        }
     },
     {
         "question": "does abraham lincoln's death place have a website ?",
@@ -4128,7 +4914,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "does": "dbo:Does",
+            "abraham lincoln's": "dbr:Abraham_Lincoln's",
+            "death place": "dbo:Death_Place",
+            "have": "dbo:Have",
+            "website": "dbo:website"
+        }
     },
     {
         "question": "give me a list of all critically endangered birds .",
@@ -4174,7 +4967,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "list": "dbo:List",
+            "of": "dbo:Of",
+            "critically endangered birds": "dbo:bird"
+        }
     },
     {
         "question": "who composed the soundtrack for Cameron's Titanic ?",
@@ -4212,7 +5010,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "composed": "dbo:Composed",
+            "soundtrack": "dbo:Soundtrack",
+            "for": "dbo:For",
+            "Cameron's Titanic": "dbr:Cameron's_Titanic"
+        }
     },
     {
         "question": "who was the doctoral supervisor of Albert Einstein ?",
@@ -4254,7 +5058,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "was": "dbo:Was",
+            "doctoral supervisor": "dbo:Doctoral_Supervisor",
+            "of": "dbo:Of",
+            "Albert Einstein": "dbr:Albert_Einstein"
+        }
     },
     {
         "question": "who is the president of Eritrea ?",
@@ -4288,7 +5098,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "is": "dbo:Is",
+            "president": "dbo:President",
+            "of": "dbo:Of",
+            "Eritrea": "dbr:eritrea"
+        }
     },
     {
         "question": "in which programming language is GIMP written ?",
@@ -4326,7 +5142,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "in": "dbo:In",
+            "programming language": "dbo:Programming_Language",
+            "is": "dbo:Is",
+            "GIMP": "dbr:gimp",
+            "written": "dbo:Written"
+        }
     },
     {
         "question": "in which U.S. state is Fort Knox located ?",
@@ -4368,7 +5191,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "in": "dbo:In",
+            "U.S. state": "dbo:U.s._State",
+            "is": "dbo:Is",
+            "Fort Knox": "dbr:Fort_Knox",
+            "located": "dbo:Located"
+        }
     },
     {
         "question": "who is the mayor of the capital of French Polynesia ?",
@@ -4418,7 +5248,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "is": "dbo:Is",
+            "mayor": "dbo:mayor",
+            "of": "dbo:Of",
+            "capital": "dbo:capital",
+            "French Polynesia": "dbr:French_Polynesia"
+        }
     },
     {
         "question": "how high is the Yokohama Marine Tower ?",
@@ -4456,7 +5293,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "high": "dbo:High",
+            "is": "dbo:Is",
+            "Yokohama Marine Tower": "dbr:Yokohama_Marine_Tower"
+        }
     },
     {
         "question": "in which films did Julia Roberts as well as Richard Gere play ?",
@@ -4514,7 +5356,15 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "in": "dbo:In",
+            "films": "dbo:Films",
+            "did": "dbo:Did",
+            "Julia Roberts": "dbr:Julia_Roberts",
+            "Richard Gere": "dbr:Richard_Gere",
+            "play": "dbo:Play"
+        }
     },
     {
         "question": "give me all actors starring in movies directed by William Shatner .",
@@ -4568,7 +5418,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "actors": "dbo:Actors",
+            "starring in": "dbo:Starring_In",
+            "movies": "dbo:Movies",
+            "directed by": "dbo:Directed_By",
+            "William Shatner": "dbr:William_Shatner"
+        }
     },
     {
         "question": "show me hemingway's autobiography .",
@@ -4594,7 +5451,11 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "hemingway's": "dbr:Hemingway's",
+            "autobiography": "dbr:autobiography"
+        }
     },
     {
         "question": "does the Isar flow into a lake ?",
@@ -4632,7 +5493,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "does": "dbo:Does",
+            "Isar": "dbr:isar",
+            "flow into": "dbo:Flow_Into",
+            "lake": "dbo:lake"
+        }
     },
     {
         "question": "who is the host of the BBC Wildlife Specials ?",
@@ -4678,7 +5545,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "is": "dbo:Is",
+            "host": "dbo:Host",
+            "of": "dbo:Of",
+            "BBC Wildlife Specials": "dbr:Bbc_Wildlife_Specials"
+        }
     },
     {
         "question": "which Indian company has the most employees ?",
@@ -4716,7 +5589,11 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "Indian company": "dbr:india",
+            "has": "dbo:Has"
+        }
     },
     {
         "question": "how much did the Lego Movie cost ?",
@@ -4754,7 +5631,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "did": "dbo:Did",
+            "Lego Movie": "dbr:Lego_Movie",
+            "cost": "dbo:Cost"
+        }
     },
     {
         "question": "How many seats does the home stadium of FC Porto have ?",
@@ -4808,7 +5690,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "does": "dbo:Does",
+            "stadium of FC Porto": "dbr:Stadium_Of_Fc_Porto",
+            "have": "dbo:Have"
+        }
     },
     {
         "question": "give me all movies directed by Francis Ford Coppola .",
@@ -4854,7 +5741,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "movies": "dbo:Movies",
+            "directed by": "dbo:Directed_By",
+            "Francis Ford Coppola": "dbr:Francis_Ford_Coppola"
+        }
     },
     {
         "question": "which subsidiary of TUI Travel serves both Glasgow and Dublin ?",
@@ -4904,7 +5796,16 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "subsidiary": "dbo:subsidiary",
+            "of": "dbo:Of",
+            "TUI Travel": "dbr:Tui_Travel",
+            "serves": "dbo:Serves",
+            "Glasgow": "dbr:Glasgow",
+            "and": "dbo:And",
+            "Dublin": "dbr:Dublin"
+        }
     },
     {
         "question": "list all episodes of the first season of the HBO television series the Sopranos .",
@@ -4970,7 +5871,15 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "episodes": "dbo:numberofepisodes",
+            "of": "dbo:Of",
+            "first season": "dbo:First_Season",
+            "HBO": "dbr:Hbo",
+            "television series": "dbo:series",
+            "Sopranos": "dbr:the_sopranos"
+        }
     },
     {
         "question": "what is the area code of Berlin ?",
@@ -5008,7 +5917,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "is": "dbo:Is",
+            "area code": "dbo:Area_Code",
+            "of": "dbo:Of",
+            "Berlin": "dbr:berlin"
+        }
     },
     {
         "question": "how tall is Claudia Schiffer ?",
@@ -5038,7 +5953,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "tall": "dbo:Tall",
+            "is": "dbo:Is",
+            "Claudia Schiffer": "dbr:Claudia_Schiffer"
+        }
     },
     {
         "question": "was U.S. president Jackson involved in a war ?",
@@ -5080,7 +6000,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "D"
+        "template_id": "D",
+        "mapping": {
+            "was": "dbo:Was",
+            "U.S. president": "dbo:U.s._President",
+            "Jackson": "dbr:andrew_jackson",
+            "involved in": "dbo:Involved_In",
+            "war": "dbo:War"
+        }
     },
     {
         "question": "what is the biggest stadium in Spain ?",
@@ -5118,7 +6045,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "is": "dbo:Is",
+            "biggest stadium": "dbo:stadium",
+            "in": "dbo:In",
+            "Spain": "dbr:spain"
+        }
     },
     {
         "question": "is Christian Bale starring in Batman Begins ?",
@@ -5156,7 +6089,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "D"
+        "template_id": "D",
+        "mapping": {
+            "is": "dbo:Is",
+            "Christian Bale": "dbr:Christian_Bale",
+            "starring in": "dbo:Starring_In",
+            "Batman Begins": "dbr:Batman_Begins"
+        }
     },
     {
         "question": "which museum exhibits the Scream by Munch ?",
@@ -5194,7 +6133,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "museum": "dbo:museum",
+            "exhibits": "dbo:Exhibits",
+            "Scream": "dbr:the_scream",
+            "by": "dbo:By",
+            "Munch": "dbr:Munch"
+        }
     },
     {
         "question": "who is the mayor of Tel Aviv ?",
@@ -5232,7 +6178,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "is": "dbo:Is",
+            "mayor": "dbo:mayor",
+            "of": "dbo:Of",
+            "Tel Aviv": "dbr:Tel_Aviv"
+        }
     },
     {
         "question": "give me all professional skateboarders from Sweden .",
@@ -5270,7 +6222,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "professional skateboarders": "dbo:Professional_Skateboarders",
+            "from": "dbo:From",
+            "Sweden": "dbr:sweden"
+        }
     },
     {
         "question": "when did dracula's creator die ?",
@@ -5300,7 +6257,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "did": "dbo:Did",
+            "dracula's": "dbr:Dracula's",
+            "creator": "dbo:creator",
+            "die": "dbo:Die"
+        }
     },
     {
         "question": "how many companies were founded by the founder of Facebook ?",
@@ -5350,7 +6313,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "companies": "dbo:Companies",
+            "were founded by": "dbo:Were_Founded_By",
+            "founder": "dbo:founder",
+            "of": "dbo:Of",
+            "Facebook": "dbr:Facebook"
+        }
     },
     {
         "question": "How many people live in Poland ?",
@@ -5384,7 +6354,11 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "live in": "dbo:Live_In",
+            "Poland": "dbr:poland"
+        }
     },
     {
         "question": "what form of government does Russia have ?",
@@ -5422,7 +6396,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "form of government": "dbo:Form_Of_Government",
+            "does": "dbo:Does",
+            "Russia": "dbr:russia",
+            "have": "dbo:Have"
+        }
     },
     {
         "question": "who is the youngest player in the Premier League ?",
@@ -5468,7 +6448,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "is": "dbo:Is",
+            "youngest player": "dbo:Youngest_Player",
+            "in": "dbo:In",
+            "Premier League": "dbo:league"
+        }
     },
     {
         "question": "when was Jack Wolfskin founded ?",
@@ -5498,7 +6484,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "was": "dbo:Was",
+            "Jack Wolfskin": "dbr:Jack_Wolfskin",
+            "founded": "dbo:foundedby"
+        }
     },
     {
         "question": "what is the currency of the Czech republic ?",
@@ -5540,7 +6531,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "is": "dbo:Is",
+            "currency": "dbo:currency",
+            "of": "dbo:Of",
+            "Czech republic": "dbr:Czech_Republic"
+        }
     },
     {
         "question": "who is the mayor of Paris ?",
@@ -5574,7 +6571,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "is": "dbo:Is",
+            "mayor": "dbo:mayor",
+            "of": "dbo:Of",
+            "Paris": "dbr:Paris"
+        }
     },
     {
         "question": "which scientist is known for the Manhattan Project and the Nobel Peace Prize ?",
@@ -5636,7 +6639,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "scientist": "dbo:scientist",
+            "is known for": "dbo:Is_Known_For",
+            "Manhattan Project": "dbr:Manhattan_Project",
+            "and": "dbo:And",
+            "Nobel Peace Prize": "dbr:Nobel_Peace_Prize"
+        }
     },
     {
         "question": "who wrote the Game of Thrones theme ?",
@@ -5674,7 +6684,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "wrote": "dbo:Wrote",
+            "Game of Thrones": "dbr:Game_Of_Thrones",
+            "theme": "dbo:Theme"
+        }
     },
     {
         "question": "who is the editor of Forbes ?",
@@ -5708,7 +6723,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "is": "dbo:Is",
+            "editor": "dbo:editor",
+            "of": "dbo:Of",
+            "Forbes": "dbr:forbes"
+        }
     },
     {
         "question": "in which UK city are the headquarters of the MI6 ?",
@@ -5758,7 +6779,16 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "in": "dbo:In",
+            "UK": "dbr:Uk",
+            "city": "dbo:city",
+            "are": "dbo:Are",
+            "headquarters": "dbo:headquarter",
+            "of": "dbo:Of",
+            "MI6": "dbr:Mi6"
+        }
     },
     {
         "question": "where in France is sparkling wine produced ?",
@@ -5796,7 +6826,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "in": "dbo:In",
+            "France": "dbr:france",
+            "is": "dbo:Is",
+            "sparkling wine": "dbo:Sparkling_Wine",
+            "produced": "dbo:wineproduced"
+        }
     },
     {
         "question": "how tall is Amazon Eve ?",
@@ -5826,7 +6863,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "tall": "dbo:Tall",
+            "is": "dbo:Is",
+            "Amazon Eve": "dbr:Amazon_Eve"
+        }
     },
     {
         "question": "what is the official language of Suriname ?",
@@ -5864,7 +6906,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "is": "dbo:Is",
+            "official language": "dbo:Official_Language",
+            "of": "dbo:Of",
+            "Suriname": "dbr:suriname"
+        }
     },
     {
         "question": "what are the nicknames of San Francisco ?",
@@ -5902,7 +6950,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "are": "dbo:Are",
+            "nicknames": "dbo:Nicknames",
+            "of": "dbo:Of",
+            "San Francisco": "dbr:San_Francisco"
+        }
     },
     {
         "question": "what is batman's real name ?",
@@ -5932,7 +6986,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "is": "dbo:Is",
+            "batman's": "dbr:Batman's",
+            "real name": "dbo:Real_Name"
+        }
     },
     {
         "question": "how many people live in the capital of Australia ?",
@@ -5978,7 +7037,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "people": "dbo:People",
+            "live in": "dbo:Live_In",
+            "capital": "dbo:capital",
+            "of": "dbo:Of",
+            "Australia": "dbr:australia"
+        }
     },
     {
         "question": "which country was Bill Gates born in ?",
@@ -6016,7 +7082,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "country": "dbo:sourcecountry",
+            "was": "dbo:Was",
+            "Bill Gates": "dbr:Bill_Gates",
+            "born in": "dbo:Born_In"
+        }
     },
     {
         "question": "is James Bond married ?",
@@ -6042,7 +7114,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "is": "dbo:Is",
+            "James Bond": "dbr:James_Bond",
+            "married": "dbo:Married"
+        }
     },
     {
         "question": "how many children did Benjamin Franklin have ?",
@@ -6080,7 +7157,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "children": "dbo:child",
+            "did": "dbo:Did",
+            "Benjamin Franklin": "dbr:Benjamin_Franklin",
+            "have": "dbo:Have"
+        }
     },
     {
         "question": "do Prince Harry and Prince William have the same parents ?",
@@ -6130,7 +7213,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "do": "dbo:Do",
+            "Prince Harry": "dbr:Prince_Harry",
+            "Prince William": "dbr:Prince_William",
+            "have": "dbo:Have",
+            "parents": "dbo:parent"
+        }
     },
     {
         "question": "who is the Formula 1 race driver with the most races ?",
@@ -6184,7 +7274,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "is": "dbo:Is",
+            "Formula 1 race driver": "dbo:Formula_1_Race_Driver",
+            "with": "dbo:With",
+            "races": "dbo:races"
+        }
     },
     {
         "question": "what is the highest mountain in Italy ?",
@@ -6222,7 +7318,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "is": "dbo:Is",
+            "highest mountain": "dbo:mountain",
+            "in": "dbo:In",
+            "Italy": "dbr:italy"
+        }
     },
     {
         "question": "what did Bruce Carver die from ?",
@@ -6256,7 +7358,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "did": "dbo:Did",
+            "Bruce Carver": "dbr:Bruce_Carver",
+            "die from": "dbo:Die_From"
+        }
     },
     {
         "question": "give me all launch pads operated by NASA .",
@@ -6298,7 +7405,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "launch pads": "dbo:Launch_Pads",
+            "operated by": "dbo:Operated_By",
+            "NASA": "dbr:nasa"
+        }
     },
     {
         "question": "what is the timezone in San Pedro de Atacama ?",
@@ -6344,7 +7456,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "is": "dbo:Is",
+            "timezone": "dbo:timezone",
+            "in": "dbo:In",
+            "San Pedro de Atacama": "dbr:San_Pedro_De_Atacama"
+        }
     },
     {
         "question": "give me the grandchildren of Elvis Presley .",
@@ -6382,7 +7500,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "grandchildren": "dbo:child",
+            "of": "dbo:Of",
+            "Elvis Presley": "dbr:Elvis_Presley"
+        }
     },
     {
         "question": "which country does the creator of Miffy come from ?",
@@ -6428,7 +7551,15 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "country": "dbo:sourcecountry",
+            "does": "dbo:Does",
+            "creator": "dbo:creator",
+            "of": "dbo:Of",
+            "Miffy": "dbr:miffy",
+            "come from": "dbo:Come_From"
+        }
     },
     {
         "question": "what is the largest country in the world ?",
@@ -6470,7 +7601,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "is": "dbo:Is",
+            "largest country": "dbo:country",
+            "in": "dbo:In",
+            "world": "dbo:World"
+        }
     },
     {
         "question": "list the children of Margaret Thatcher .",
@@ -6504,7 +7641,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "children": "dbo:child",
+            "of": "dbo:Of",
+            "Margaret Thatcher": "dbr:Margaret_Thatcher"
+        }
     },
     {
         "question": "give me all cities in New Jersey with more than 100000 inhabitants .",
@@ -6562,7 +7704,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "cities": "dbo:Cities",
+            "in": "dbo:In",
+            "New Jersey": "dbr:New_Jersey",
+            "with": "dbo:With",
+            "inhabitants": "dbo:Inhabitants"
+        }
     },
     {
         "question": "who is starring in Spanish movies produced by Benicio del Toro ?",
@@ -6616,7 +7765,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "is starring in": "dbo:Is_Starring_In",
+            "Spanish movies": "dbo:Spanish_Movies",
+            "produced by": "dbo:Produced_By",
+            "Benicio del Toro": "dbr:Benicio_Del_Toro"
+        }
     },
     {
         "question": "who was the wife of U.S. president Lincoln ?",
@@ -6658,7 +7813,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "was": "dbo:Was",
+            "wife": "dbo:Wife",
+            "of": "dbo:Of",
+            "U.S. president": "dbo:U.s._President",
+            "Lincoln": "dbr:abraham_lincoln"
+        }
     },
     {
         "question": "which city has the least inhabitants ?",
@@ -6692,7 +7854,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "city": "dbo:city",
+            "has": "dbo:Has",
+            "inhabitants": "dbo:Inhabitants"
+        }
     },
     {
         "question": "which countries adopted the Euro ?",
@@ -6722,7 +7889,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "countries": "dbo:Countries",
+            "adopted": "dbo:Adopted",
+            "Euro": "dbr:Euro"
+        }
     },
     {
         "question": "how many theories did Albert Einstein come up with ?",
@@ -6768,7 +7940,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "theories": "dbo:Theories",
+            "did": "dbo:Did",
+            "Albert Einstein": "dbr:Albert_Einstein",
+            "come up with": "dbo:Come_Up_With"
+        }
     },
     {
         "question": "what kind of music did Lou Reed play ?",
@@ -6810,7 +7988,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "kind of music": "dbo:Kind_Of_Music",
+            "did": "dbo:Did",
+            "Lou Reed": "dbr:Lou_Reed",
+            "play": "dbo:Play"
+        }
     },
     {
         "question": "who wrote the Hunger Games ?",
@@ -6840,7 +8024,11 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "wrote": "dbo:Wrote",
+            "Hunger Games": "dbr:Hunger_Games"
+        }
     },
     {
         "question": "who are the developers of DBpedia ?",
@@ -6874,7 +8062,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "are": "dbo:Are",
+            "developers": "dbo:developer",
+            "of": "dbo:Of",
+            "DBpedia": "dbr:dbpedia"
+        }
     },
     {
         "question": "who are the writers of the wall album of pink floyd ?",
@@ -6928,7 +8122,14 @@
                 "tag": "N"
             }
         ],
-        "template_id": "A"
+        "template_id": "A",
+        "mapping": {
+            "are": "dbo:Are",
+            "writers": "dbo:Writers",
+            "of": "dbo:Of",
+            "the wall album": "dbo:The_Wall_Album",
+            "pink floyd": "dbr:Pink_Floyd"
+        }
     },
     {
         "question": "what is the largest city in america ?",
@@ -6966,7 +8167,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "is": "dbo:Is",
+            "largest city": "dbo:Largest_City",
+            "in": "dbo:In",
+            "america": "dbr:America"
+        }
     },
     {
         "question": "give me all Australian metalcore bands .",
@@ -7000,7 +8207,11 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "Australian": "dbr:Australian",
+            "metalcore bands": "dbo:Metalcore_Bands"
+        }
     },
     {
         "question": "in which UK city are the headquarters of the MI6 ?",
@@ -7050,7 +8261,16 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "in": "dbo:In",
+            "UK": "dbr:Uk",
+            "city": "dbo:city",
+            "are": "dbo:Are",
+            "headquarters": "dbo:headquarter",
+            "of": "dbo:Of",
+            "MI6": "dbr:Mi6"
+        }
     },
     {
         "question": "is there a video game called Battle Chess ?",
@@ -7092,7 +8312,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "is": "dbo:Is",
+            "video game": "dbo:Video_Game",
+            "called": "dbo:Called",
+            "Battle Chess": "dbr:Battle_Chess"
+        }
     },
     {
         "question": "what does IYCM stand for ?",
@@ -7122,7 +8348,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "B"
+        "template_id": "B",
+        "mapping": {
+            "does": "dbo:Does",
+            "IYCM": "dbr:Iycm",
+            "stand for": "dbo:Stand_For"
+        }
     },
     {
         "question": "who is the host of the BBC Wildlife Specials ?",
@@ -7168,7 +8399,13 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "is": "dbo:Is",
+            "host": "dbo:Host",
+            "of": "dbo:Of",
+            "BBC Wildlife Specials": "dbr:Bbc_Wildlife_Specials"
+        }
     },
     {
         "question": "was Natalie Portman born in the United States ?",
@@ -7210,7 +8447,12 @@
                 "tag": "N"
             }
         ],
-        "template_id": "unknown"
+        "template_id": "unknown",
+        "mapping": {
+            "was": "dbo:Was",
+            "Natalie Portman": "dbr:Natalie_Portman",
+            "born in": "dbo:Born_In",
+            "United States": "dbr:United_States"
+        }
     }
 ]
-    
